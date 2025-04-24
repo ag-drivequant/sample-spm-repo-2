@@ -8,6 +8,10 @@ let package = Package(
     ],
     products: [
         .library(
+            name: "DriveKitTripAnalysis",
+            targets: ["DriveKitTripAnalysisWrapper"]
+        ),
+        .library(
             name: "DriveKitDBGroupAccess",
             targets: ["DriveKitDBGroupAccessWrapper"]
         ),
@@ -45,6 +49,13 @@ let package = Package(
         ),
     ],
     targets: [
+        .target(name: "DriveKitTripAnalysisWrapper",
+                dependencies: [
+                    .target(name: "DriveKitTripAnalysis"),
+                    .target(name: "DriveKitDBTripAccessWrapper"),
+                    .target(name: "DriveKitDBVehicleAccessWrapper"),
+                    .target(name: "DriveKitBeaconUtilsWrapper")
+                ]),
         .target(name: "DriveKitDBGroupAccessWrapper",
                 dependencies: [
                     .target(name: "DriveKitDBGroupAccess"),
@@ -127,6 +138,10 @@ let package = Package(
         .binaryTarget(
             name: "DriveKitDBGroupAccess",
             path: "DriveKitDBGroupAccessModule.xcframework"
+        ),
+        .binaryTarget(
+            name: "DriveKitTripAnalysis",
+            path: "DriveKitTripAnalysisModule.xcframework"
         )
     ]
 )
