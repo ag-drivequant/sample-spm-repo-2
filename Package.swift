@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "DriveKitCore",
-            targets: ["DriveKitCoreTarget"]
+            targets: ["DriveKitCoreWrapper"]
         ),
         .library(
             name: "DriveKitNetworking",
@@ -25,10 +25,6 @@ let package = Package(
         .target(name: "DriveKitNetworkingWrapper",
                 dependencies: [
                     .target(name: "DriveKitNetworking")
-                ]),
-        .target(name: "DriveKitCoreTarget",
-                dependencies: [
-                    .target(name: "DriveKitCoreWrapper"),
                 ]),
         .binaryTarget(
             name: "DriveKitNetworking",
