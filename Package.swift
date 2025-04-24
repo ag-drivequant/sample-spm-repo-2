@@ -8,6 +8,10 @@ let package = Package(
     ],
     products: [
         .library(
+            name: "DriveKitBeaconUtils",
+            targets: ["DriveKitBeaconUtilsWrapper"]
+        ),
+        .library(
             name: "DriveKitCore",
             targets: ["DriveKitCoreWrapper"]
         ),
@@ -17,10 +21,15 @@ let package = Package(
         ),
     ],
     targets: [
+        .target(name: "DriveKitBeaconUtilsWrapper",
+                dependencies: [
+                    .target(name: "DriveKitBeaconUtils"),
+                    .target(name: "DriveKitCoreWrapper"),
+                ]),
         .target(name: "DriveKitCoreWrapper",
                 dependencies: [
                     .target(name: "DriveKitCore"),
-                    .target(name: "DriveKitNetworking")
+                    .target(name: "DriveKitNetworkingWrapper")
                 ]),
         .target(name: "DriveKitNetworkingWrapper",
                 dependencies: [
@@ -28,11 +37,15 @@ let package = Package(
                 ]),
         .binaryTarget(
             name: "DriveKitNetworking",
-            path: "DriveKitNetworking/DriveKitNetworkingModule.xcframework"
+            path: "DriveKitNetworkingModule.xcframework"
         ),
         .binaryTarget(
             name: "DriveKitCore",
-            path: "DriveKitCore/DriveKitCoreModule.xcframework"
+            path: "DriveKitCoreModule.xcframework"
+        ),
+        .binaryTarget(
+            name: "DriveKitBeaconUtils",
+            path: "DriveKitBeaconUtilsModule.xcframework"
         )
     ]
 )
