@@ -1,0 +1,167 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DriveKitDBCoachingAccessModule
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import CoreData
+import DriveKitCoreModule
+@_exported import DriveKitDBCoachingAccessModule
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public enum DKCoachingType : Swift.Int {
+  case unknown = -1
+  case messaging = 0
+  case tips = 1
+  case reportAndAdvice = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKCoachingReportType : Swift.Int {
+  case unknown = -1
+  case safety = 0
+  case ecoDriving = 1
+  case distraction = 2
+  public static func fromString(_ string: Swift.String?) -> DriveKitDBCoachingAccessModule.DKCoachingReportType
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class DriveKitDBCoachingAccess : ObjectiveC.NSObject {
+  @objc public static let sdkVersion: Swift.String
+  @objc public static let shared: DriveKitDBCoachingAccessModule.DriveKitDBCoachingAccess
+  @objc public func reset()
+  public func messagesQuery() -> DriveKitCoreModule.WhereReference<DriveKitDBCoachingAccessModule.DBCoachingMessage, DriveKitDBCoachingAccessModule.DKCoachingMessage>
+  @objc public func findMessages(orderByDateAsc: Swift.Bool = false) -> [DriveKitDBCoachingAccessModule.DKCoachingMessage]
+  @objc public func findMessages(ofType type: DriveKitDBCoachingAccessModule.DKCoachingType, orderByDateAsc: Swift.Bool = false) -> [DriveKitDBCoachingAccessModule.DKCoachingMessage]
+  @objc public func findMessage(withIdentifier identifier: Swift.String) -> DriveKitDBCoachingAccessModule.DKCoachingMessage?
+  @objc public func saveMessages(_ messages: [DriveKitDBCoachingAccessModule.DKCoachingMessage])
+  @objc public func saveMessage(_ message: DriveKitDBCoachingAccessModule.DKCoachingMessage)
+  public func getUnreadMessagesCount(ofType type: DriveKitDBCoachingAccessModule.DKCoachingType? = nil) -> Swift.Int
+  @objc(getUnreadMessagesCount) public func objc_getUnreadMessagesCount() -> Swift.Int
+  @objc(getUnreadMessagesCount:) public func objc_getUnreadMessagesCount(ofType type: DriveKitDBCoachingAccessModule.DKCoachingType) -> Swift.Int
+  @objc deinit
+}
+public enum DBCoachingAccessConstants {
+}
+@objc public class DKCoachingMessage : ObjectiveC.NSObject {
+  @objc final public let identifier: Swift.String
+  @objc final public let title: Swift.String?
+  @objc final public let message: Swift.String
+  @objc final public let emissionDate: Foundation.Date
+  @objc final public let startDate: Foundation.Date?
+  @objc final public let endDate: Foundation.Date?
+  @objc public var read: Swift.Bool
+  @objc final public let senderFirstname: Swift.String
+  @objc final public let senderLastname: Swift.String
+  @objc final public let type: DriveKitDBCoachingAccessModule.DKCoachingType
+  @objc final public let theme: DriveKitDBCoachingAccessModule.DKCoachingTheme
+  @objc final public let reportType: DriveKitDBCoachingAccessModule.DKCoachingReportType
+  public init(identifier: Swift.String, title: Swift.String?, message: Swift.String, emissionDate: Foundation.Date, startDate: Foundation.Date?, endDate: Foundation.Date?, read: Swift.Bool, senderFirstname: Swift.String, senderLastname: Swift.String, type: DriveKitDBCoachingAccessModule.DKCoachingType, theme: DriveKitDBCoachingAccessModule.DKCoachingTheme, reportType: DriveKitDBCoachingAccessModule.DKCoachingReportType)
+  @objc deinit
+}
+extension DriveKitDBCoachingAccessModule.DBCoachingMessage : DriveKitCoreModule.DKUnmanagedObject {
+  public func convertToUnmanagedObject<T>() -> T
+}
+@objc public enum DKCoachingTheme : Swift.Int {
+  case unknown = -1
+  case general = 0
+  case information = 1
+  case warning = 2
+  case goal = 3
+  case reminder = 4
+  case schedule = 5
+  case congrats = 6
+  case reward = 7
+  case placeholder = 100
+  case ecodriving = 101
+  case safety = 102
+  case prevention = 103
+  case weather = 104
+  case maintenance = 105
+  case technique = 106
+  case law = 107
+  case facts = 108
+  case fun = 109
+  case gift = 110
+  case weekly = 200
+  case monthly = 201
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc(DBCoachingMessage) public class DBCoachingMessage : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension DriveKitDBCoachingAccessModule.DBCoachingMessage {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<DriveKitDBCoachingAccessModule.DBCoachingMessage>
+  @objc @NSManaged dynamic public var emissionDate: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var endDate: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var identifier: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var message: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var read: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var reportType: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var senderFirstname: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var senderLastname: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var startDate: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var theme: Swift.Int16 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var title: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var type: Swift.Int16 {
+    @objc get
+    @objc set
+  }
+}
+extension DriveKitDBCoachingAccessModule.DBCoachingMessage : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+extension DriveKitDBCoachingAccessModule.DKCoachingType : Swift.Equatable {}
+extension DriveKitDBCoachingAccessModule.DKCoachingType : Swift.Hashable {}
+extension DriveKitDBCoachingAccessModule.DKCoachingType : Swift.RawRepresentable {}
+extension DriveKitDBCoachingAccessModule.DKCoachingReportType : Swift.Equatable {}
+extension DriveKitDBCoachingAccessModule.DKCoachingReportType : Swift.Hashable {}
+extension DriveKitDBCoachingAccessModule.DKCoachingReportType : Swift.RawRepresentable {}
+extension DriveKitDBCoachingAccessModule.DKCoachingTheme : Swift.Equatable {}
+extension DriveKitDBCoachingAccessModule.DKCoachingTheme : Swift.Hashable {}
+extension DriveKitDBCoachingAccessModule.DKCoachingTheme : Swift.RawRepresentable {}

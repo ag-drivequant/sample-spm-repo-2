@@ -1,0 +1,11 @@
+framework module DriveKitDBCoachingAccessModule {
+  umbrella header "DriveKitDBCoachingAccessModule.h"
+  export *
+
+  module * { export * }
+}
+
+module DriveKitDBCoachingAccessModule.Swift {
+  header "DriveKitDBCoachingAccessModule-Swift.h"
+  requires objc
+}

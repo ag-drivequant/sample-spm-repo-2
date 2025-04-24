@@ -1,0 +1,85 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DriveKitDBGroupAccessModule
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import CoreData
+import DriveKitCoreModule
+@_exported import DriveKitDBGroupAccessModule
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class DriveKitDBGroupAccess {
+  public static let sdkVersion: Swift.String
+  public static let shared: DriveKitDBGroupAccessModule.DriveKitDBGroupAccess
+  public func reset()
+  public func deleteAllGroups()
+  public func groupsQuery() -> DriveKitCoreModule.WhereReference<DriveKitDBGroupAccessModule.DBGroup, DriveKitDBGroupAccessModule.DKGroup>
+  public func deleteGroup(groupId: Swift.String)
+  public func findGroupQuery(id: Swift.String) -> DriveKitCoreModule.ExecutableQueryOne<DriveKitDBGroupAccessModule.DBGroup, DriveKitDBGroupAccessModule.DKGroup>
+  public func createGroups(block: (CoreData.NSManagedObjectContext) -> Swift.Void)
+  public func createGroup(id: Swift.String, block: (CoreData.NSManagedObjectContext) -> Swift.Void)
+  public func executeInViewContext(block: (CoreData.NSManagedObjectContext) -> Swift.Void)
+  public func findGroupsByType(_ groupType: DriveKitDBGroupAccessModule.DKGroupType = .all) -> [DriveKitDBGroupAccessModule.DKGroup]
+  @objc deinit
+}
+extension DriveKitDBGroupAccessModule.DBGroup {
+  public func save()
+}
+extension DriveKitDBGroupAccessModule.DriveKitDBGroupAccess {
+  public func save()
+}
+@objc public class DKGroup : ObjectiveC.NSObject {
+  @objc final public let id: Swift.String
+  @objc final public let label: Swift.String
+  @objc final public let groupDescription: Swift.String?
+  @objc final public let creationDate: Foundation.Date
+  @objc final public let joined: Swift.Bool
+  public init(id: Swift.String, label: Swift.String, description: Swift.String? = nil, creationDate: Foundation.Date, joined: Swift.Bool)
+  @objc deinit
+}
+@objc public enum DKGroupType : Swift.Int {
+  case all, joined, notJoined
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension DriveKitDBGroupAccessModule.DBGroup : DriveKitCoreModule.DKUnmanagedObject {
+  public func convertToUnmanagedObject<T>() -> T
+}
+@_inheritsConvenienceInitializers @objc(DBGroup) public class DBGroup : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension DriveKitDBGroupAccessModule.DBGroup {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<DriveKitDBGroupAccessModule.DBGroup>
+  @objc @NSManaged dynamic public var creationDate: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var groupDescription: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var id: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var joined: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var label: Swift.String? {
+    @objc get
+    @objc set
+  }
+}
+extension DriveKitDBGroupAccessModule.DBGroup : Swift.Identifiable {
+  public typealias ID = Swift.String?
+}
+extension DriveKitDBGroupAccessModule.DKGroupType : Swift.Equatable {}
+extension DriveKitDBGroupAccessModule.DKGroupType : Swift.Hashable {}
+extension DriveKitDBGroupAccessModule.DKGroupType : Swift.RawRepresentable {}

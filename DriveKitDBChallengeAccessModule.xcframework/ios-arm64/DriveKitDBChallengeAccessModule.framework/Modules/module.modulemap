@@ -1,0 +1,11 @@
+framework module DriveKitDBChallengeAccessModule {
+  umbrella header "DriveKitDBChallengeAccessModule.h"
+  export *
+
+  module * { export * }
+}
+
+module DriveKitDBChallengeAccessModule.Swift {
+  header "DriveKitDBChallengeAccessModule-Swift.h"
+  requires objc
+}

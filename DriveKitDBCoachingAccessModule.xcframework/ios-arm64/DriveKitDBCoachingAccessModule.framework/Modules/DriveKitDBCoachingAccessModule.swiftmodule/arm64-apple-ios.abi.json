@@ -1,0 +1,5003 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DriveKitDBCoachingAccessModule",
+    "printedName": "DriveKitDBCoachingAccessModule",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBCoachingAccessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DKCoachingType",
+        "printedName": "DKCoachingType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingType.Type) -> DriveKitDBCoachingAccessModule.DKCoachingType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingType",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingType",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType@DKCoachingTypeUnknown",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule14DKCoachingTypeO7unknownyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "messaging",
+            "printedName": "messaging",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingType.Type) -> DriveKitDBCoachingAccessModule.DKCoachingType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingType",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingType",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType@DKCoachingTypeMessaging",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule14DKCoachingTypeO9messagingyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "tips",
+            "printedName": "tips",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingType.Type) -> DriveKitDBCoachingAccessModule.DKCoachingType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingType",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingType",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType@DKCoachingTypeTips",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule14DKCoachingTypeO4tipsyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "reportAndAdvice",
+            "printedName": "reportAndAdvice",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingType.Type) -> DriveKitDBCoachingAccessModule.DKCoachingType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingType",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingType",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType@DKCoachingTypeReportAndAdvice",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule14DKCoachingTypeO15reportAndAdviceyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingType",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:30DriveKitDBCoachingAccessModule14DKCoachingTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule14DKCoachingTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30DriveKitDBCoachingAccessModule14DKCoachingTypeO8rawValueSivp",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule14DKCoachingTypeO8rawValueSivp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30DriveKitDBCoachingAccessModule14DKCoachingTypeO8rawValueSivg",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule14DKCoachingTypeO8rawValueSivg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType",
+        "mangledName": "$s30DriveKitDBCoachingAccessModule14DKCoachingTypeO",
+        "moduleName": "DriveKitDBCoachingAccessModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBCoachingAccessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DKCoachingReportType",
+        "printedName": "DKCoachingReportType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingReportType.Type) -> DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingReportType",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingReportType",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType@DKCoachingReportTypeUnknown",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule20DKCoachingReportTypeO7unknownyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "safety",
+            "printedName": "safety",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingReportType.Type) -> DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingReportType",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingReportType",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType@DKCoachingReportTypeSafety",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule20DKCoachingReportTypeO6safetyyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "ecoDriving",
+            "printedName": "ecoDriving",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingReportType.Type) -> DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingReportType",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingReportType",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType@DKCoachingReportTypeEcoDriving",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule20DKCoachingReportTypeO10ecoDrivingyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "distraction",
+            "printedName": "distraction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingReportType.Type) -> DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingReportType",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingReportType",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType@DKCoachingReportTypeDistraction",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule20DKCoachingReportTypeO11distractionyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Function",
+            "name": "fromString",
+            "printedName": "fromString(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DKCoachingReportType",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30DriveKitDBCoachingAccessModule20DKCoachingReportTypeO10fromStringyACSSSgFZ",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule20DKCoachingReportTypeO10fromStringyACSSSgFZ",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingReportType",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:30DriveKitDBCoachingAccessModule20DKCoachingReportTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule20DKCoachingReportTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30DriveKitDBCoachingAccessModule20DKCoachingReportTypeO8rawValueSivp",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule20DKCoachingReportTypeO8rawValueSivp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30DriveKitDBCoachingAccessModule20DKCoachingReportTypeO8rawValueSivg",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule20DKCoachingReportTypeO8rawValueSivg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType",
+        "mangledName": "$s30DriveKitDBCoachingAccessModule20DKCoachingReportTypeO",
+        "moduleName": "DriveKitDBCoachingAccessModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBCoachingAccessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBCoachingAccessModule"
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitCoreModule",
+        "printedName": "DriveKitCoreModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBCoachingAccessModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DriveKitDBCoachingAccess",
+        "printedName": "DriveKitDBCoachingAccess",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DriveKitDBCoachingAccess(cpy)sdkVersion",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0abcD0C10sdkVersionSSvpZ",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DriveKitDBCoachingAccess(cm)sdkVersion",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0abcD0C10sdkVersionSSvgZ",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DriveKitDBCoachingAccess",
+                "printedName": "DriveKitDBCoachingAccessModule.DriveKitDBCoachingAccess",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DriveKitDBCoachingAccess"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DriveKitDBCoachingAccess(cpy)shared",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0abcD0C6sharedACvpZ",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DriveKitDBCoachingAccess",
+                    "printedName": "DriveKitDBCoachingAccessModule.DriveKitDBCoachingAccess",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DriveKitDBCoachingAccess"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DriveKitDBCoachingAccess(cm)shared",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0abcD0C6sharedACvgZ",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DriveKitDBCoachingAccess(im)reset",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0abcD0C5resetyyF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "messagesQuery",
+            "printedName": "messagesQuery()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WhereReference",
+                "printedName": "DriveKitCoreModule.WhereReference<DriveKitDBCoachingAccessModule.DBCoachingMessage, DriveKitDBCoachingAccessModule.DKCoachingMessage>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DBCoachingMessage",
+                    "printedName": "DriveKitDBCoachingAccessModule.DBCoachingMessage",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingMessage",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingMessage",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage"
+                  }
+                ],
+                "usr": "s:18DriveKitCoreModule14WhereReferenceC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30DriveKitDBCoachingAccessModule0abcD0C13messagesQuery0ab4CoreE014WhereReferenceCyAA0C7MessageCAA010DKCoachingK0CGyF",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0abcD0C13messagesQuery0ab4CoreE014WhereReferenceCyAA0C7MessageCAA010DKCoachingK0CGyF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "findMessages",
+            "printedName": "findMessages(orderByDateAsc:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DriveKitDBCoachingAccessModule.DKCoachingMessage]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingMessage",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingMessage",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DriveKitDBCoachingAccess(im)findMessagesWithOrderByDateAsc:",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0abcD0C12findMessages14orderByDateAscSayAA17DKCoachingMessageCGSb_tF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "objc_name": "findMessagesWithOrderByDateAsc:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "findMessages",
+            "printedName": "findMessages(ofType:orderByDateAsc:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DriveKitDBCoachingAccessModule.DKCoachingMessage]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingMessage",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingMessage",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DKCoachingType",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DriveKitDBCoachingAccess(im)findMessagesOfType:orderByDateAsc:",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0abcD0C12findMessages6ofType14orderByDateAscSayAA17DKCoachingMessageCGAA0nI0O_SbtF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "objc_name": "findMessagesOfType:orderByDateAsc:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "findMessage",
+            "printedName": "findMessage(withIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingMessage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingMessage",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingMessage",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DriveKitDBCoachingAccess(im)findMessageWithIdentifier:",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0abcD0C11findMessage14withIdentifierAA010DKCoachingG0CSgSS_tF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "objc_name": "findMessageWithIdentifier:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveMessages",
+            "printedName": "saveMessages(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DriveKitDBCoachingAccessModule.DKCoachingMessage]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingMessage",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingMessage",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DriveKitDBCoachingAccess(im)saveMessages:",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0abcD0C12saveMessagesyySayAA17DKCoachingMessageCGF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveMessage",
+            "printedName": "saveMessage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DKCoachingMessage",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingMessage",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DriveKitDBCoachingAccess(im)saveMessage:",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0abcD0C11saveMessageyyAA010DKCoachingG0CF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUnreadMessagesCount",
+            "printedName": "getUnreadMessagesCount(ofType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingType",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30DriveKitDBCoachingAccessModule0abcD0C22getUnreadMessagesCount6ofTypeSiAA010DKCoachingK0OSg_tF",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0abcD0C22getUnreadMessagesCount6ofTypeSiAA010DKCoachingK0OSg_tF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "objc_getUnreadMessagesCount",
+            "printedName": "objc_getUnreadMessagesCount()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DriveKitDBCoachingAccess(im)getUnreadMessagesCount",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0abcD0C27objc_getUnreadMessagesCountSiyF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "objc_name": "getUnreadMessagesCount",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "objc_getUnreadMessagesCount",
+            "printedName": "objc_getUnreadMessagesCount(ofType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DKCoachingType",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DriveKitDBCoachingAccess(im)getUnreadMessagesCount:",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0abcD0C27objc_getUnreadMessagesCount6ofTypeSiAA010DKCoachingL0O_tF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "objc_name": "getUnreadMessagesCount:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DriveKitDBCoachingAccess",
+        "mangledName": "$s30DriveKitDBCoachingAccessModule0abcD0C",
+        "moduleName": "DriveKitDBCoachingAccessModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBCoachingAccessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DBCoachingAccessConstants",
+        "printedName": "DBCoachingAccessConstants",
+        "declKind": "Enum",
+        "usr": "s:30DriveKitDBCoachingAccessModule0cD9ConstantsO",
+        "mangledName": "$s30DriveKitDBCoachingAccessModule0cD9ConstantsO",
+        "moduleName": "DriveKitDBCoachingAccessModule",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBCoachingAccessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBCoachingAccessModule"
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitCoreModule",
+        "printedName": "DriveKitCoreModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBCoachingAccessModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DKCoachingMessage",
+        "printedName": "DKCoachingMessage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(py)identifier",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC10identifierSSvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(im)identifier",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC10identifierSSvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(py)title",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC5titleSSSgvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(im)title",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC5titleSSSgvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(py)message",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC7messageSSvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(im)message",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC7messageSSvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "emissionDate",
+            "printedName": "emissionDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(py)emissionDate",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC12emissionDate10Foundation0I0Vvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(im)emissionDate",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC12emissionDate10Foundation0I0Vvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "startDate",
+            "printedName": "startDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(py)startDate",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC9startDate10Foundation0I0VSgvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(im)startDate",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC9startDate10Foundation0I0VSgvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "endDate",
+            "printedName": "endDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(py)endDate",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC7endDate10Foundation0I0VSgvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(im)endDate",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC7endDate10Foundation0I0VSgvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "read",
+            "printedName": "read",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(py)read",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC4readSbvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(im)read",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC4readSbvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(im)setRead:",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC4readSbvs",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30DriveKitDBCoachingAccessModule17DKCoachingMessageC4readSbvM",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC4readSbvM",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "senderFirstname",
+            "printedName": "senderFirstname",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(py)senderFirstname",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC15senderFirstnameSSvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(im)senderFirstname",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC15senderFirstnameSSvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "senderLastname",
+            "printedName": "senderLastname",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(py)senderLastname",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC14senderLastnameSSvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(im)senderLastname",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC14senderLastnameSSvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DKCoachingType",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(py)type",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC4typeAA0F4TypeOvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingType",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(im)type",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC4typeAA0F4TypeOvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "theme",
+            "printedName": "theme",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DKCoachingTheme",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(py)theme",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC5themeAA0F5ThemeOvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(im)theme",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC5themeAA0F5ThemeOvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reportType",
+            "printedName": "reportType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DKCoachingReportType",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(py)reportType",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC10reportTypeAA0f6ReportI0Ovp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingReportType",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(im)reportType",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC10reportTypeAA0f6ReportI0Ovg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(identifier:title:message:emissionDate:startDate:endDate:read:senderFirstname:senderLastname:type:theme:reportType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DKCoachingMessage",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingMessage",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DKCoachingType",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingType",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DKCoachingTheme",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DKCoachingReportType",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingReportType",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingReportType"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:30DriveKitDBCoachingAccessModule17DKCoachingMessageC10identifier5title7message12emissionDate05startL003endL04read15senderFirstname0P8Lastname4type5theme10reportTypeACSS_SSSgSS10Foundation0L0VASSgATSbS2SAA0fV0OAA0F5ThemeOAA0f6ReportV0Otcfc",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC10identifier5title7message12emissionDate05startL003endL04read15senderFirstname0P8Lastname4type5theme10reportTypeACSS_SSSgSS10Foundation0L0VASSgATSbS2SAA0fV0OAA0F5ThemeOAA0f6ReportV0Otcfc",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DKCoachingMessage",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingMessage",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage(im)init",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageCACycfc",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DKCoachingMessage",
+        "mangledName": "$s30DriveKitDBCoachingAccessModule17DKCoachingMessageC",
+        "moduleName": "DriveKitDBCoachingAccessModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBCoachingAccessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DKCoachingTheme",
+        "printedName": "DKCoachingTheme",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeUnknown",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO7unknownyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "general",
+            "printedName": "general",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeGeneral",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO7generalyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "information",
+            "printedName": "information",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeInformation",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO11informationyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "warning",
+            "printedName": "warning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeWarning",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO7warningyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "goal",
+            "printedName": "goal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeGoal",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO4goalyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "reminder",
+            "printedName": "reminder",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeReminder",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO8reminderyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "schedule",
+            "printedName": "schedule",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeSchedule",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO8scheduleyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Var",
+            "name": "congrats",
+            "printedName": "congrats",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeCongrats",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO8congratsyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Var",
+            "name": "reward",
+            "printedName": "reward",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeReward",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO6rewardyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 8
+          },
+          {
+            "kind": "Var",
+            "name": "placeholder",
+            "printedName": "placeholder",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemePlaceholder",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO11placeholderyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 9
+          },
+          {
+            "kind": "Var",
+            "name": "ecodriving",
+            "printedName": "ecodriving",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeEcodriving",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO10ecodrivingyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 10
+          },
+          {
+            "kind": "Var",
+            "name": "safety",
+            "printedName": "safety",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeSafety",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO6safetyyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 11
+          },
+          {
+            "kind": "Var",
+            "name": "prevention",
+            "printedName": "prevention",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemePrevention",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO10preventionyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 12
+          },
+          {
+            "kind": "Var",
+            "name": "weather",
+            "printedName": "weather",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeWeather",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO7weatheryA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 13
+          },
+          {
+            "kind": "Var",
+            "name": "maintenance",
+            "printedName": "maintenance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeMaintenance",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO11maintenanceyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 14
+          },
+          {
+            "kind": "Var",
+            "name": "technique",
+            "printedName": "technique",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeTechnique",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO9techniqueyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 15
+          },
+          {
+            "kind": "Var",
+            "name": "law",
+            "printedName": "law",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeLaw",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO3lawyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 16
+          },
+          {
+            "kind": "Var",
+            "name": "facts",
+            "printedName": "facts",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeFacts",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO5factsyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 17
+          },
+          {
+            "kind": "Var",
+            "name": "fun",
+            "printedName": "fun",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeFun",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO3funyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 18
+          },
+          {
+            "kind": "Var",
+            "name": "gift",
+            "printedName": "gift",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeGift",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO4giftyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 19
+          },
+          {
+            "kind": "Var",
+            "name": "weekly",
+            "printedName": "weekly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeWeekly",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO6weeklyyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 20
+          },
+          {
+            "kind": "Var",
+            "name": "monthly",
+            "printedName": "monthly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBCoachingAccessModule.DKCoachingTheme.Type) -> DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKCoachingTheme",
+                        "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme@DKCoachingThemeMonthly",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO7monthlyyA2CmF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 21
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCoachingTheme",
+                    "printedName": "DriveKitDBCoachingAccessModule.DKCoachingTheme",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:30DriveKitDBCoachingAccessModule15DKCoachingThemeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO8rawValueACSgSi_tcfc",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30DriveKitDBCoachingAccessModule15DKCoachingThemeO8rawValueSivp",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO8rawValueSivp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30DriveKitDBCoachingAccessModule15DKCoachingThemeO8rawValueSivg",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO8rawValueSivg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DriveKitDBCoachingAccessModule@E@DKCoachingTheme",
+        "mangledName": "$s30DriveKitDBCoachingAccessModule15DKCoachingThemeO",
+        "moduleName": "DriveKitDBCoachingAccessModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBCoachingAccessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBCoachingAccessModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DBCoachingMessage",
+        "printedName": "DBCoachingMessage",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(entity:insertInto:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DBCoachingMessage",
+                "printedName": "DriveKitDBCoachingAccessModule.DBCoachingMessage",
+                "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSEntityDescription",
+                "printedName": "CoreData.NSEntityDescription",
+                "usr": "c:objc(cs)NSEntityDescription"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreData.NSManagedObjectContext?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSManagedObjectContext",
+                    "printedName": "CoreData.NSManagedObjectContext",
+                    "usr": "c:objc(cs)NSManagedObjectContext"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)initWithEntity:insertIntoManagedObjectContext:",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithEntity:insertIntoManagedObjectContext:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "convertToUnmanagedObject",
+            "printedName": "convertToUnmanagedObject()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30DriveKitDBCoachingAccessModule0C7MessageC24convertToUnmanagedObjectxylF",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC24convertToUnmanagedObjectxylF",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchRequest",
+            "printedName": "fetchRequest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSFetchRequest",
+                "printedName": "CoreData.NSFetchRequest<DriveKitDBCoachingAccessModule.DBCoachingMessage>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DBCoachingMessage",
+                    "printedName": "DriveKitDBCoachingAccessModule.DBCoachingMessage",
+                    "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage"
+                  }
+                ],
+                "usr": "c:objc(cs)NSFetchRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30DriveKitDBCoachingAccessModule0C7MessageC12fetchRequestSo07NSFetchH0CyACGyFZ",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC12fetchRequestSo07NSFetchH0CyACGyFZ",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "NonObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "emissionDate",
+            "printedName": "emissionDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(py)emissionDate",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC12emissionDate10Foundation0H0VSgvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)emissionDate",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC12emissionDate10Foundation0H0VSgvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)setEmissionDate:",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC12emissionDate10Foundation0H0VSgvs",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "endDate",
+            "printedName": "endDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(py)endDate",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC7endDate10Foundation0H0VSgvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)endDate",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC7endDate10Foundation0H0VSgvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)setEndDate:",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC7endDate10Foundation0H0VSgvs",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(py)identifier",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC10identifierSSSgvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)identifier",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC10identifierSSSgvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)setIdentifier:",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC10identifierSSSgvs",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(py)message",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC7messageSSSgvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)message",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC7messageSSSgvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)setMessage:",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC7messageSSSgvs",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "read",
+            "printedName": "read",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(py)read",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC4readSbvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)read",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC4readSbvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)setRead:",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC4readSbvs",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reportType",
+            "printedName": "reportType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(py)reportType",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC10reportTypeSSSgvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)reportType",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC10reportTypeSSSgvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)setReportType:",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC10reportTypeSSSgvs",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "senderFirstname",
+            "printedName": "senderFirstname",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(py)senderFirstname",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC15senderFirstnameSSSgvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)senderFirstname",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC15senderFirstnameSSSgvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)setSenderFirstname:",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC15senderFirstnameSSSgvs",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "senderLastname",
+            "printedName": "senderLastname",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(py)senderLastname",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC14senderLastnameSSSgvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)senderLastname",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC14senderLastnameSSSgvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)setSenderLastname:",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC14senderLastnameSSSgvs",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "startDate",
+            "printedName": "startDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(py)startDate",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC9startDate10Foundation0H0VSgvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)startDate",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC9startDate10Foundation0H0VSgvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)setStartDate:",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC9startDate10Foundation0H0VSgvs",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "theme",
+            "printedName": "theme",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int16",
+                "printedName": "Swift.Int16",
+                "usr": "s:s5Int16V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(py)theme",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC5themes5Int16Vvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)theme",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC5themes5Int16Vvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)setTheme:",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC5themes5Int16Vvs",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(py)title",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC5titleSSSgvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)title",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC5titleSSSgvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)setTitle:",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC5titleSSSgvs",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int16",
+                "printedName": "Swift.Int16",
+                "usr": "s:s5Int16V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(py)type",
+            "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC4types5Int16Vvp",
+            "moduleName": "DriveKitDBCoachingAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)type",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC4types5Int16Vvg",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage(im)setType:",
+                "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC4types5Int16Vvs",
+                "moduleName": "DriveKitDBCoachingAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DriveKitDBCoachingAccessModule@objc(cs)DBCoachingMessage",
+        "mangledName": "$s30DriveKitDBCoachingAccessModule0C7MessageC",
+        "moduleName": "DriveKitDBCoachingAccessModule",
+        "objc_name": "DBCoachingMessage",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSManagedObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "CoreData.NSManagedObject",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DKUnmanagedObject",
+            "printedName": "DKUnmanagedObject",
+            "usr": "s:18DriveKitCoreModule17DKUnmanagedObjectP",
+            "mangledName": "$s18DriveKitCoreModule17DKUnmanagedObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectIdentifier",
+                    "printedName": "Swift.ObjectIdentifier",
+                    "usr": "s:SO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBCoachingAccessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBCoachingAccessModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBCoachingAccessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBCoachingAccessModule"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 298,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingReportType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 274,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingReportType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingReportType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 319,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingReportType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 344,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingReportType.swift",
+      "kind": "StringLiteral",
+      "offset": 384,
+      "length": 8,
+      "value": "\"SAFETY\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingReportType.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 12,
+      "value": "\"EFFICIENCY\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingReportType.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 13,
+      "value": "\"DISTRACTION\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/DriveKitDBCoachingAccess.swift",
+      "kind": "StringLiteral",
+      "offset": 515,
+      "length": 44,
+      "value": "\"com.drivequant.drivekit-db-coaching-access\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/DriveKitDBCoachingAccess.swift",
+      "kind": "StringLiteral",
+      "offset": 592,
+      "length": 10,
+      "value": "\"Coaching\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/DriveKitDBCoachingAccess.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1102,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/DriveKitDBCoachingAccess.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1398,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/DriveKitDBCoachingAccess.swift",
+      "kind": "StringLiteral",
+      "offset": 3921,
+      "length": 6,
+      "value": "\"momd\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/DriveKitDBCoachingAccess.swift",
+      "kind": "StringLiteral",
+      "offset": 4308,
+      "length": 35,
+      "value": "\"Loading of store failed: \""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/DriveKitDBCoachingAccess.swift",
+      "kind": "StringLiteral",
+      "offset": 4342,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/DriveKitDBCoachingAccess.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4584,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/DriveKitDBCoachingAccess.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4662,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/DBCoachingAccessConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 280,
+      "length": 29,
+      "value": "\"DriveKit DB Coaching Access\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 259,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 281,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 345,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 367,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 389,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 411,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 431,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 482,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 504,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 530,
+      "length": 3,
+      "value": "103"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 553,
+      "length": 3,
+      "value": "104"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 580,
+      "length": 3,
+      "value": "105"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 605,
+      "length": 3,
+      "value": "106"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 624,
+      "length": 3,
+      "value": "107"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 645,
+      "length": 3,
+      "value": "108"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 664,
+      "length": 3,
+      "value": "109"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 684,
+      "length": 3,
+      "value": "110"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 706,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-coaching-access\/model\/DKCoachingTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 729,
+      "length": 3,
+      "value": "201"
+    }
+  ]
+}

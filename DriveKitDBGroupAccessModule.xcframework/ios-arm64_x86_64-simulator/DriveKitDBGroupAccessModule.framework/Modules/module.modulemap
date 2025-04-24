@@ -1,0 +1,11 @@
+framework module DriveKitDBGroupAccessModule {
+  umbrella header "DriveKitDBGroupAccessModule.h"
+  export *
+
+  module * { export * }
+}
+
+module DriveKitDBGroupAccessModule.Swift {
+  header "DriveKitDBGroupAccessModule-Swift.h"
+  requires objc
+}

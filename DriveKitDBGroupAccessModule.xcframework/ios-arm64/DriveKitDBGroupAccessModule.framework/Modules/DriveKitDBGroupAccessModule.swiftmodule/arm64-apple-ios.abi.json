@@ -1,0 +1,2097 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DriveKitDBGroupAccessModule",
+    "printedName": "DriveKitDBGroupAccessModule",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBGroupAccessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBGroupAccessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBGroupAccessModule"
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitCoreModule",
+        "printedName": "DriveKitCoreModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBGroupAccessModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DriveKitDBGroupAccess",
+        "printedName": "DriveKitDBGroupAccess",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27DriveKitDBGroupAccessModule0abcD0C10sdkVersionSSvpZ",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0abcD0C10sdkVersionSSvpZ",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27DriveKitDBGroupAccessModule0abcD0C10sdkVersionSSvgZ",
+                "mangledName": "$s27DriveKitDBGroupAccessModule0abcD0C10sdkVersionSSvgZ",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DriveKitDBGroupAccess",
+                "printedName": "DriveKitDBGroupAccessModule.DriveKitDBGroupAccess",
+                "usr": "s:27DriveKitDBGroupAccessModule0abcD0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27DriveKitDBGroupAccessModule0abcD0C6sharedACvpZ",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0abcD0C6sharedACvpZ",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DriveKitDBGroupAccess",
+                    "printedName": "DriveKitDBGroupAccessModule.DriveKitDBGroupAccess",
+                    "usr": "s:27DriveKitDBGroupAccessModule0abcD0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27DriveKitDBGroupAccessModule0abcD0C6sharedACvgZ",
+                "mangledName": "$s27DriveKitDBGroupAccessModule0abcD0C6sharedACvgZ",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27DriveKitDBGroupAccessModule0abcD0C5resetyyF",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0abcD0C5resetyyF",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteAllGroups",
+            "printedName": "deleteAllGroups()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27DriveKitDBGroupAccessModule0abcD0C15deleteAllGroupsyyF",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0abcD0C15deleteAllGroupsyyF",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "groupsQuery",
+            "printedName": "groupsQuery()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WhereReference",
+                "printedName": "DriveKitCoreModule.WhereReference<DriveKitDBGroupAccessModule.DBGroup, DriveKitDBGroupAccessModule.DKGroup>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DBGroup",
+                    "printedName": "DriveKitDBGroupAccessModule.DBGroup",
+                    "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DBGroup"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKGroup",
+                    "printedName": "DriveKitDBGroupAccessModule.DKGroup",
+                    "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup"
+                  }
+                ],
+                "usr": "s:18DriveKitCoreModule14WhereReferenceC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27DriveKitDBGroupAccessModule0abcD0C11groupsQuery0ab4CoreE014WhereReferenceCyAA0C0CAA7DKGroupCGyF",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0abcD0C11groupsQuery0ab4CoreE014WhereReferenceCyAA0C0CAA7DKGroupCGyF",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteGroup",
+            "printedName": "deleteGroup(groupId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27DriveKitDBGroupAccessModule0abcD0C11deleteGroup7groupIdySS_tF",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0abcD0C11deleteGroup7groupIdySS_tF",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "findGroupQuery",
+            "printedName": "findGroupQuery(id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExecutableQueryOne",
+                "printedName": "DriveKitCoreModule.ExecutableQueryOne<DriveKitDBGroupAccessModule.DBGroup, DriveKitDBGroupAccessModule.DKGroup>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DBGroup",
+                    "printedName": "DriveKitDBGroupAccessModule.DBGroup",
+                    "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DBGroup"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKGroup",
+                    "printedName": "DriveKitDBGroupAccessModule.DKGroup",
+                    "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup"
+                  }
+                ],
+                "usr": "s:18DriveKitCoreModule18ExecutableQueryOneC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27DriveKitDBGroupAccessModule0abcD0C14findGroupQuery2id0ab4CoreE0010ExecutableH3OneCyAA0C0CAA7DKGroupCGSS_tF",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0abcD0C14findGroupQuery2id0ab4CoreE0010ExecutableH3OneCyAA0C0CAA7DKGroupCGSS_tF",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createGroups",
+            "printedName": "createGroups(block:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreData.NSManagedObjectContext) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSManagedObjectContext",
+                    "printedName": "CoreData.NSManagedObjectContext",
+                    "usr": "c:objc(cs)NSManagedObjectContext"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27DriveKitDBGroupAccessModule0abcD0C12createGroups5blockyySo22NSManagedObjectContextCXE_tF",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0abcD0C12createGroups5blockyySo22NSManagedObjectContextCXE_tF",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createGroup",
+            "printedName": "createGroup(id:block:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreData.NSManagedObjectContext) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSManagedObjectContext",
+                    "printedName": "CoreData.NSManagedObjectContext",
+                    "usr": "c:objc(cs)NSManagedObjectContext"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27DriveKitDBGroupAccessModule0abcD0C11createGroup2id5blockySS_ySo22NSManagedObjectContextCXEtF",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0abcD0C11createGroup2id5blockySS_ySo22NSManagedObjectContextCXEtF",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "executeInViewContext",
+            "printedName": "executeInViewContext(block:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreData.NSManagedObjectContext) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSManagedObjectContext",
+                    "printedName": "CoreData.NSManagedObjectContext",
+                    "usr": "c:objc(cs)NSManagedObjectContext"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27DriveKitDBGroupAccessModule0abcD0C20executeInViewContext5blockyySo015NSManagedObjectI0CXE_tF",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0abcD0C20executeInViewContext5blockyySo015NSManagedObjectI0CXE_tF",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "findGroupsByType",
+            "printedName": "findGroupsByType(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DriveKitDBGroupAccessModule.DKGroup]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKGroup",
+                    "printedName": "DriveKitDBGroupAccessModule.DKGroup",
+                    "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DKGroupType",
+                "printedName": "DriveKitDBGroupAccessModule.DKGroupType",
+                "hasDefaultArg": true,
+                "usr": "c:@M@DriveKitDBGroupAccessModule@E@DKGroupType"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27DriveKitDBGroupAccessModule0abcD0C16findGroupsByTypeySayAA7DKGroupCGAA0jI0OF",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0abcD0C16findGroupsByTypeySayAA7DKGroupCGAA0jI0OF",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "save",
+            "printedName": "save()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27DriveKitDBGroupAccessModule0abcD0C4saveyyF",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0abcD0C4saveyyF",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:27DriveKitDBGroupAccessModule0abcD0C",
+        "mangledName": "$s27DriveKitDBGroupAccessModule0abcD0C",
+        "moduleName": "DriveKitDBGroupAccessModule",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBGroupAccessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitCoreModule",
+        "printedName": "DriveKitCoreModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBGroupAccessModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DKGroup",
+        "printedName": "DKGroup",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup(py)id",
+            "mangledName": "$s27DriveKitDBGroupAccessModule7DKGroupC2idSSvp",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup(im)id",
+                "mangledName": "$s27DriveKitDBGroupAccessModule7DKGroupC2idSSvg",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "label",
+            "printedName": "label",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup(py)label",
+            "mangledName": "$s27DriveKitDBGroupAccessModule7DKGroupC5labelSSvp",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup(im)label",
+                "mangledName": "$s27DriveKitDBGroupAccessModule7DKGroupC5labelSSvg",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "groupDescription",
+            "printedName": "groupDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup(py)groupDescription",
+            "mangledName": "$s27DriveKitDBGroupAccessModule7DKGroupC16groupDescriptionSSSgvp",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup(im)groupDescription",
+                "mangledName": "$s27DriveKitDBGroupAccessModule7DKGroupC16groupDescriptionSSSgvg",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "creationDate",
+            "printedName": "creationDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup(py)creationDate",
+            "mangledName": "$s27DriveKitDBGroupAccessModule7DKGroupC12creationDate10Foundation0H0Vvp",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup(im)creationDate",
+                "mangledName": "$s27DriveKitDBGroupAccessModule7DKGroupC12creationDate10Foundation0H0Vvg",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "joined",
+            "printedName": "joined",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup(py)joined",
+            "mangledName": "$s27DriveKitDBGroupAccessModule7DKGroupC6joinedSbvp",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup(im)joined",
+                "mangledName": "$s27DriveKitDBGroupAccessModule7DKGroupC6joinedSbvg",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:label:description:creationDate:joined:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DKGroup",
+                "printedName": "DriveKitDBGroupAccessModule.DKGroup",
+                "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:27DriveKitDBGroupAccessModule7DKGroupC2id5label11description12creationDate6joinedACSS_S2SSg10Foundation0K0VSbtcfc",
+            "mangledName": "$s27DriveKitDBGroupAccessModule7DKGroupC2id5label11description12creationDate6joinedACSS_S2SSg10Foundation0K0VSbtcfc",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DKGroup",
+                "printedName": "DriveKitDBGroupAccessModule.DKGroup",
+                "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup(im)init",
+            "mangledName": "$s27DriveKitDBGroupAccessModule7DKGroupCACycfc",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DKGroup",
+        "mangledName": "$s27DriveKitDBGroupAccessModule7DKGroupC",
+        "moduleName": "DriveKitDBGroupAccessModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DKGroupType",
+        "printedName": "DKGroupType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "all",
+            "printedName": "all",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBGroupAccessModule.DKGroupType.Type) -> DriveKitDBGroupAccessModule.DKGroupType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKGroupType",
+                    "printedName": "DriveKitDBGroupAccessModule.DKGroupType",
+                    "usr": "c:@M@DriveKitDBGroupAccessModule@E@DKGroupType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBGroupAccessModule.DKGroupType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKGroupType",
+                        "printedName": "DriveKitDBGroupAccessModule.DKGroupType",
+                        "usr": "c:@M@DriveKitDBGroupAccessModule@E@DKGroupType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBGroupAccessModule@E@DKGroupType@DKGroupTypeAll",
+            "mangledName": "$s27DriveKitDBGroupAccessModule11DKGroupTypeO3allyA2CmF",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "joined",
+            "printedName": "joined",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBGroupAccessModule.DKGroupType.Type) -> DriveKitDBGroupAccessModule.DKGroupType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKGroupType",
+                    "printedName": "DriveKitDBGroupAccessModule.DKGroupType",
+                    "usr": "c:@M@DriveKitDBGroupAccessModule@E@DKGroupType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBGroupAccessModule.DKGroupType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKGroupType",
+                        "printedName": "DriveKitDBGroupAccessModule.DKGroupType",
+                        "usr": "c:@M@DriveKitDBGroupAccessModule@E@DKGroupType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBGroupAccessModule@E@DKGroupType@DKGroupTypeJoined",
+            "mangledName": "$s27DriveKitDBGroupAccessModule11DKGroupTypeO6joinedyA2CmF",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "notJoined",
+            "printedName": "notJoined",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDBGroupAccessModule.DKGroupType.Type) -> DriveKitDBGroupAccessModule.DKGroupType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKGroupType",
+                    "printedName": "DriveKitDBGroupAccessModule.DKGroupType",
+                    "usr": "c:@M@DriveKitDBGroupAccessModule@E@DKGroupType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDBGroupAccessModule.DKGroupType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKGroupType",
+                        "printedName": "DriveKitDBGroupAccessModule.DKGroupType",
+                        "usr": "c:@M@DriveKitDBGroupAccessModule@E@DKGroupType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDBGroupAccessModule@E@DKGroupType@DKGroupTypeNotJoined",
+            "mangledName": "$s27DriveKitDBGroupAccessModule11DKGroupTypeO9notJoinedyA2CmF",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DriveKitDBGroupAccessModule.DKGroupType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKGroupType",
+                    "printedName": "DriveKitDBGroupAccessModule.DKGroupType",
+                    "usr": "c:@M@DriveKitDBGroupAccessModule@E@DKGroupType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:27DriveKitDBGroupAccessModule11DKGroupTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s27DriveKitDBGroupAccessModule11DKGroupTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27DriveKitDBGroupAccessModule11DKGroupTypeO8rawValueSivp",
+            "mangledName": "$s27DriveKitDBGroupAccessModule11DKGroupTypeO8rawValueSivp",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27DriveKitDBGroupAccessModule11DKGroupTypeO8rawValueSivg",
+                "mangledName": "$s27DriveKitDBGroupAccessModule11DKGroupTypeO8rawValueSivg",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DriveKitDBGroupAccessModule@E@DKGroupType",
+        "mangledName": "$s27DriveKitDBGroupAccessModule11DKGroupTypeO",
+        "moduleName": "DriveKitDBGroupAccessModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBGroupAccessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBGroupAccessModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DBGroup",
+        "printedName": "DBGroup",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(entity:insertInto:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DBGroup",
+                "printedName": "DriveKitDBGroupAccessModule.DBGroup",
+                "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DBGroup"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSEntityDescription",
+                "printedName": "CoreData.NSEntityDescription",
+                "usr": "c:objc(cs)NSEntityDescription"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreData.NSManagedObjectContext?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSManagedObjectContext",
+                    "printedName": "CoreData.NSManagedObjectContext",
+                    "usr": "c:objc(cs)NSManagedObjectContext"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DBGroup(im)initWithEntity:insertIntoManagedObjectContext:",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0C0C6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithEntity:insertIntoManagedObjectContext:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "save",
+            "printedName": "save()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27DriveKitDBGroupAccessModule0C0C4saveyyF",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0C0C4saveyyF",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertToUnmanagedObject",
+            "printedName": "convertToUnmanagedObject()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27DriveKitDBGroupAccessModule0C0C24convertToUnmanagedObjectxylF",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0C0C24convertToUnmanagedObjectxylF",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchRequest",
+            "printedName": "fetchRequest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSFetchRequest",
+                "printedName": "CoreData.NSFetchRequest<DriveKitDBGroupAccessModule.DBGroup>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DBGroup",
+                    "printedName": "DriveKitDBGroupAccessModule.DBGroup",
+                    "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DBGroup"
+                  }
+                ],
+                "usr": "c:objc(cs)NSFetchRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27DriveKitDBGroupAccessModule0C0C12fetchRequestSo07NSFetchG0CyACGyFZ",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0C0C12fetchRequestSo07NSFetchG0CyACGyFZ",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "NonObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "creationDate",
+            "printedName": "creationDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBGroupAccessModule@objc(cs)DBGroup(py)creationDate",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0C0C12creationDate10Foundation0G0VSgvp",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBGroupAccessModule@objc(cs)DBGroup(im)creationDate",
+                "mangledName": "$s27DriveKitDBGroupAccessModule0C0C12creationDate10Foundation0G0VSgvg",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBGroupAccessModule@objc(cs)DBGroup(im)setCreationDate:",
+                "mangledName": "$s27DriveKitDBGroupAccessModule0C0C12creationDate10Foundation0G0VSgvs",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "groupDescription",
+            "printedName": "groupDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBGroupAccessModule@objc(cs)DBGroup(py)groupDescription",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0C0C16groupDescriptionSSSgvp",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBGroupAccessModule@objc(cs)DBGroup(im)groupDescription",
+                "mangledName": "$s27DriveKitDBGroupAccessModule0C0C16groupDescriptionSSSgvg",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBGroupAccessModule@objc(cs)DBGroup(im)setGroupDescription:",
+                "mangledName": "$s27DriveKitDBGroupAccessModule0C0C16groupDescriptionSSSgvs",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBGroupAccessModule@objc(cs)DBGroup(py)id",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0C0C2idSSSgvp",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBGroupAccessModule@objc(cs)DBGroup(im)id",
+                "mangledName": "$s27DriveKitDBGroupAccessModule0C0C2idSSSgvg",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBGroupAccessModule@objc(cs)DBGroup(im)setId:",
+                "mangledName": "$s27DriveKitDBGroupAccessModule0C0C2idSSSgvs",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "joined",
+            "printedName": "joined",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBGroupAccessModule@objc(cs)DBGroup(py)joined",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0C0C6joinedSbvp",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBGroupAccessModule@objc(cs)DBGroup(im)joined",
+                "mangledName": "$s27DriveKitDBGroupAccessModule0C0C6joinedSbvg",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBGroupAccessModule@objc(cs)DBGroup(im)setJoined:",
+                "mangledName": "$s27DriveKitDBGroupAccessModule0C0C6joinedSbvs",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "label",
+            "printedName": "label",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@DriveKitDBGroupAccessModule@objc(cs)DBGroup(py)label",
+            "mangledName": "$s27DriveKitDBGroupAccessModule0C0C5labelSSSgvp",
+            "moduleName": "DriveKitDBGroupAccessModule",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBGroupAccessModule@objc(cs)DBGroup(im)label",
+                "mangledName": "$s27DriveKitDBGroupAccessModule0C0C5labelSSSgvg",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@DriveKitDBGroupAccessModule@objc(cs)DBGroup(im)setLabel:",
+                "mangledName": "$s27DriveKitDBGroupAccessModule0C0C5labelSSSgvs",
+                "moduleName": "DriveKitDBGroupAccessModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DriveKitDBGroupAccessModule@objc(cs)DBGroup",
+        "mangledName": "$s27DriveKitDBGroupAccessModule0C0C",
+        "moduleName": "DriveKitDBGroupAccessModule",
+        "objc_name": "DBGroup",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSManagedObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "CoreData.NSManagedObject",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DKUnmanagedObject",
+            "printedName": "DKUnmanagedObject",
+            "usr": "s:18DriveKitCoreModule17DKUnmanagedObjectP",
+            "mangledName": "$s18DriveKitCoreModule17DKUnmanagedObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBGroupAccessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBGroupAccessModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBGroupAccessModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "DriveKitDBGroupAccessModule"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-group-access\/DBGroupConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 26,
+      "value": "\"DriveKit DB Group Access\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-group-access\/DriveKitDBGroupAccess.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 41,
+      "value": "\"com.drivequant.drivekit-db-group-access\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-group-access\/DriveKitDBGroupAccess.swift",
+      "kind": "StringLiteral",
+      "offset": 585,
+      "length": 7,
+      "value": "\"Group\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-group-access\/DriveKitDBGroupAccess.swift",
+      "kind": "StringLiteral",
+      "offset": 903,
+      "length": 6,
+      "value": "\"momd\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-group-access\/DriveKitDBGroupAccess.swift",
+      "kind": "StringLiteral",
+      "offset": 1282,
+      "length": 33,
+      "value": "\"Loading of store failed: \""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-group-access\/DriveKitDBGroupAccess.swift",
+      "kind": "StringLiteral",
+      "offset": 1314,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-group-access\/DriveKitDBGroupAccess.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1556,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-group-access\/DriveKitDBGroupAccess.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1634,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-group-access\/model\/DKGroup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 851,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-db-group-access\/model\/DKGroup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 859,
+      "length": 9,
+      "value": "2"
+    }
+  ]
+}
