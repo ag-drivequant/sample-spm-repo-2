@@ -16,10 +16,6 @@ let package = Package(
             targets: ["DriveKitTripSimulatorWrapper"]
         ),
         .library(
-            name: "DriveKitTripSimulatorApi",
-            targets: ["DriveKitTripSimulatorApiWrapper"]
-        ),
-        .library(
             name: "DriveKitCoaching",
             targets: ["DriveKitCoachingWrapper"]
         ),
@@ -40,40 +36,8 @@ let package = Package(
             targets: ["DriveKitTripAnalysisWrapper"]
         ),
         .library(
-            name: "DriveKitDBGroupAccess",
-            targets: ["DriveKitDBGroupAccessWrapper"]
-        ),
-        .library(
-            name: "DriveKitDBCoachingAccess",
-            targets: ["DriveKitDBCoachingAccessWrapper"]
-        ),
-        .library(
-            name: "DriveKitDBChallengeAccess",
-            targets: ["DriveKitDBChallengeAccessWrapper"]
-        ),
-        .library(
-            name: "DriveKitDBVehicleAccess",
-            targets: ["DriveKitDBVehicleAccessWrapper"]
-        ),
-        .library(
-            name: "DriveKitDBAchievementAccess",
-            targets: ["DriveKitDBAchievementAccessWrapper"]
-        ),
-        .library(
-            name: "DriveKitDBTripAccess",
-            targets: ["DriveKitDBTripAccessWrapper"]
-        ),
-        .library(
-            name: "DriveKitBeaconUtils",
-            targets: ["DriveKitBeaconUtilsWrapper"]
-        ),
-        .library(
             name: "DriveKitCore",
             targets: ["DriveKitCoreWrapper"]
-        ),
-        .library(
-            name: "DriveKitNetworking",
-            targets: ["DriveKitNetworkingWrapper"]
         ),
     ],
     targets: [
