@@ -1,0 +1,1663 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DriveKitTripSimulatorApiModule",
+    "printedName": "DriveKitTripSimulatorApiModule",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "PresetCrashConfiguration",
+        "printedName": "PresetCrashConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unconfirmed0KmH",
+            "printedName": "unconfirmed0KmH",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetCrashConfiguration.Type) -> DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetCrashConfiguration",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetCrashConfiguration",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration@PresetCrashConfigurationUnconfirmed0KmH",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule24PresetCrashConfigurationO15unconfirmed0KmHyA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "confirmed10KmH",
+            "printedName": "confirmed10KmH",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetCrashConfiguration.Type) -> DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetCrashConfiguration",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetCrashConfiguration",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration@PresetCrashConfigurationConfirmed10KmH",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule24PresetCrashConfigurationO14confirmed10KmHyA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "confirmed20KmH",
+            "printedName": "confirmed20KmH",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetCrashConfiguration.Type) -> DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetCrashConfiguration",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetCrashConfiguration",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration@PresetCrashConfigurationConfirmed20KmH",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule24PresetCrashConfigurationO14confirmed20KmHyA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "confirmed30KmH",
+            "printedName": "confirmed30KmH",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetCrashConfiguration.Type) -> DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetCrashConfiguration",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetCrashConfiguration",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration@PresetCrashConfigurationConfirmed30KmH",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule24PresetCrashConfigurationO14confirmed30KmHyA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "confirmed30KmHStillDriving",
+            "printedName": "confirmed30KmHStillDriving",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetCrashConfiguration.Type) -> DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetCrashConfiguration",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetCrashConfiguration",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration@PresetCrashConfigurationConfirmed30KmHStillDriving",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule24PresetCrashConfigurationO26confirmed30KmHStillDrivingyA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetCrashConfiguration",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:30DriveKitTripSimulatorApiModule24PresetCrashConfigurationO8rawValueACSgSi_tcfc",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule24PresetCrashConfigurationO8rawValueACSgSi_tcfc",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30DriveKitTripSimulatorApiModule24PresetCrashConfigurationO8rawValueSivp",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule24PresetCrashConfigurationO8rawValueSivp",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30DriveKitTripSimulatorApiModule24PresetCrashConfigurationO8rawValueSivg",
+                "mangledName": "$s30DriveKitTripSimulatorApiModule24PresetCrashConfigurationO8rawValueSivg",
+                "moduleName": "DriveKitTripSimulatorApiModule",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration",
+        "mangledName": "$s30DriveKitTripSimulatorApiModule24PresetCrashConfigurationO",
+        "moduleName": "DriveKitTripSimulatorApiModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PresetCrash",
+        "printedName": "PresetCrash",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetCrash.Type) -> DriveKitTripSimulatorApiModule.PresetCrash",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetCrash",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetCrash",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrash"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetCrash.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetCrash",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetCrash",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrash"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrash@PresetCrashNone",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule11PresetCrashO4noneyA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "defaultCrash",
+            "printedName": "defaultCrash",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetCrash.Type) -> DriveKitTripSimulatorApiModule.PresetCrash",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetCrash",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetCrash",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrash"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetCrash.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetCrash",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetCrash",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrash"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrash@PresetCrashDefaultCrash",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule11PresetCrashO07defaultH0yA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DriveKitTripSimulatorApiModule.PresetCrash?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetCrash",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetCrash",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrash"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:30DriveKitTripSimulatorApiModule11PresetCrashO8rawValueACSgSi_tcfc",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule11PresetCrashO8rawValueACSgSi_tcfc",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30DriveKitTripSimulatorApiModule11PresetCrashO8rawValueSivp",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule11PresetCrashO8rawValueSivp",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30DriveKitTripSimulatorApiModule11PresetCrashO8rawValueSivg",
+                "mangledName": "$s30DriveKitTripSimulatorApiModule11PresetCrashO8rawValueSivg",
+                "moduleName": "DriveKitTripSimulatorApiModule",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrash",
+        "mangledName": "$s30DriveKitTripSimulatorApiModule11PresetCrashO",
+        "moduleName": "DriveKitTripSimulatorApiModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PresetCrashConfigurationApi",
+        "printedName": "PresetCrashConfigurationApi",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getPresetTrip",
+            "printedName": "getPresetTrip()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PresetTrip",
+                "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30DriveKitTripSimulatorApiModule024PresetCrashConfigurationE0P03getgC0AA0gC0OyF",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule024PresetCrashConfigurationE0P03getgC0AA0gC0OyF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : DriveKitTripSimulatorApiModule.PresetCrashConfigurationApi>",
+            "sugared_genericSig": "<Self where Self : DriveKitTripSimulatorApiModule.PresetCrashConfigurationApi>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:30DriveKitTripSimulatorApiModule024PresetCrashConfigurationE0P",
+        "mangledName": "$s30DriveKitTripSimulatorApiModule024PresetCrashConfigurationE0P",
+        "moduleName": "DriveKitTripSimulatorApiModule",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DriveKitTripSimulatorApiModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DKTripSimulatorDelegate",
+        "printedName": "DKTripSimulatorDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "locationSent",
+            "printedName": "locationSent(location:durationSinceStart:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocation",
+                "printedName": "CoreLocation.CLLocation",
+                "usr": "c:objc(cs)CLLocation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@objc(pl)DKTripSimulatorDelegate(im)locationSentWithLocation:durationSinceStart:",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06DKTripD8DelegateP12locationSent0I018durationSinceStartySo10CLLocationC_SdtF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : DriveKitTripSimulatorApiModule.DKTripSimulatorDelegate>",
+            "sugared_genericSig": "<Self where Self : DriveKitTripSimulatorApiModule.DKTripSimulatorDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@DriveKitTripSimulatorApiModule@objc(pl)DKTripSimulatorDelegate",
+        "mangledName": "$s30DriveKitTripSimulatorApiModule06DKTripD8DelegateP",
+        "moduleName": "DriveKitTripSimulatorApiModule",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DriveKitTripSimulatorApi",
+        "printedName": "DriveKitTripSimulatorApi",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(_:crash:crashTime:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PresetTrip",
+                "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PresetCrash",
+                "printedName": "DriveKitTripSimulatorApiModule.PresetCrash",
+                "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrash"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any DriveKitTripSimulatorApiModule.DKTripSimulatorDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKTripSimulatorDelegate",
+                    "printedName": "any DriveKitTripSimulatorApiModule.DKTripSimulatorDelegate",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@objc(pl)DKTripSimulatorDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30DriveKitTripSimulatorApiModule0abcdE0P5start_5crash0H4Time8delegateyAA06PresetC0O_AA0K5CrashOSiAA06DKTripD8Delegate_pSgtF",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule0abcdE0P5start_5crash0H4Time8delegateyAA06PresetC0O_AA0K5CrashOSiAA06DKTripD8Delegate_pSgtF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : DriveKitTripSimulatorApiModule.DriveKitTripSimulatorApi>",
+            "sugared_genericSig": "<Self where Self : DriveKitTripSimulatorApiModule.DriveKitTripSimulatorApi>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startCrashTrip",
+            "printedName": "startCrashTrip(_:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PresetCrashConfiguration",
+                "printedName": "DriveKitTripSimulatorApiModule.PresetCrashConfiguration",
+                "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetCrashConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any DriveKitTripSimulatorApiModule.DKTripSimulatorDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKTripSimulatorDelegate",
+                    "printedName": "any DriveKitTripSimulatorApiModule.DKTripSimulatorDelegate",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@objc(pl)DKTripSimulatorDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30DriveKitTripSimulatorApiModule0abcdE0P010startCrashC0_8delegateyAA06PresetH13ConfigurationO_AA06DKTripD8Delegate_pSgtF",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule0abcdE0P010startCrashC0_8delegateyAA06PresetH13ConfigurationO_AA06DKTripD8Delegate_pSgtF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : DriveKitTripSimulatorApiModule.DriveKitTripSimulatorApi>",
+            "sugared_genericSig": "<Self where Self : DriveKitTripSimulatorApiModule.DriveKitTripSimulatorApi>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30DriveKitTripSimulatorApiModule0abcdE0P4stopyyF",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule0abcdE0P4stopyyF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : DriveKitTripSimulatorApiModule.DriveKitTripSimulatorApi>",
+            "sugared_genericSig": "<Self where Self : DriveKitTripSimulatorApiModule.DriveKitTripSimulatorApi>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isSimulatingTrip",
+            "printedName": "isSimulatingTrip",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30DriveKitTripSimulatorApiModule0abcdE0P012isSimulatingC0Sbvp",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule0abcdE0P012isSimulatingC0Sbvp",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30DriveKitTripSimulatorApiModule0abcdE0P012isSimulatingC0Sbvg",
+                "mangledName": "$s30DriveKitTripSimulatorApiModule0abcdE0P012isSimulatingC0Sbvg",
+                "moduleName": "DriveKitTripSimulatorApiModule",
+                "genericSig": "<τ_0_0 where τ_0_0 : DriveKitTripSimulatorApiModule.DriveKitTripSimulatorApi>",
+                "sugared_genericSig": "<Self where Self : DriveKitTripSimulatorApiModule.DriveKitTripSimulatorApi>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isNoop",
+            "printedName": "isNoop",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30DriveKitTripSimulatorApiModule0abcdE0P6isNoopSbvp",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule0abcdE0P6isNoopSbvp",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30DriveKitTripSimulatorApiModule0abcdE0P6isNoopSbvg",
+                "mangledName": "$s30DriveKitTripSimulatorApiModule0abcdE0P6isNoopSbvg",
+                "moduleName": "DriveKitTripSimulatorApiModule",
+                "genericSig": "<τ_0_0 where τ_0_0 : DriveKitTripSimulatorApiModule.DriveKitTripSimulatorApi>",
+                "sugared_genericSig": "<Self where Self : DriveKitTripSimulatorApiModule.DriveKitTripSimulatorApi>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:30DriveKitTripSimulatorApiModule0abcdE0P",
+        "mangledName": "$s30DriveKitTripSimulatorApiModule0abcdE0P",
+        "moduleName": "DriveKitTripSimulatorApiModule",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PresetTrip",
+        "printedName": "PresetTrip",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shortTrip",
+            "printedName": "shortTrip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetTrip.Type) -> DriveKitTripSimulatorApiModule.PresetTrip",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetTrip",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetTrip",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip@PresetTripShortTrip",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O05shortC0yA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "mixedTrip",
+            "printedName": "mixedTrip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetTrip.Type) -> DriveKitTripSimulatorApiModule.PresetTrip",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetTrip",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetTrip",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip@PresetTripMixedTrip",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O05mixedC0yA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "cityTrip",
+            "printedName": "cityTrip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetTrip.Type) -> DriveKitTripSimulatorApiModule.PresetTrip",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetTrip",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetTrip",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip@PresetTripCityTrip",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O04cityC0yA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "suburbanTrip",
+            "printedName": "suburbanTrip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetTrip.Type) -> DriveKitTripSimulatorApiModule.PresetTrip",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetTrip",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetTrip",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip@PresetTripSuburbanTrip",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O08suburbanC0yA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "highwayTrip",
+            "printedName": "highwayTrip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetTrip.Type) -> DriveKitTripSimulatorApiModule.PresetTrip",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetTrip",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetTrip",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip@PresetTripHighwayTrip",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O07highwayC0yA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "trainTrip",
+            "printedName": "trainTrip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetTrip.Type) -> DriveKitTripSimulatorApiModule.PresetTrip",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetTrip",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetTrip",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip@PresetTripTrainTrip",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O05trainC0yA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "boatTrip",
+            "printedName": "boatTrip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetTrip.Type) -> DriveKitTripSimulatorApiModule.PresetTrip",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetTrip",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetTrip",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip@PresetTripBoatTrip",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O04boatC0yA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Var",
+            "name": "busTrip",
+            "printedName": "busTrip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetTrip.Type) -> DriveKitTripSimulatorApiModule.PresetTrip",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetTrip",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetTrip",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip@PresetTripBusTrip",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O03busC0yA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Var",
+            "name": "tripWithCrash",
+            "printedName": "tripWithCrash",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetTrip.Type) -> DriveKitTripSimulatorApiModule.PresetTrip",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetTrip",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetTrip",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip@PresetTripTripWithCrash",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O13tripWithCrashyA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 8
+          },
+          {
+            "kind": "Var",
+            "name": "tripWithCrashStillDriving",
+            "printedName": "tripWithCrashStillDriving",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitTripSimulatorApiModule.PresetTrip.Type) -> DriveKitTripSimulatorApiModule.PresetTrip",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetTrip",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PresetTrip",
+                        "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip@PresetTripTripWithCrashStillDriving",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O25tripWithCrashStillDrivingyA2CmF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 9
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DriveKitTripSimulatorApiModule.PresetTrip?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresetTrip",
+                    "printedName": "DriveKitTripSimulatorApiModule.PresetTrip",
+                    "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:30DriveKitTripSimulatorApiModule06PresetC0O8rawValueACSgSi_tcfc",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O8rawValueACSgSi_tcfc",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:30DriveKitTripSimulatorApiModule06PresetC0O8rawValueSivp",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O8rawValueSivp",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:30DriveKitTripSimulatorApiModule06PresetC0O8rawValueSivg",
+                "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O8rawValueSivg",
+                "moduleName": "DriveKitTripSimulatorApiModule",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DriveKitTripSimulatorApiModule@E@PresetTrip",
+        "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O",
+        "moduleName": "DriveKitTripSimulatorApiModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PresetTripApi",
+        "printedName": "PresetTripApi",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getDistance",
+            "printedName": "getDistance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30DriveKitTripSimulatorApiModule06PresetcE0P11getDistanceSdyF",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetcE0P11getDistanceSdyF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : DriveKitTripSimulatorApiModule.PresetTripApi>",
+            "sugared_genericSig": "<Self where Self : DriveKitTripSimulatorApiModule.PresetTripApi>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSimulationDuration",
+            "printedName": "getSimulationDuration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:30DriveKitTripSimulatorApiModule06PresetcE0P21getSimulationDurationSdyF",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetcE0P21getSimulationDurationSdyF",
+            "moduleName": "DriveKitTripSimulatorApiModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : DriveKitTripSimulatorApiModule.PresetTripApi>",
+            "sugared_genericSig": "<Self where Self : DriveKitTripSimulatorApiModule.PresetTripApi>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:30DriveKitTripSimulatorApiModule06PresetcE0P",
+        "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetcE0P",
+        "moduleName": "DriveKitTripSimulatorApiModule",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-trip-simulator-api\/PresetCrash.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 14,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-trip-simulator-api\/PresetCrash.swift",
+      "kind": "IntegerLiteral",
+      "offset": 262,
+      "length": 14,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-trip-simulator-api\/PresetCrash.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 14,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-trip-simulator-api\/PresetCrash.swift",
+      "kind": "IntegerLiteral",
+      "offset": 310,
+      "length": 26,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-trip-simulator-api\/PresetCrash.swift",
+      "kind": "IntegerLiteral",
+      "offset": 400,
+      "length": 12,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-trip-simulator-api\/PresetTrip.swift",
+      "kind": "IntegerLiteral",
+      "offset": 217,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-trip-simulator-api\/PresetTrip.swift",
+      "kind": "IntegerLiteral",
+      "offset": 236,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-trip-simulator-api\/PresetTrip.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 12,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-trip-simulator-api\/PresetTrip.swift",
+      "kind": "IntegerLiteral",
+      "offset": 276,
+      "length": 11,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-trip-simulator-api\/PresetTrip.swift",
+      "kind": "IntegerLiteral",
+      "offset": 297,
+      "length": 9,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-trip-simulator-api\/PresetTrip.swift",
+      "kind": "IntegerLiteral",
+      "offset": 316,
+      "length": 8,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-trip-simulator-api\/PresetTrip.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 7,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-trip-simulator-api\/PresetTrip.swift",
+      "kind": "IntegerLiteral",
+      "offset": 351,
+      "length": 13,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-trip-simulator-api\/PresetTrip.swift",
+      "kind": "IntegerLiteral",
+      "offset": 374,
+      "length": 25,
+      "value": "9"
+    }
+  ]
+}

@@ -8,6 +8,34 @@ let package = Package(
     ],
     products: [
         .library(
+            name: "DriveKitTripSimulatorNoop",
+            targets: ["DriveKitTripSimulatorNoopWrapper"]
+        ),
+        .library(
+            name: "DriveKitTripSimulator",
+            targets: ["DriveKitTripSimulatorWrapper"]
+        ),
+        .library(
+            name: "DriveKitTripSimulatorApi",
+            targets: ["DriveKitTripSimulatorApiWrapper"]
+        ),
+        .library(
+            name: "DriveKitCoaching",
+            targets: ["DriveKitCoachingWrapper"]
+        ),
+        .library(
+            name: "DriveKitChallenge",
+            targets: ["DriveKitChallengeWrapper"]
+        ),
+        .library(
+            name: "DriveKitVehicle",
+            targets: ["DriveKitVehicleWrapper"]
+        ),
+        .library(
+            name: "DriveKitDriverData",
+            targets: ["DriveKitDriverDataWrapper"]
+        ),
+        .library(
             name: "DriveKitTripAnalysis",
             targets: ["DriveKitTripAnalysisWrapper"]
         ),
@@ -49,6 +77,54 @@ let package = Package(
         ),
     ],
     targets: [
+        .target(name: "DriveKitTripSimulatorNoopWrapper",
+                dependencies: [
+                    .target(name: "DriveKitTripSimulatorNoop"),
+                    .target(name: "DriveKitTripSimulatorApiWrapper"),
+                    .target(name: "DriveKitCoreWrapper")
+                ]),
+        .target(name: "DriveKitTripSimulatorWrapper",
+                dependencies: [
+                    .target(name: "DriveKitTripSimulator"),
+                    .target(name: "DriveKitTripSimulatorApiWrapper"),
+                    .target(name: "DriveKitTripAnalysisWrapper")
+                ]),
+        .target(name: "DriveKitTripSimulatorApiWrapper",
+                dependencies: [
+                    .target(name: "DriveKitTripSimulatorApi")
+                ]),
+        .target(name: "DriveKitGroupWrapper",
+                dependencies: [
+                    .target(name: "DriveKitGroup"),
+                    .target(name: "DriveKitDBGroupAccessWrapper"),
+                ]),
+        .target(name: "DriveKitCoachingWrapper",
+                dependencies: [
+                    .target(name: "DriveKitCoaching"),
+                    .target(name: "DriveKitDBCoachingAccessWrapper"),
+                ]),
+        .target(name: "DriveKitChallengeWrapper",
+                dependencies: [
+                    .target(name: "DriveKitChallenge"),
+                    .target(name: "DriveKitDBChallengeAccessWrapper"),
+                    .target(name: "DriveKitDBTripAccessWrapper")
+                ]),
+        .target(name: "DriveKitVehicleWrapper",
+                dependencies: [
+                    .target(name: "DriveKitVehicle"),
+                    .target(name: "DriveKitDBVehicleAccessWrapper"),
+                    .target(name: "DriveKitBeaconUtilsWrapper")
+                ]),
+        .target(name: "DriveKitDriverAchievementWrapper",
+                dependencies: [
+                    .target(name: "DriveKitDriverAchievement"),
+                    .target(name: "DriveKitDBAchievementAccessWrapper")
+                ]),
+        .target(name: "DriveKitDriverDataWrapper",
+                dependencies: [
+                    .target(name: "DriveKitDriverData"),
+                    .target(name: "DriveKitDBTripAccessWrapper")
+                ]),
         .target(name: "DriveKitTripAnalysisWrapper",
                 dependencies: [
                     .target(name: "DriveKitTripAnalysis"),
@@ -142,6 +218,42 @@ let package = Package(
         .binaryTarget(
             name: "DriveKitTripAnalysis",
             path: "DriveKitTripAnalysisModule.xcframework"
+        ),
+        .binaryTarget(
+            name: "DriveKitDriverData",
+            path: "DriveKitDriverDataModule.xcframework"
+        ),
+        .binaryTarget(
+            name: "DriveKitDriverAchievement",
+            path: "DriveKitDriverAchievementModule.xcframework"
+        ),
+        .binaryTarget(
+            name: "DriveKitVehicle",
+            path: "DriveKitVehicleModule.xcframework"
+        ),
+        .binaryTarget(
+            name: "DriveKitChallenge",
+            path: "DriveKitChallengeModule.xcframework"
+        ),
+        .binaryTarget(
+            name: "DriveKitCoaching",
+            path: "DriveKitCoachingModule.xcframework"
+        ),
+        .binaryTarget(
+            name: "DriveKitGroup",
+            path: "DriveKitGroupModule.xcframework"
+        ),
+        .binaryTarget(
+            name: "DriveKitTripSimulatorApi",
+            path: "DriveKitTripSimulatorApiModule.xcframework"
+        ),
+        .binaryTarget(
+            name: "DriveKitTripSimulator",
+            path: "DriveKitTripSimulatorModule.xcframework"
+        ),
+        .binaryTarget(
+            name: "DriveKitTripSimulatorNoop",
+            path: "DriveKitTripSimulatorNoopModule.xcframework"
         )
     ]
 )

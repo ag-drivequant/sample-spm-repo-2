@@ -1,0 +1,69 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DriveKitChallengeModule
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import CoreData
+@_exported import DriveKitChallengeModule
+import DriveKitCoreModule
+import DriveKitDBChallengeAccessModule
+import DriveKitDBTripAccessModule
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public enum JoinChallengeSyncStatus : Swift.Int {
+  case success, notFound, alreadyJoined, failedToJoin, alreadyInProgress
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum ChallengeDetailSyncStatus : Swift.Int {
+  case success, notFound, cacheDataOnly, failedToSyncChallengeCacheOnly, syncAlreadyInProgress
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum ChallengesSyncStatus : Swift.Int {
+  case success, cacheDataOnly, failedToSyncChallengesCacheOnly, syncAlreadyInProgress
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class DriveKitChallenge : ObjectiveC.NSObject {
+  @objc public static let sdkVersion: Swift.String
+  @objc public static let shared: DriveKitChallengeModule.DriveKitChallenge
+  @objc public func initialize()
+  @objc public func getChallenges(type: DriveKitCoreModule.SynchronizationType = .defaultSync, completionHandler: @escaping (DriveKitChallengeModule.ChallengesSyncStatus, [DriveKitDBChallengeAccessModule.DKChallenge]) -> Swift.Void)
+  @objc public func getChallengeDetail(challengeId: Swift.String, type: DriveKitCoreModule.SynchronizationType = .defaultSync, completionHandler: @escaping (DriveKitChallengeModule.ChallengeDetailSyncStatus, DriveKitDBChallengeAccessModule.DKChallengeDetail?) -> Swift.Void)
+  @objc public func joinChallenge(challengeId: Swift.String, completionHandler: @escaping (DriveKitChallengeModule.JoinChallengeSyncStatus) -> Swift.Void)
+  @objc public func getChallenge(challengeId: Swift.String, type: DriveKitCoreModule.SynchronizationType = .defaultSync, completionHandler: @escaping (DriveKitChallengeModule.ChallengesSyncStatus, DriveKitDBChallengeAccessModule.DKChallenge?) -> Swift.Void)
+  @objc public func addListener(listener: any DriveKitChallengeModule.DriveKitChallengeListener)
+  @objc public func removeListener(listener: any DriveKitChallengeModule.DriveKitChallengeListener)
+  @available(*, deprecated, message: "You no longer need to call the reset method of any module except the one in DriveKit")
+  @objc public func reset()
+  @objc deinit
+}
+extension DriveKitDBChallengeAccessModule.DKChallengeDetail {
+  public var trips: [DriveKitDBTripAccessModule.DKTrip] {
+    get
+  }
+}
+@objc public protocol DriveKitChallengeListener {
+  @objc func challengesUpdated()
+}
+extension DriveKitChallengeModule.JoinChallengeSyncStatus : Swift.Equatable {}
+extension DriveKitChallengeModule.JoinChallengeSyncStatus : Swift.Hashable {}
+extension DriveKitChallengeModule.JoinChallengeSyncStatus : Swift.RawRepresentable {}
+extension DriveKitChallengeModule.ChallengeDetailSyncStatus : Swift.Equatable {}
+extension DriveKitChallengeModule.ChallengeDetailSyncStatus : Swift.Hashable {}
+extension DriveKitChallengeModule.ChallengeDetailSyncStatus : Swift.RawRepresentable {}
+extension DriveKitChallengeModule.ChallengesSyncStatus : Swift.Equatable {}
+extension DriveKitChallengeModule.ChallengesSyncStatus : Swift.Hashable {}
+extension DriveKitChallengeModule.ChallengesSyncStatus : Swift.RawRepresentable {}

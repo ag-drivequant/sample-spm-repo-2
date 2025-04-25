@@ -1,0 +1,73 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DriveKitTripSimulatorApiModule
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import CoreLocation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public enum PresetCrashConfiguration : Swift.Int {
+  case unconfirmed0KmH
+  case confirmed10KmH
+  case confirmed20KmH
+  case confirmed30KmH
+  case confirmed30KmHStillDriving
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum PresetCrash : Swift.Int {
+  case none
+  case defaultCrash
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol PresetCrashConfigurationApi {
+  func getPresetTrip() -> DriveKitTripSimulatorApiModule.PresetTrip
+}
+@objc public protocol DKTripSimulatorDelegate {
+  @objc func locationSent(location: CoreLocation.CLLocation, durationSinceStart: Swift.Double)
+}
+public protocol DriveKitTripSimulatorApi {
+  func start(_ trip: DriveKitTripSimulatorApiModule.PresetTrip, crash: DriveKitTripSimulatorApiModule.PresetCrash, crashTime: Swift.Int, delegate: (any DriveKitTripSimulatorApiModule.DKTripSimulatorDelegate)?)
+  func startCrashTrip(_ config: DriveKitTripSimulatorApiModule.PresetCrashConfiguration, delegate: (any DriveKitTripSimulatorApiModule.DKTripSimulatorDelegate)?)
+  func stop()
+  var isSimulatingTrip: Swift.Bool { get }
+  var isNoop: Swift.Bool { get }
+}
+@objc public enum PresetTrip : Swift.Int {
+  case shortTrip
+  case mixedTrip
+  case cityTrip
+  case suburbanTrip
+  case highwayTrip
+  case trainTrip
+  case boatTrip
+  case busTrip
+  case tripWithCrash
+  case tripWithCrashStillDriving
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol PresetTripApi {
+  func getDistance() -> Swift.Double
+  func getSimulationDuration() -> Swift.Double
+}
+extension DriveKitTripSimulatorApiModule.PresetCrashConfiguration : Swift.Equatable {}
+extension DriveKitTripSimulatorApiModule.PresetCrashConfiguration : Swift.Hashable {}
+extension DriveKitTripSimulatorApiModule.PresetCrashConfiguration : Swift.RawRepresentable {}
+extension DriveKitTripSimulatorApiModule.PresetCrash : Swift.Equatable {}
+extension DriveKitTripSimulatorApiModule.PresetCrash : Swift.Hashable {}
+extension DriveKitTripSimulatorApiModule.PresetCrash : Swift.RawRepresentable {}
+extension DriveKitTripSimulatorApiModule.PresetTrip : Swift.Equatable {}
+extension DriveKitTripSimulatorApiModule.PresetTrip : Swift.Hashable {}
+extension DriveKitTripSimulatorApiModule.PresetTrip : Swift.RawRepresentable {}

@@ -1,0 +1,2126 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DriveKitChallengeModule",
+    "printedName": "DriveKitChallengeModule",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JoinChallengeSyncStatus",
+        "printedName": "JoinChallengeSyncStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.JoinChallengeSyncStatus.Type) -> DriveKitChallengeModule.JoinChallengeSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JoinChallengeSyncStatus",
+                    "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JoinChallengeSyncStatus",
+                        "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus@JoinChallengeSyncStatusSuccess",
+            "mangledName": "$s23DriveKitChallengeModule04JoinC10SyncStatusO7successyA2CmF",
+            "moduleName": "DriveKitChallengeModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "notFound",
+            "printedName": "notFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.JoinChallengeSyncStatus.Type) -> DriveKitChallengeModule.JoinChallengeSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JoinChallengeSyncStatus",
+                    "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JoinChallengeSyncStatus",
+                        "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus@JoinChallengeSyncStatusNotFound",
+            "mangledName": "$s23DriveKitChallengeModule04JoinC10SyncStatusO8notFoundyA2CmF",
+            "moduleName": "DriveKitChallengeModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "alreadyJoined",
+            "printedName": "alreadyJoined",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.JoinChallengeSyncStatus.Type) -> DriveKitChallengeModule.JoinChallengeSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JoinChallengeSyncStatus",
+                    "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JoinChallengeSyncStatus",
+                        "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus@JoinChallengeSyncStatusAlreadyJoined",
+            "mangledName": "$s23DriveKitChallengeModule04JoinC10SyncStatusO13alreadyJoinedyA2CmF",
+            "moduleName": "DriveKitChallengeModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "failedToJoin",
+            "printedName": "failedToJoin",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.JoinChallengeSyncStatus.Type) -> DriveKitChallengeModule.JoinChallengeSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JoinChallengeSyncStatus",
+                    "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JoinChallengeSyncStatus",
+                        "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus@JoinChallengeSyncStatusFailedToJoin",
+            "mangledName": "$s23DriveKitChallengeModule04JoinC10SyncStatusO08failedToE0yA2CmF",
+            "moduleName": "DriveKitChallengeModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "alreadyInProgress",
+            "printedName": "alreadyInProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.JoinChallengeSyncStatus.Type) -> DriveKitChallengeModule.JoinChallengeSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JoinChallengeSyncStatus",
+                    "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JoinChallengeSyncStatus",
+                        "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus@JoinChallengeSyncStatusAlreadyInProgress",
+            "mangledName": "$s23DriveKitChallengeModule04JoinC10SyncStatusO17alreadyInProgressyA2CmF",
+            "moduleName": "DriveKitChallengeModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JoinChallengeSyncStatus",
+                    "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23DriveKitChallengeModule04JoinC10SyncStatusO8rawValueACSgSi_tcfc",
+            "mangledName": "$s23DriveKitChallengeModule04JoinC10SyncStatusO8rawValueACSgSi_tcfc",
+            "moduleName": "DriveKitChallengeModule",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23DriveKitChallengeModule04JoinC10SyncStatusO8rawValueSivp",
+            "mangledName": "$s23DriveKitChallengeModule04JoinC10SyncStatusO8rawValueSivp",
+            "moduleName": "DriveKitChallengeModule",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23DriveKitChallengeModule04JoinC10SyncStatusO8rawValueSivg",
+                "mangledName": "$s23DriveKitChallengeModule04JoinC10SyncStatusO8rawValueSivg",
+                "moduleName": "DriveKitChallengeModule",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus",
+        "mangledName": "$s23DriveKitChallengeModule04JoinC10SyncStatusO",
+        "moduleName": "DriveKitChallengeModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitDBChallengeAccessModule",
+        "printedName": "DriveKitDBChallengeAccessModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule"
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitCoreModule",
+        "printedName": "DriveKitCoreModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitCoreModule",
+        "printedName": "DriveKitCoreModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule"
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitDBChallengeAccessModule",
+        "printedName": "DriveKitDBChallengeAccessModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitCoreModule",
+        "printedName": "DriveKitCoreModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChallengeDetailSyncStatus",
+        "printedName": "ChallengeDetailSyncStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.ChallengeDetailSyncStatus.Type) -> DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChallengeDetailSyncStatus",
+                    "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChallengeDetailSyncStatus",
+                        "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus@ChallengeDetailSyncStatusSuccess",
+            "mangledName": "$s23DriveKitChallengeModule0C16DetailSyncStatusO7successyA2CmF",
+            "moduleName": "DriveKitChallengeModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "notFound",
+            "printedName": "notFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.ChallengeDetailSyncStatus.Type) -> DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChallengeDetailSyncStatus",
+                    "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChallengeDetailSyncStatus",
+                        "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus@ChallengeDetailSyncStatusNotFound",
+            "mangledName": "$s23DriveKitChallengeModule0C16DetailSyncStatusO8notFoundyA2CmF",
+            "moduleName": "DriveKitChallengeModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "cacheDataOnly",
+            "printedName": "cacheDataOnly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.ChallengeDetailSyncStatus.Type) -> DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChallengeDetailSyncStatus",
+                    "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChallengeDetailSyncStatus",
+                        "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus@ChallengeDetailSyncStatusCacheDataOnly",
+            "mangledName": "$s23DriveKitChallengeModule0C16DetailSyncStatusO13cacheDataOnlyyA2CmF",
+            "moduleName": "DriveKitChallengeModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "failedToSyncChallengeCacheOnly",
+            "printedName": "failedToSyncChallengeCacheOnly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.ChallengeDetailSyncStatus.Type) -> DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChallengeDetailSyncStatus",
+                    "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChallengeDetailSyncStatus",
+                        "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus@ChallengeDetailSyncStatusFailedToSyncChallengeCacheOnly",
+            "mangledName": "$s23DriveKitChallengeModule0C16DetailSyncStatusO08failedTofC9CacheOnlyyA2CmF",
+            "moduleName": "DriveKitChallengeModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "syncAlreadyInProgress",
+            "printedName": "syncAlreadyInProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.ChallengeDetailSyncStatus.Type) -> DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChallengeDetailSyncStatus",
+                    "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChallengeDetailSyncStatus",
+                        "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus@ChallengeDetailSyncStatusSyncAlreadyInProgress",
+            "mangledName": "$s23DriveKitChallengeModule0C16DetailSyncStatusO21syncAlreadyInProgressyA2CmF",
+            "moduleName": "DriveKitChallengeModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChallengeDetailSyncStatus",
+                    "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23DriveKitChallengeModule0C16DetailSyncStatusO8rawValueACSgSi_tcfc",
+            "mangledName": "$s23DriveKitChallengeModule0C16DetailSyncStatusO8rawValueACSgSi_tcfc",
+            "moduleName": "DriveKitChallengeModule",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23DriveKitChallengeModule0C16DetailSyncStatusO8rawValueSivp",
+            "mangledName": "$s23DriveKitChallengeModule0C16DetailSyncStatusO8rawValueSivp",
+            "moduleName": "DriveKitChallengeModule",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23DriveKitChallengeModule0C16DetailSyncStatusO8rawValueSivg",
+                "mangledName": "$s23DriveKitChallengeModule0C16DetailSyncStatusO8rawValueSivg",
+                "moduleName": "DriveKitChallengeModule",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus",
+        "mangledName": "$s23DriveKitChallengeModule0C16DetailSyncStatusO",
+        "moduleName": "DriveKitChallengeModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitCoreModule",
+        "printedName": "DriveKitCoreModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule"
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitDBChallengeAccessModule",
+        "printedName": "DriveKitDBChallengeAccessModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChallengesSyncStatus",
+        "printedName": "ChallengesSyncStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.ChallengesSyncStatus.Type) -> DriveKitChallengeModule.ChallengesSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChallengesSyncStatus",
+                    "printedName": "DriveKitChallengeModule.ChallengesSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@ChallengesSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitChallengeModule.ChallengesSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChallengesSyncStatus",
+                        "printedName": "DriveKitChallengeModule.ChallengesSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@ChallengesSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitChallengeModule@E@ChallengesSyncStatus@ChallengesSyncStatusSuccess",
+            "mangledName": "$s23DriveKitChallengeModule20ChallengesSyncStatusO7successyA2CmF",
+            "moduleName": "DriveKitChallengeModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "cacheDataOnly",
+            "printedName": "cacheDataOnly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.ChallengesSyncStatus.Type) -> DriveKitChallengeModule.ChallengesSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChallengesSyncStatus",
+                    "printedName": "DriveKitChallengeModule.ChallengesSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@ChallengesSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitChallengeModule.ChallengesSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChallengesSyncStatus",
+                        "printedName": "DriveKitChallengeModule.ChallengesSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@ChallengesSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitChallengeModule@E@ChallengesSyncStatus@ChallengesSyncStatusCacheDataOnly",
+            "mangledName": "$s23DriveKitChallengeModule20ChallengesSyncStatusO13cacheDataOnlyyA2CmF",
+            "moduleName": "DriveKitChallengeModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "failedToSyncChallengesCacheOnly",
+            "printedName": "failedToSyncChallengesCacheOnly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.ChallengesSyncStatus.Type) -> DriveKitChallengeModule.ChallengesSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChallengesSyncStatus",
+                    "printedName": "DriveKitChallengeModule.ChallengesSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@ChallengesSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitChallengeModule.ChallengesSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChallengesSyncStatus",
+                        "printedName": "DriveKitChallengeModule.ChallengesSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@ChallengesSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitChallengeModule@E@ChallengesSyncStatus@ChallengesSyncStatusFailedToSyncChallengesCacheOnly",
+            "mangledName": "$s23DriveKitChallengeModule20ChallengesSyncStatusO08failedTofE9CacheOnlyyA2CmF",
+            "moduleName": "DriveKitChallengeModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "syncAlreadyInProgress",
+            "printedName": "syncAlreadyInProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.ChallengesSyncStatus.Type) -> DriveKitChallengeModule.ChallengesSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChallengesSyncStatus",
+                    "printedName": "DriveKitChallengeModule.ChallengesSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@ChallengesSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitChallengeModule.ChallengesSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChallengesSyncStatus",
+                        "printedName": "DriveKitChallengeModule.ChallengesSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@ChallengesSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitChallengeModule@E@ChallengesSyncStatus@ChallengesSyncStatusSyncAlreadyInProgress",
+            "mangledName": "$s23DriveKitChallengeModule20ChallengesSyncStatusO21syncAlreadyInProgressyA2CmF",
+            "moduleName": "DriveKitChallengeModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DriveKitChallengeModule.ChallengesSyncStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChallengesSyncStatus",
+                    "printedName": "DriveKitChallengeModule.ChallengesSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@ChallengesSyncStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23DriveKitChallengeModule20ChallengesSyncStatusO8rawValueACSgSi_tcfc",
+            "mangledName": "$s23DriveKitChallengeModule20ChallengesSyncStatusO8rawValueACSgSi_tcfc",
+            "moduleName": "DriveKitChallengeModule",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23DriveKitChallengeModule20ChallengesSyncStatusO8rawValueSivp",
+            "mangledName": "$s23DriveKitChallengeModule20ChallengesSyncStatusO8rawValueSivp",
+            "moduleName": "DriveKitChallengeModule",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23DriveKitChallengeModule20ChallengesSyncStatusO8rawValueSivg",
+                "mangledName": "$s23DriveKitChallengeModule20ChallengesSyncStatusO8rawValueSivg",
+                "moduleName": "DriveKitChallengeModule",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DriveKitChallengeModule@E@ChallengesSyncStatus",
+        "mangledName": "$s23DriveKitChallengeModule20ChallengesSyncStatusO",
+        "moduleName": "DriveKitChallengeModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitCoreModule",
+        "printedName": "DriveKitCoreModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule"
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitDBChallengeAccessModule",
+        "printedName": "DriveKitDBChallengeAccessModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitCoreModule",
+        "printedName": "DriveKitCoreModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule"
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitDBChallengeAccessModule",
+        "printedName": "DriveKitDBChallengeAccessModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule"
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitDBTripAccessModule",
+        "printedName": "DriveKitDBTripAccessModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DriveKitChallenge",
+        "printedName": "DriveKitChallenge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitChallengeModule@objc(cs)DriveKitChallenge(cpy)sdkVersion",
+            "mangledName": "$s23DriveKitChallengeModule0abC0C10sdkVersionSSvpZ",
+            "moduleName": "DriveKitChallengeModule",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitChallengeModule@objc(cs)DriveKitChallenge(cm)sdkVersion",
+                "mangledName": "$s23DriveKitChallengeModule0abC0C10sdkVersionSSvgZ",
+                "moduleName": "DriveKitChallengeModule",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DriveKitChallenge",
+                "printedName": "DriveKitChallengeModule.DriveKitChallenge",
+                "usr": "c:@M@DriveKitChallengeModule@objc(cs)DriveKitChallenge"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitChallengeModule@objc(cs)DriveKitChallenge(cpy)shared",
+            "mangledName": "$s23DriveKitChallengeModule0abC0C6sharedACvpZ",
+            "moduleName": "DriveKitChallengeModule",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DriveKitChallenge",
+                    "printedName": "DriveKitChallengeModule.DriveKitChallenge",
+                    "usr": "c:@M@DriveKitChallengeModule@objc(cs)DriveKitChallenge"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitChallengeModule@objc(cs)DriveKitChallenge(cm)shared",
+                "mangledName": "$s23DriveKitChallengeModule0abC0C6sharedACvgZ",
+                "moduleName": "DriveKitChallengeModule",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitChallengeModule@objc(cs)DriveKitChallenge(im)initialize",
+            "mangledName": "$s23DriveKitChallengeModule0abC0C10initializeyyF",
+            "moduleName": "DriveKitChallengeModule",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getChallenges",
+            "printedName": "getChallenges(type:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SynchronizationType",
+                "printedName": "DriveKitCoreModule.SynchronizationType",
+                "hasDefaultArg": true,
+                "usr": "c:@M@DriveKitCoreModule@E@SynchronizationType"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.ChallengesSyncStatus, [DriveKitDBChallengeAccessModule.DKChallenge]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(DriveKitChallengeModule.ChallengesSyncStatus, [DriveKitDBChallengeAccessModule.DKChallenge])",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChallengesSyncStatus",
+                        "printedName": "DriveKitChallengeModule.ChallengesSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@ChallengesSyncStatus"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[DriveKitDBChallengeAccessModule.DKChallenge]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DKChallenge",
+                            "printedName": "DriveKitDBChallengeAccessModule.DKChallenge",
+                            "usr": "c:@M@DriveKitDBChallengeAccessModule@objc(cs)DKChallenge"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitChallengeModule@objc(cs)DriveKitChallenge(im)getChallengesWithType:completionHandler:",
+            "mangledName": "$s23DriveKitChallengeModule0abC0C13getChallenges4type17completionHandlery0ab4CoreD019SynchronizationTypeO_yAA0F10SyncStatusO_Say0ab17DBChallengeAccessD011DKChallengeCGtctF",
+            "moduleName": "DriveKitChallengeModule",
+            "objc_name": "getChallengesWithType:completionHandler:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getChallengeDetail",
+            "printedName": "getChallengeDetail(challengeId:type:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SynchronizationType",
+                "printedName": "DriveKitCoreModule.SynchronizationType",
+                "hasDefaultArg": true,
+                "usr": "c:@M@DriveKitCoreModule@E@SynchronizationType"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.ChallengeDetailSyncStatus, DriveKitDBChallengeAccessModule.DKChallengeDetail?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(DriveKitChallengeModule.ChallengeDetailSyncStatus, DriveKitDBChallengeAccessModule.DKChallengeDetail?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChallengeDetailSyncStatus",
+                        "printedName": "DriveKitChallengeModule.ChallengeDetailSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@ChallengeDetailSyncStatus"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "DriveKitDBChallengeAccessModule.DKChallengeDetail?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DKChallengeDetail",
+                            "printedName": "DriveKitDBChallengeAccessModule.DKChallengeDetail",
+                            "usr": "c:@M@DriveKitDBChallengeAccessModule@objc(cs)DKChallengeDetail"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitChallengeModule@objc(cs)DriveKitChallenge(im)getChallengeDetailWithChallengeId:type:completionHandler:",
+            "mangledName": "$s23DriveKitChallengeModule0abC0C03getC6Detail11challengeId4type17completionHandlerySS_0ab4CoreD019SynchronizationTypeOyAA0cF10SyncStatusO_0ab17DBChallengeAccessD0011DKChallengeF0CSgtctF",
+            "moduleName": "DriveKitChallengeModule",
+            "objc_name": "getChallengeDetailWithChallengeId:type:completionHandler:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "joinChallenge",
+            "printedName": "joinChallenge(challengeId:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.JoinChallengeSyncStatus) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JoinChallengeSyncStatus",
+                    "printedName": "DriveKitChallengeModule.JoinChallengeSyncStatus",
+                    "usr": "c:@M@DriveKitChallengeModule@E@JoinChallengeSyncStatus"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitChallengeModule@objc(cs)DriveKitChallenge(im)joinChallengeWithChallengeId:completionHandler:",
+            "mangledName": "$s23DriveKitChallengeModule0abC0C04joinC011challengeId17completionHandlerySS_yAA04JoinC10SyncStatusOctF",
+            "moduleName": "DriveKitChallengeModule",
+            "objc_name": "joinChallengeWithChallengeId:completionHandler:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getChallenge",
+            "printedName": "getChallenge(challengeId:type:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SynchronizationType",
+                "printedName": "DriveKitCoreModule.SynchronizationType",
+                "hasDefaultArg": true,
+                "usr": "c:@M@DriveKitCoreModule@E@SynchronizationType"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitChallengeModule.ChallengesSyncStatus, DriveKitDBChallengeAccessModule.DKChallenge?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(DriveKitChallengeModule.ChallengesSyncStatus, DriveKitDBChallengeAccessModule.DKChallenge?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChallengesSyncStatus",
+                        "printedName": "DriveKitChallengeModule.ChallengesSyncStatus",
+                        "usr": "c:@M@DriveKitChallengeModule@E@ChallengesSyncStatus"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "DriveKitDBChallengeAccessModule.DKChallenge?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DKChallenge",
+                            "printedName": "DriveKitDBChallengeAccessModule.DKChallenge",
+                            "usr": "c:@M@DriveKitDBChallengeAccessModule@objc(cs)DKChallenge"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitChallengeModule@objc(cs)DriveKitChallenge(im)getChallengeWithChallengeId:type:completionHandler:",
+            "mangledName": "$s23DriveKitChallengeModule0abC0C03getC011challengeId4type17completionHandlerySS_0ab4CoreD019SynchronizationTypeOyAA20ChallengesSyncStatusO_0ab17DBChallengeAccessD011DKChallengeCSgtctF",
+            "moduleName": "DriveKitChallengeModule",
+            "objc_name": "getChallengeWithChallengeId:type:completionHandler:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addListener",
+            "printedName": "addListener(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DriveKitChallengeListener",
+                "printedName": "any DriveKitChallengeModule.DriveKitChallengeListener",
+                "usr": "c:@M@DriveKitChallengeModule@objc(pl)DriveKitChallengeListener"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitChallengeModule@objc(cs)DriveKitChallenge(im)addListenerWithListener:",
+            "mangledName": "$s23DriveKitChallengeModule0abC0C11addListener8listeneryAA0abcF0_p_tF",
+            "moduleName": "DriveKitChallengeModule",
+            "objc_name": "addListenerWithListener:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeListener",
+            "printedName": "removeListener(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DriveKitChallengeListener",
+                "printedName": "any DriveKitChallengeModule.DriveKitChallengeListener",
+                "usr": "c:@M@DriveKitChallengeModule@objc(pl)DriveKitChallengeListener"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitChallengeModule@objc(cs)DriveKitChallenge(im)removeListenerWithListener:",
+            "mangledName": "$s23DriveKitChallengeModule0abC0C14removeListener8listeneryAA0abcF0_p_tF",
+            "moduleName": "DriveKitChallengeModule",
+            "objc_name": "removeListenerWithListener:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitChallengeModule@objc(cs)DriveKitChallenge(im)reset",
+            "mangledName": "$s23DriveKitChallengeModule0abC0C5resetyyF",
+            "moduleName": "DriveKitChallengeModule",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DriveKitChallengeModule@objc(cs)DriveKitChallenge",
+        "mangledName": "$s23DriveKitChallengeModule0abC0C",
+        "moduleName": "DriveKitChallengeModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DriveKitChallengeListener",
+        "printedName": "DriveKitChallengeListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "challengesUpdated",
+            "printedName": "challengesUpdated()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitChallengeModule@objc(pl)DriveKitChallengeListener(im)challengesUpdated",
+            "mangledName": "$s23DriveKitChallengeModule0abC8ListenerP17challengesUpdatedyyF",
+            "moduleName": "DriveKitChallengeModule",
+            "genericSig": "<τ_0_0 where τ_0_0 : DriveKitChallengeModule.DriveKitChallengeListener>",
+            "sugared_genericSig": "<Self where Self : DriveKitChallengeModule.DriveKitChallengeListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@DriveKitChallengeModule@objc(pl)DriveKitChallengeListener",
+        "mangledName": "$s23DriveKitChallengeModule0abC8ListenerP",
+        "moduleName": "DriveKitChallengeModule",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitDBChallengeAccessModule",
+        "printedName": "DriveKitDBChallengeAccessModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "DriveKitChallengeModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DKChallengeDetail",
+        "printedName": "DKChallengeDetail",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "trips",
+            "printedName": "trips",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DriveKitDBTripAccessModule.DKTrip]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKTrip",
+                    "printedName": "DriveKitDBTripAccessModule.DKTrip",
+                    "usr": "c:@M@DriveKitDBTripAccessModule@objc(cs)DKTrip"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31DriveKitDBChallengeAccessModule17DKChallengeDetailC0ab9ChallengeE0E5tripsSay0ab6DBTripdE06DKTripCGvp",
+            "mangledName": "$s31DriveKitDBChallengeAccessModule17DKChallengeDetailC0ab9ChallengeE0E5tripsSay0ab6DBTripdE06DKTripCGvp",
+            "moduleName": "DriveKitChallengeModule",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DriveKitDBTripAccessModule.DKTrip]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DKTrip",
+                        "printedName": "DriveKitDBTripAccessModule.DKTrip",
+                        "usr": "c:@M@DriveKitDBTripAccessModule@objc(cs)DKTrip"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31DriveKitDBChallengeAccessModule17DKChallengeDetailC0ab9ChallengeE0E5tripsSay0ab6DBTripdE06DKTripCGvg",
+                "mangledName": "$s31DriveKitDBChallengeAccessModule17DKChallengeDetailC0ab9ChallengeE0E5tripsSay0ab6DBTripdE06DKTripCGvg",
+                "moduleName": "DriveKitChallengeModule",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DriveKitDBChallengeAccessModule@objc(cs)DKChallengeDetail",
+        "mangledName": "$s31DriveKitDBChallengeAccessModule17DKChallengeDetailC",
+        "moduleName": "DriveKitDBChallengeAccessModule",
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/JoinChallenge\/JoinChallengeSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 283,
+      "length": 8,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/JoinChallenge\/JoinChallengeSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 13,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/JoinChallenge\/JoinChallengeSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 308,
+      "length": 12,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/JoinChallenge\/JoinChallengeSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 322,
+      "length": 17,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/Challenges\/ChallengesResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1227,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/DriveKitChallengeConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 20,
+      "value": "\"DriveKit Challenge\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/DriveKitChallengeConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/DriveKitChallengeConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 36,
+      "value": "\"drivekit-challenge-internalVersion\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/DriveKitChallengeConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 477,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/DriveKitChallengeConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 526,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/DriveKitChallengeConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 575,
+      "length": 37,
+      "value": "\"drivekit-challenges-sync-identifier\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/DriveKitChallengeConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 29,
+      "value": "\"challenges-sync-last-update\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/DriveKitChallengeConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1052,
+      "length": 32,
+      "value": "\"\/v2\/drivekit\/driver\/challenges\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/ChallengeDetails\/ChallengeDetailSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 287,
+      "length": 8,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/ChallengeDetails\/ChallengeDetailSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 297,
+      "length": 13,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/ChallengeDetails\/ChallengeDetailSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 312,
+      "length": 30,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/ChallengeDetails\/ChallengeDetailSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 344,
+      "length": 21,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/Challenges\/ChallengesSynchronizationRequestDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 2429,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/Challenges\/ChallengesSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 277,
+      "length": 13,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/Challenges\/ChallengesSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 292,
+      "length": 31,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/Challenges\/ChallengesSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 325,
+      "length": 21,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-challenge\/DriveKitChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 711,
+      "length": 5,
+      "value": "1000"
+    }
+  ]
+}

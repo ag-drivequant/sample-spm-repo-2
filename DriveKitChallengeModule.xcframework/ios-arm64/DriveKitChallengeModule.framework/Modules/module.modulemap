@@ -1,0 +1,11 @@
+framework module DriveKitChallengeModule {
+  umbrella header "DriveKitChallengeModule.h"
+  export *
+
+  module * { export * }
+}
+
+module DriveKitChallengeModule.Swift {
+  header "DriveKitChallengeModule-Swift.h"
+  requires objc
+}

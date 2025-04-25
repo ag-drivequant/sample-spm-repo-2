@@ -1,0 +1,57 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DriveKitGroupModule
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import CoreData
+import DriveKitCoreModule
+import DriveKitDBGroupAccessModule
+import DriveKitNetworkingModule
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public enum DKLeaveGroupStatus : Swift.Int {
+  case success, failedToLeave, groupNotFound, notInGroup
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class DriveKitGroup : ObjectiveC.NSObject {
+  @objc public static let sdkVersion: Swift.String
+  @objc public static let shared: DriveKitGroupModule.DriveKitGroup
+  @objc deinit
+  @objc public func initialize()
+  @objc public func getGroups(groupType: DriveKitDBGroupAccessModule.DKGroupType = .all, synchronizationType: DriveKitCoreModule.SynchronizationType = .defaultSync, completionHandler: @escaping (DriveKitGroupModule.DKGroupsSyncStatus, [DriveKitDBGroupAccessModule.DKGroup]?) -> Swift.Void)
+  @objc public func joinGroup(groupId: Swift.String, completionHandler: @escaping (DriveKitGroupModule.DKJoinGroupStatus) -> Swift.Void)
+  @objc public func leaveGroup(groupId: Swift.String, completionHandler: @escaping (DriveKitGroupModule.DKLeaveGroupStatus) -> Swift.Void)
+  @available(*, deprecated, message: "You no longer need to call the reset method of any module except the one in DriveKit")
+  @objc public func reset()
+}
+@objc public enum DKGroupsSyncStatus : Swift.Int {
+  case success, failedToSyncGroupsCacheOnly, cacheDataOnly, syncAlreadyInProgress
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKJoinGroupStatus : Swift.Int {
+  case success, failedToJoin, groupNotFound, alreadyJoined
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension DriveKitGroupModule.DKLeaveGroupStatus : Swift.Equatable {}
+extension DriveKitGroupModule.DKLeaveGroupStatus : Swift.Hashable {}
+extension DriveKitGroupModule.DKLeaveGroupStatus : Swift.RawRepresentable {}
+extension DriveKitGroupModule.DKGroupsSyncStatus : Swift.Equatable {}
+extension DriveKitGroupModule.DKGroupsSyncStatus : Swift.Hashable {}
+extension DriveKitGroupModule.DKGroupsSyncStatus : Swift.RawRepresentable {}
+extension DriveKitGroupModule.DKJoinGroupStatus : Swift.Equatable {}
+extension DriveKitGroupModule.DKJoinGroupStatus : Swift.Hashable {}
+extension DriveKitGroupModule.DKJoinGroupStatus : Swift.RawRepresentable {}

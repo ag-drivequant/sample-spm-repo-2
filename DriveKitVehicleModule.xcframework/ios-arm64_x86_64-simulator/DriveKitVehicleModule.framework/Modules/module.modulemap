@@ -1,0 +1,4 @@
+framework module DriveKitVehicleModule {
+  header "DriveKitVehicleModule-Swift.h"
+  requires objc
+}

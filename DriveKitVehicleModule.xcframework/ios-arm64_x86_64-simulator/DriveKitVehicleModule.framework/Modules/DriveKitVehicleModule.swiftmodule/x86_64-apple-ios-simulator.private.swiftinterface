@@ -1,0 +1,535 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DriveKitVehicleModule
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import CoreData
+import DriveKitBeaconUtilsModule
+import DriveKitCoreModule
+import DriveKitDBVehicleAccessModule
+import DriveKitNetworkingModule
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public enum DKVehicleBrand : Swift.Int, Swift.CaseIterable {
+  case abarth
+  case alpha_romeo
+  case alpina
+  case alpine
+  case aston_martin
+  case audi
+  case bentley
+  case bmw
+  case bollore
+  case bugatti
+  case cadillac
+  case caterham
+  case chevrolet
+  case chrysler
+  case citroen
+  case cupra
+  case dacia
+  case daewoo
+  case daf_truck
+  case daihatsu
+  case de_tomaso
+  case dodge
+  case donkervoort
+  case ds
+  case fam_automobiles
+  case ferrari
+  case fiat
+  case fisker
+  case ford
+  case ginetta
+  case hommell
+  case honda
+  case hummer
+  case hyundai
+  case infiniti
+  case isuzu
+  case iveco
+  case iveco_truck
+  case jaguar
+  case jeep
+  case kia
+  case ktm
+  case lada
+  case lamborghini
+  case lancia
+  case land_rover
+  case ldv
+  case lexus
+  case lotus
+  case mahindra
+  case man
+  case man_truck
+  case maserati
+  case matra
+  case maybach
+  case mazda
+  case mclaren
+  case mega
+  case mercedes
+  case mercedes_amg
+  case mercedes_truck
+  case mg
+  case mia_electric
+  case mini
+  case mitsubishi
+  case morgan
+  case nissan
+  case opel
+  case peugeot
+  case pgo
+  case polestar
+  case porsche
+  case renault
+  case renault_truck
+  case rolls_royce
+  case rover
+  case saab
+  case santana
+  case scania_truck
+  case seat
+  case secma
+  case seres
+  case skoda
+  case smart
+  case ssangyong
+  case subaru
+  case suzuki
+  case tesla
+  case toyota
+  case tvr
+  case venturi
+  case vinfast
+  case volkswagen
+  case volvo
+  case volvo_truck
+  case westfield
+  case wiesmann
+  public var value: Swift.String {
+    get
+  }
+  public var name: Swift.String {
+    get
+  }
+  public var isCar: Swift.Bool {
+    get
+  }
+  public var isMotorbike: Swift.Bool {
+    get
+  }
+  public var isTruck: Swift.Bool {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [DriveKitVehicleModule.DKVehicleBrand]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [DriveKitVehicleModule.DKVehicleBrand] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension DriveKitVehicleModule.DKVehicleBrand {
+  public init(value: Swift.String)
+}
+@objc public enum DKVehicleEngineIndex : Swift.Int, Swift.CaseIterable {
+  case gasoline = 1
+  case diesel = 2
+  case electric = 3
+  case gasolineHybrid = 4
+  case dieselHybrid = 5
+  case biofuel = 6
+  case biFuelBioethanol = 7
+  case biFuelNGV = 8
+  case biFuelLPG = 9
+  case notAvailable = 10
+  case plugInGasolineHybrid = 11
+  case hydrogen = 12
+  public var value: Swift.String {
+    get
+  }
+  public var isCar: Swift.Bool {
+    get
+  }
+  public var isMotorbike: Swift.Bool {
+    get
+  }
+  public var isTruck: Swift.Bool {
+    get
+  }
+  public var isSelectable: Swift.Bool {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [DriveKitVehicleModule.DKVehicleEngineIndex]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [DriveKitVehicleModule.DKVehicleEngineIndex] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension DriveKitVehicleModule.DKVehicleEngineIndex {
+  public init(value: Swift.String)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class DriveKitVehicle : ObjectiveC.NSObject {
+  @objc public static let sdkVersion: Swift.String
+  @objc public static let shared: DriveKitVehicleModule.DriveKitVehicle
+  @objc public func initialize()
+  @available(*, deprecated, message: "You no longer need to call the reset method of any module except the one in DriveKit")
+  @objc public func reset()
+  public func vehiclesQuery() -> DriveKitCoreModule.WhereReference<DriveKitDBVehicleAccessModule.DBVehicle, DriveKitDBVehicleAccessModule.DKVehicle>
+  public func executeVehicleQuery(query: DriveKitCoreModule.ExecutableQueryOne<DriveKitDBVehicleAccessModule.DBVehicle, DriveKitDBVehicleAccessModule.DKVehicle>, type: DriveKitVehicleModule.DKVehicleSynchronizationType = .defaultSync, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleSyncStatus, DriveKitDBVehicleAccessModule.DKVehicle?) -> Swift.Void)
+  public func executeVehiclesQuery(query: DriveKitCoreModule.ExecutableQuery<DriveKitDBVehicleAccessModule.DBVehicle, DriveKitDBVehicleAccessModule.DKVehicle>, type: DriveKitVehicleModule.DKVehicleSynchronizationType = .defaultSync, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleSyncStatus, [DriveKitDBVehicleAccessModule.DKVehicle]) -> Swift.Void)
+  @objc public func getVehiclesOrderByNameAsc(type: DriveKitVehicleModule.DKVehicleSynchronizationType = .defaultSync, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleSyncStatus, [DriveKitDBVehicleAccessModule.DKVehicle]) -> Swift.Void)
+  @objc public func getVehicle(vehicleId: Swift.String, type: DriveKitVehicleModule.DKVehicleSynchronizationType = .cache, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleSyncStatus, DriveKitDBVehicleAccessModule.DKVehicle?) -> Swift.Void)
+  @objc public func createCustomVehicle(characteristics: DriveKitVehicleModule.DKVehicleCharacteristics, name: Swift.String? = nil, id: Swift.String, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleManagerStatus, DriveKitDBVehicleAccessModule.DKVehicle?) -> Swift.Void)
+  @objc public func createCarVehicle(characteristics: DriveKitVehicleModule.DKCarVehicleCharacteristics, name: Swift.String? = nil, liteConfig: Swift.Bool = false, detectionMode: DriveKitDBVehicleAccessModule.DKDetectionMode = .disabled, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleManagerStatus, DriveKitDBVehicleAccessModule.DKVehicle?) -> Swift.Void)
+  @objc public func createTruckVehicle(characteristics: DriveKitVehicleModule.DKTruckVehicleCharacteristics, name: Swift.String? = nil, detectionMode: DriveKitDBVehicleAccessModule.DKDetectionMode = .disabled, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleManagerStatus, DriveKitDBVehicleAccessModule.DKVehicle?) -> Swift.Void)
+  @objc public func replaceWithCarVehicle(oldVehicleId: Swift.String, characteristics: DriveKitVehicleModule.DKCarVehicleCharacteristics, name: Swift.String? = nil, liteConfig: Swift.Bool = false, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleReplaceStatus, DriveKitDBVehicleAccessModule.DKVehicle?) -> Swift.Void)
+  @objc public func replaceWithTruckVehicle(oldVehicleId: Swift.String, characteristics: DriveKitVehicleModule.DKTruckVehicleCharacteristics, name: Swift.String? = nil, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleReplaceStatus, DriveKitDBVehicleAccessModule.DKVehicle?) -> Swift.Void)
+  @objc public func deleteVehicle(vehicleId: Swift.String, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleManagerStatus) -> Swift.Void)
+  @objc public func renameVehicle(name: Swift.String, vehicleId: Swift.String, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleManagerStatus) -> Swift.Void)
+  @objc public func updateDetectionMode(vehicleId: Swift.String, detectionMode: DriveKitDBVehicleAccessModule.DKDetectionMode, forceGPSVehicleUpdate: Swift.Bool = false, completionHandler: @escaping (DriveKitVehicleModule.DKDetectionModeStatus) -> Swift.Void)
+  @objc public func getOdometer(vehicleId: Swift.String, type: DriveKitVehicleModule.DKVehicleSynchronizationType = .defaultSync, completionHandler: @escaping (DriveKitVehicleModule.DKOdometerSyncStatus, DriveKitDBVehicleAccessModule.DKVehicleOdometer?, [DriveKitDBVehicleAccessModule.DKVehicleOdometerHistory]?) -> Swift.Void)
+  @objc public func addOdometerHistory(vehicleId: Swift.String, distance: Swift.Double, completionHandler: @escaping (DriveKitVehicleModule.DKOdometerAddHistoryStatus, DriveKitDBVehicleAccessModule.DKVehicleOdometer?, [DriveKitDBVehicleAccessModule.DKVehicleOdometerHistory]?) -> Swift.Void)
+  @objc public func updateOdometerHistory(vehicleId: Swift.String, historyId: Swift.String, distance: Swift.Double, completionHandler: @escaping (DriveKitVehicleModule.DKOdometerUpdateHistoryStatus, DriveKitDBVehicleAccessModule.DKVehicleOdometer?, [DriveKitDBVehicleAccessModule.DKVehicleOdometerHistory]?) -> Swift.Void)
+  @objc public func deleteOdometerHistory(vehicleId: Swift.String, historyId: Swift.String, completionHandler: @escaping (DriveKitVehicleModule.DKOdometerDeleteHistoryStatus, DriveKitDBVehicleAccessModule.DKVehicleOdometer?, [DriveKitDBVehicleAccessModule.DKVehicleOdometerHistory]?) -> Swift.Void)
+  @objc public func addBluetooth(vehicleId: Swift.String, bluetooth: DriveKitDBVehicleAccessModule.DKBluetooth, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleBluetoothStatus) -> Swift.Void)
+  @objc public func removeBluetooth(vehicleId: Swift.String, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleBluetoothRemoveStatus) -> Swift.Void)
+  @objc public func getBeacon(uniqueId: Swift.String, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleBeaconInfoStatus, DriveKitBeaconUtilsModule.DKBeacon?) -> Swift.Void)
+  @objc public func updateBeaconBatteryLevel(batteryLevel: Swift.Int, beacon: DriveKitBeaconUtilsModule.DKBeacon, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleBeaconBatteryStatus) -> Swift.Void)
+  @objc public func addBeacon(vehicleId: Swift.String, beacon: DriveKitBeaconUtilsModule.DKBeacon, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleBeaconStatus) -> Swift.Void)
+  @objc public func changeBeacon(vehicleId: Swift.String, oldVehicleId: Swift.String, beacon: DriveKitBeaconUtilsModule.DKBeacon, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleBeaconStatus) -> Swift.Void)
+  @objc public func removeBeacon(vehicleId: Swift.String, completionHandler: @escaping (DriveKitVehicleModule.DKVehicleBeaconRemoveStatus) -> Swift.Void)
+  @objc deinit
+}
+@objc public enum DKTruckType : Swift.Int, Swift.CaseIterable {
+  case straightTruck, semiTrailerTruck, roadTrain
+  public var value: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [DriveKitVehicleModule.DKTruckType]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [DriveKitVehicleModule.DKTruckType] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class DKVehicleGetBeaconResponse : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let major: Swift.Int
+  @objc final public let minor: Swift.Int
+  @objc final public let proximityUuid: Swift.String
+  @objc final public let uniqueId: Swift.String
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+extension DriveKitDBVehicleAccessModule.DKVehicle {
+  public func isCar() -> Swift.Bool
+  public func isTruck() -> Swift.Bool
+  public func getType() -> DriveKitVehicleModule.DKVehicleType?
+}
+@objc public enum DKVehicleType : Swift.Int, Swift.CaseIterable {
+  case car
+  case truck
+  public var value: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [DriveKitVehicleModule.DKVehicleType]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [DriveKitVehicleModule.DKVehicleType] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class DKVehicleVersion : ObjectiveC.NSObject {
+  @objc final public let version: Swift.String
+  @objc final public let dqIndex: Swift.String
+  @objc public init(version: Swift.String, dqIndex: Swift.String)
+  @objc deinit
+}
+@objc public enum DKOdometerSyncStatus : Swift.Int {
+  case success, cacheDataOnly, failedToSyncOdometerCacheOnly, vehicleNotFound
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKOdometerAddHistoryStatus : Swift.Int {
+  case success, error, vehicleNotFound, badDistance
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKOdometerUpdateHistoryStatus : Swift.Int {
+  case success, error, vehicleNotFound, historyNotFound, badDistance
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKOdometerDeleteHistoryStatus : Swift.Int {
+  case success, error, vehicleNotFound, historyNotFound, lastOdometerError
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKVehicleSyncStatus : Swift.Int {
+  case noError, cacheDataOnly, failedToSyncVehiclesCacheOnly, syncAlreadyInProgress
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKVehicleSynchronizationType : Swift.Int {
+  case defaultSync, cache
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKVehicleManagerStatus : Swift.Int {
+  case success, unknownVehicle, invalidCharacteristics, vehicleIdAlreadyUsed, error, onlyOneGpsVehicleAllowed
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKVehicleReplaceStatus : Swift.Int {
+  case success, invalidVehicle, error
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKVehicleBeaconInfoStatus : Swift.Int {
+  case success, error, unknownBeacon
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKVehicleBeaconBatteryStatus : Swift.Int {
+  case success, error, unknownBeacon, invalidBeacon
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKVehicleBeaconRemoveStatus : Swift.Int {
+  case success, error, unknownVehicle
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKVehicleBeaconStatus : Swift.Int {
+  case success, error, unknownVehicle, unavailableBeacon
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKVehicleBluetoothStatus : Swift.Int {
+  case success, unavailableBluetooth, unknownVehicle, error
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKVehicleBluetoothRemoveStatus : Swift.Int {
+  case success, unknownVehicle, error
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKDetectionModeStatus : Swift.Int {
+  case success, error, gpsModeAlreadyExists
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKVehicleCategory : Swift.Int, Swift.CaseIterable {
+  case micro = 1
+  case compact = 8
+  case sedan = 2
+  case suv = 6
+  case minivan = 5
+  case commercial = 9
+  case luxury = 3
+  case sport = 7
+  case twoAxlesStraightTruck = 200
+  case threeAxlesStraightTruck = 201
+  case fourAxlesStraightTruck = 202
+  case twoAxlesTractor = 203
+  case threeAxlesTractor = 204
+  case fourAxlesTractor = 205
+  @available(*, deprecated, message: "Use getLiteConfigDqIndex(isElectricCar:) instead")
+  public var liteConfigDqIndex: Swift.String? {
+    get
+  }
+  public var isCar: Swift.Bool {
+    get
+  }
+  public var isMotorbike: Swift.Bool {
+    get
+  }
+  public var isTruck: Swift.Bool {
+    get
+  }
+  public func getLiteConfigDqIndex(isElectric: Swift.Bool) -> Swift.String?
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [DriveKitVehicleModule.DKVehicleCategory]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [DriveKitVehicleModule.DKVehicleCategory] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension DriveKitVehicleModule.DKVehicleCategory {
+  public init(value: Swift.String)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class DriveKitVehiclePicker : ObjectiveC.NSObject {
+  @objc public static let shared: DriveKitVehicleModule.DriveKitVehiclePicker
+  public func getTypes() -> [DriveKitVehicleModule.DKVehicleType]
+  public func getCategories(vehicleType: DriveKitVehicleModule.DKVehicleType? = nil) -> [DriveKitVehicleModule.DKVehicleCategory]
+  public func getEnginesIndex(vehicleType: DriveKitVehicleModule.DKVehicleType? = nil) -> [DriveKitVehicleModule.DKVehicleEngineIndex]
+  public func getBrands(vehicleType: DriveKitVehicleModule.DKVehicleType? = nil) -> [DriveKitVehicleModule.DKVehicleBrand]
+  @objc public func getCarModels(brand: DriveKitVehicleModule.DKVehicleBrand, engineIndex: DriveKitVehicleModule.DKVehicleEngineIndex, completionHandler: @escaping (Swift.Bool, [Swift.String]?) -> Swift.Void)
+  @objc public func getTruckModels(truckType: DriveKitVehicleModule.DKTruckType, brand: DriveKitVehicleModule.DKVehicleBrand, completionHandler: @escaping (Swift.Bool, [Swift.String]?) -> Swift.Void)
+  @objc public func getCarYears(brand: DriveKitVehicleModule.DKVehicleBrand, engineIndex: DriveKitVehicleModule.DKVehicleEngineIndex, model: Swift.String, completionHandler: @escaping (Swift.Bool, [Swift.String]?) -> Swift.Void)
+  @objc public func getTruckYears(truckType: DriveKitVehicleModule.DKTruckType, brand: DriveKitVehicleModule.DKVehicleBrand, model: Swift.String, completionHandler: @escaping (Swift.Bool, [Swift.String]?) -> Swift.Void)
+  @objc public func getCarVersions(brand: DriveKitVehicleModule.DKVehicleBrand, engineIndex: DriveKitVehicleModule.DKVehicleEngineIndex, model: Swift.String, year: Swift.String, completionHandler: @escaping (Swift.Bool, [DriveKitVehicleModule.DKVehicleVersion]?) -> Swift.Void)
+  @objc public func getTruckVersions(truckType: DriveKitVehicleModule.DKTruckType, brand: DriveKitVehicleModule.DKVehicleBrand, model: Swift.String, year: Swift.String, completionHandler: @escaping (Swift.Bool, [DriveKitVehicleModule.DKVehicleVersion]?) -> Swift.Void)
+  @objc public func getCarCharacteristics(dqIndex: Swift.String, completionHandler: @escaping (Swift.Bool, DriveKitVehicleModule.DKCarVehicleCharacteristics?) -> Swift.Void)
+  @objc public func getTruckCharacteristics(dqIndex: Swift.String, completionHandler: @escaping (Swift.Bool, DriveKitVehicleModule.DKTruckVehicleCharacteristics?) -> Swift.Void)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class DKVehicleCharacteristics : ObjectiveC.NSObject {
+  @objc public var brand: Swift.String
+  @objc public var model: Swift.String
+  @objc public var version: Swift.String
+  @objc public var year: Swift.String
+  @objc public var typeIndex: Swift.Int
+  @objc public var engineIndex: Swift.Int
+  @objc public var power: Swift.Double
+  @objc public var mass: Swift.Double
+  @objc public var engineDisplacement: Swift.Double
+  @objc public var gearboxIndex: Swift.Int
+  @objc public var consumption: Swift.Double
+  @objc public var autoGearboxNumber: Swift.Int
+  @objc public var dqIndex: Swift.String
+  @objc public var frontTireSize: Swift.String
+  @objc public var rearTireSize: Swift.String
+  @objc public var length: Swift.Double
+  @objc public var width: Swift.Double
+  @objc public var height: Swift.Double
+  @objc public var engineCylinderNb: Swift.Int
+  @objc public var driveWheels: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class DKCarVehicleCharacteristics : DriveKitVehicleModule.DKVehicleCharacteristics {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class DKTruckVehicleCharacteristics : DriveKitVehicleModule.DKVehicleCharacteristics {
+  @objc public var ptac: Swift.Double
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension DriveKitVehicleModule.DKVehicleBrand : Swift.Equatable {}
+extension DriveKitVehicleModule.DKVehicleBrand : Swift.Hashable {}
+extension DriveKitVehicleModule.DKVehicleBrand : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKVehicleEngineIndex : Swift.Equatable {}
+extension DriveKitVehicleModule.DKVehicleEngineIndex : Swift.Hashable {}
+extension DriveKitVehicleModule.DKVehicleEngineIndex : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKTruckType : Swift.Equatable {}
+extension DriveKitVehicleModule.DKTruckType : Swift.Hashable {}
+extension DriveKitVehicleModule.DKTruckType : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKVehicleType : Swift.Equatable {}
+extension DriveKitVehicleModule.DKVehicleType : Swift.Hashable {}
+extension DriveKitVehicleModule.DKVehicleType : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKOdometerSyncStatus : Swift.Equatable {}
+extension DriveKitVehicleModule.DKOdometerSyncStatus : Swift.Hashable {}
+extension DriveKitVehicleModule.DKOdometerSyncStatus : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKOdometerAddHistoryStatus : Swift.Equatable {}
+extension DriveKitVehicleModule.DKOdometerAddHistoryStatus : Swift.Hashable {}
+extension DriveKitVehicleModule.DKOdometerAddHistoryStatus : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKOdometerUpdateHistoryStatus : Swift.Equatable {}
+extension DriveKitVehicleModule.DKOdometerUpdateHistoryStatus : Swift.Hashable {}
+extension DriveKitVehicleModule.DKOdometerUpdateHistoryStatus : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKOdometerDeleteHistoryStatus : Swift.Equatable {}
+extension DriveKitVehicleModule.DKOdometerDeleteHistoryStatus : Swift.Hashable {}
+extension DriveKitVehicleModule.DKOdometerDeleteHistoryStatus : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKVehicleSyncStatus : Swift.Equatable {}
+extension DriveKitVehicleModule.DKVehicleSyncStatus : Swift.Hashable {}
+extension DriveKitVehicleModule.DKVehicleSyncStatus : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKVehicleSynchronizationType : Swift.Equatable {}
+extension DriveKitVehicleModule.DKVehicleSynchronizationType : Swift.Hashable {}
+extension DriveKitVehicleModule.DKVehicleSynchronizationType : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKVehicleManagerStatus : Swift.Equatable {}
+extension DriveKitVehicleModule.DKVehicleManagerStatus : Swift.Hashable {}
+extension DriveKitVehicleModule.DKVehicleManagerStatus : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKVehicleReplaceStatus : Swift.Equatable {}
+extension DriveKitVehicleModule.DKVehicleReplaceStatus : Swift.Hashable {}
+extension DriveKitVehicleModule.DKVehicleReplaceStatus : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKVehicleBeaconInfoStatus : Swift.Equatable {}
+extension DriveKitVehicleModule.DKVehicleBeaconInfoStatus : Swift.Hashable {}
+extension DriveKitVehicleModule.DKVehicleBeaconInfoStatus : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKVehicleBeaconBatteryStatus : Swift.Equatable {}
+extension DriveKitVehicleModule.DKVehicleBeaconBatteryStatus : Swift.Hashable {}
+extension DriveKitVehicleModule.DKVehicleBeaconBatteryStatus : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKVehicleBeaconRemoveStatus : Swift.Equatable {}
+extension DriveKitVehicleModule.DKVehicleBeaconRemoveStatus : Swift.Hashable {}
+extension DriveKitVehicleModule.DKVehicleBeaconRemoveStatus : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKVehicleBeaconStatus : Swift.Equatable {}
+extension DriveKitVehicleModule.DKVehicleBeaconStatus : Swift.Hashable {}
+extension DriveKitVehicleModule.DKVehicleBeaconStatus : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKVehicleBluetoothStatus : Swift.Equatable {}
+extension DriveKitVehicleModule.DKVehicleBluetoothStatus : Swift.Hashable {}
+extension DriveKitVehicleModule.DKVehicleBluetoothStatus : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKVehicleBluetoothRemoveStatus : Swift.Equatable {}
+extension DriveKitVehicleModule.DKVehicleBluetoothRemoveStatus : Swift.Hashable {}
+extension DriveKitVehicleModule.DKVehicleBluetoothRemoveStatus : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKDetectionModeStatus : Swift.Equatable {}
+extension DriveKitVehicleModule.DKDetectionModeStatus : Swift.Hashable {}
+extension DriveKitVehicleModule.DKDetectionModeStatus : Swift.RawRepresentable {}
+extension DriveKitVehicleModule.DKVehicleCategory : Swift.Equatable {}
+extension DriveKitVehicleModule.DKVehicleCategory : Swift.Hashable {}
+extension DriveKitVehicleModule.DKVehicleCategory : Swift.RawRepresentable {}

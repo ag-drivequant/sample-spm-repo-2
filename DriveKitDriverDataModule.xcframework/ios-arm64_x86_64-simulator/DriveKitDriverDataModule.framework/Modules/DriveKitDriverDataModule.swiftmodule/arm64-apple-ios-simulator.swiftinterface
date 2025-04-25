@@ -1,0 +1,225 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DriveKitDriverDataModule
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import CoreData
+import CoreLocation
+import DriveKitCoreModule
+import DriveKitDBTripAccessModule
+import DriveKitNetworkingModule
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class DriveKitDriverData : ObjectiveC.NSObject {
+  public static let sdkVersion: Swift.String
+  @objc public static let shared: DriveKitDriverDataModule.DriveKitDriverData
+  @objc public func initialize()
+  public var isConfigured: Swift.Bool {
+    get
+  }
+  @available(*, deprecated, message: "You no longer need to call the reset method of any module except the one in DriveKit")
+  @objc public func reset()
+  public func tripsQuery() -> DriveKitCoreModule.WhereReference<DriveKitDBTripAccessModule.DBTrip, DriveKitDBTripAccessModule.DKTrip>
+  public func executeTripQuery(query: DriveKitCoreModule.ExecutableQueryOne<DriveKitDBTripAccessModule.DBTrip, DriveKitDBTripAccessModule.DKTrip>, type: DriveKitCoreModule.SynchronizationType = .defaultSync, completionHandler: @escaping (DriveKitDriverDataModule.TripSyncStatus, DriveKitDBTripAccessModule.DKTrip?) -> Swift.Void)
+  public func executeTripsQuery(query: DriveKitCoreModule.ExecutableQuery<DriveKitDBTripAccessModule.DBTrip, DriveKitDBTripAccessModule.DKTrip>, type: DriveKitCoreModule.SynchronizationType = .defaultSync, completionHandler: @escaping (DriveKitDriverDataModule.TripSyncStatus, [DriveKitDBTripAccessModule.DKTrip]) -> Swift.Void)
+  public func getTripsOrderByDateDesc(withTransportationModes transportationModes: [DriveKitDBTripAccessModule.TransportationMode] = [
+            .unknown,
+            .car,
+            .moto,
+            .truck
+        ], type: DriveKitCoreModule.SynchronizationType = .defaultSync, completionHandler: @escaping (DriveKitDriverDataModule.TripSyncStatus, [DriveKitDBTripAccessModule.DKTrip]) -> Swift.Void)
+  public func getTripsOrderByDateAsc(withTransportationModes transportationModes: [DriveKitDBTripAccessModule.TransportationMode] = [
+            .unknown,
+            .car,
+            .moto,
+            .truck
+        ], type: DriveKitCoreModule.SynchronizationType = .defaultSync, completionHandler: @escaping (DriveKitDriverDataModule.TripSyncStatus, [DriveKitDBTripAccessModule.DKTrip]) -> Swift.Void)
+  public func getTrip(itinId: Swift.String, type: DriveKitCoreModule.SynchronizationType = .cache, completionHandler: @escaping (DriveKitDriverDataModule.TripSyncStatus, DriveKitDBTripAccessModule.DKTrip?) -> Swift.Void)
+  public func getRoute(itinId: Swift.String, completionHandler: @escaping (DriveKitDBTripAccessModule.DKRoute?) -> Swift.Void)
+  public func getMissingCities(trip: DriveKitDBTripAccessModule.DKTrip, completion: ((_ updated: Swift.Bool) -> Swift.Void)? = nil)
+  public func manualTripsQuery() -> DriveKitCoreModule.WhereReference<DriveKitDBTripAccessModule.DBManualTrip, DriveKitDBTripAccessModule.DKManualTrip>
+  public func executeManualTripsQuery(query: DriveKitCoreModule.ExecutableQuery<DriveKitDBTripAccessModule.DBManualTrip, DriveKitDBTripAccessModule.DKManualTrip>, type: DriveKitCoreModule.SynchronizationType = .defaultSync, completionHandler: @escaping (DriveKitDriverDataModule.DKManualTripSyncStatus, [DriveKitDBTripAccessModule.DKManualTrip]) -> Swift.Void)
+  public func getManualTrips(type: DriveKitCoreModule.SynchronizationType = .defaultSync, orderByDateAsc: Swift.Bool = false, completionHandler: @escaping (DriveKitDriverDataModule.DKManualTripSyncStatus, [DriveKitDBTripAccessModule.DKManualTrip]) -> Swift.Void)
+  public func getManualTrip(tripId: Swift.String) -> DriveKitDBTripAccessModule.DKManualTrip?
+  public func deleteManualTrip(tripId: Swift.String, completionHandler: @escaping (DriveKitDriverDataModule.DKManualTripDeleteStatus) -> Swift.Void)
+  public func editManualTripEvaluation(tripId: Swift.String, evaluation: DriveKitDriverDataModule.EvaluationRequest, completionHandler: @escaping (DriveKitDriverDataModule.DKManualTripEditStatus) -> Swift.Void)
+  public func editAutoTripEvaluation(tripId: Swift.String, evaluation: DriveKitDriverDataModule.EvaluationRequest, completionHandler: @escaping (DriveKitDriverDataModule.DKAutoTripEditStatus) -> Swift.Void)
+  public func editManualTripManeuver(tripId: Swift.String, maneuver: DriveKitDriverDataModule.ManeuverRequest, completionHandler: @escaping (DriveKitDriverDataModule.DKManualTripEditStatus) -> Swift.Void)
+  public func editAutoTripManeuver(tripId: Swift.String, maneuver: DriveKitDriverDataModule.ManeuverRequest, completionHandler: @escaping (DriveKitDriverDataModule.DKAutoTripEditStatus) -> Swift.Void)
+  public func editManualTripInformation(tripId: Swift.String, information: DriveKitDriverDataModule.InformationRequest, completionHandler: @escaping (DriveKitDriverDataModule.DKManualTripEditStatus) -> Swift.Void)
+  public func editManualTripCondition(tripId: Swift.String, condition: DriveKitDriverDataModule.ConditionRequest, completionHandler: @escaping (DriveKitDriverDataModule.DKManualTripEditStatus) -> Swift.Void)
+  public func createManualTrip(manualTrip: DriveKitDriverDataModule.ManualTripRequest, completionHandler: @escaping (DriveKitDriverDataModule.DKManualTripsCreateStatus, Swift.String?) -> Swift.Void)
+  public func deleteTrip(itinId: Swift.String, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+  public func sendTripAdviceFeedback(itinId: Swift.String, adviceId: Swift.String, evaluation: Swift.Int, feedback: Swift.Int?, comment: Swift.String?, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+  public func sendCities(itinId: Swift.String, departureAddress: DriveKitCoreModule.DKAddress, arrivalAddress: DriveKitCoreModule.DKAddress, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+  public func getSynthesis(type: DriveKitCoreModule.SynchronizationType = .cache, completionHandler: @escaping (DriveKitDriverDataModule.SynthesisSyncStatus, DriveKitDBTripAccessModule.DKSynthesis?) -> Swift.Void)
+  public func getDriverTimelines(periods: [DriveKitCoreModule.DKPeriod], ignoreItemsWithoutTripScored: Swift.Bool = false, type: DriveKitCoreModule.SynchronizationType = .defaultSync, completionHandler: @escaping (DriveKitDriverDataModule.TimelineSyncStatus, [DriveKitDBTripAccessModule.DKDriverTimeline]?) -> Swift.Void)
+  public func getRawTimelines(periods: [DriveKitCoreModule.DKPeriod], type: DriveKitCoreModule.SynchronizationType, completionHandler: @escaping (DriveKitDriverDataModule.TimelineSyncStatus, [DriveKitDBTripAccessModule.DKRawTimeline]?) -> Swift.Void)
+  public func getDriverProfile(type: DriveKitCoreModule.SynchronizationType = .defaultSync, completionHandler: @escaping (DriveKitDBTripAccessModule.DKDriverProfileStatus, DriveKitDBTripAccessModule.DKDriverProfile?) -> Swift.Void)
+  public func getCommunityStatistics(type: DriveKitCoreModule.SynchronizationType = .defaultSync, completionHandler: @escaping (DriveKitDriverDataModule.CommunityStatisticsStatus, DriveKitDBTripAccessModule.DKCommunityStatistics?) -> Swift.Void)
+  public func declareTransportationMode(itinId: Swift.String, mode: DriveKitDBTripAccessModule.TransportationMode, passenger: Swift.Bool = false, comment: Swift.String? = nil, completionHandler: @escaping ((DriveKitDriverDataModule.DKDeclaredTransportationModeStatus) -> Swift.Void))
+  @objc deinit
+}
+public enum SynthesisSyncStatus {
+  case noError, cacheDataOnly, failedToSyncSynthesisCacheOnly
+  public static func == (a: DriveKitDriverDataModule.SynthesisSyncStatus, b: DriveKitDriverDataModule.SynthesisSyncStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CommunityStatisticsStatus {
+  case success, cacheDataOnly, failedToSyncCommunityStatisticsCacheOnly, userNotConnected
+  public static func == (a: DriveKitDriverDataModule.CommunityStatisticsStatus, b: DriveKitDriverDataModule.CommunityStatisticsStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct InformationRequest : Swift.Codable {
+  public let departureCity: Swift.String
+  public let arrivalCity: Swift.String
+  public let departureAddress: Swift.String
+  public let arrivalAddress: Swift.String
+  public let startDate: Foundation.Date
+  public let departureLatitude: Swift.Double?
+  public let departureLongitude: Swift.Double?
+  public let arrivalLatitude: Swift.Double?
+  public let arrivalLongitude: Swift.Double?
+  public let distance: Swift.Double
+  public let duration: Swift.Double
+  public init(departureCity: Swift.String, arrivalCity: Swift.String, departureAddress: Swift.String, arrivalAddress: Swift.String, startDate: Foundation.Date, departureLatitude: Swift.Double?, departureLongitude: Swift.Double?, arrivalLatitude: Swift.Double?, arrivalLongitude: Swift.Double?, distance: Swift.Double, duration: Swift.Double)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ConditionRequest : Swift.Codable {
+  public let dayTimeTrip: Swift.Bool?
+  public let weekDay: Swift.Bool?
+  public let context: DriveKitDBTripAccessModule.DKContext
+  public let weather: DriveKitDBTripAccessModule.DKWeather
+  public init(dayTimeTrip: Swift.Bool?, weekDay: Swift.Bool?, context: DriveKitDBTripAccessModule.DKContext, weather: DriveKitDBTripAccessModule.DKWeather)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ManualTripRequest : Swift.Codable {
+  public let maneuverData: DriveKitDriverDataModule.ManeuverRequest?
+  public let evaluationData: DriveKitDriverDataModule.EvaluationRequest?
+  public let conditionData: DriveKitDriverDataModule.ConditionRequest
+  public let informationData: DriveKitDriverDataModule.InformationRequest
+  public init(maneuver: DriveKitDriverDataModule.ManeuverRequest?, evaluation: DriveKitDriverDataModule.EvaluationRequest?, information: DriveKitDriverDataModule.InformationRequest, condition: DriveKitDriverDataModule.ConditionRequest)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc public enum DKManualTripsCreateStatus : Swift.Int {
+  case success, error, invalidData
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKManualTripEditStatus : Swift.Int {
+  case success, error, tripNotFound
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKManualTripDeleteStatus : Swift.Int {
+  case success, error, tripNotFound
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum DKManualTripSyncStatus {
+  case success, cacheDataOnly, failedToSyncManualTripsCacheOnly, syncAlreadyInProgress
+  public static func == (a: DriveKitDriverDataModule.DKManualTripSyncStatus, b: DriveKitDriverDataModule.DKManualTripSyncStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc public enum DKAutoTripEditStatus : Swift.Int {
+  case success, error, tripNotFound
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum DKDeclaredTransportationModeStatus {
+  case noError, failedToDeclareTransportationMode, commentTooLong
+  public static func == (a: DriveKitDriverDataModule.DKDeclaredTransportationModeStatus, b: DriveKitDriverDataModule.DKDeclaredTransportationModeStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum TimelineSyncStatus {
+  case noError, cacheDataOnly, failedToSyncTimelineCacheOnly, noTimelineYet
+  public static func == (a: DriveKitDriverDataModule.TimelineSyncStatus, b: DriveKitDriverDataModule.TimelineSyncStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum DriverDataConstants {
+}
+public enum TripSyncStatus {
+  case noError, cacheDataOnly, failedToSyncTripsCacheOnly, syncAlreadyInProgress, failedToSyncSafetyEvents
+  public static func == (a: DriveKitDriverDataModule.TripSyncStatus, b: DriveKitDriverDataModule.TripSyncStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct EvaluationRequest : Swift.Codable {
+  public let comment: Swift.String?
+  public let evaluation: Swift.Int?
+  public init(comment: Swift.String?, evaluation: Swift.Int?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ManeuverRequest : Swift.Codable {
+  public let nbEmergencyStops: Swift.Int?
+  public let nbAngledParkings: Swift.Int?
+  public let nbBayParkings: Swift.Int?
+  public let nbCurveReverseDrivings: Swift.Int?
+  public let nbHillStarts: Swift.Int?
+  public let nbParallelParkings: Swift.Int?
+  public let nbRoundAbouts: Swift.Int?
+  public let nbStraightReverseDrivings: Swift.Int?
+  public let nbTurns: Swift.Int?
+  public init(nbStraightReverseDrivings: Swift.Int?, nbCurveReverseDrivings: Swift.Int?, nbTurns: Swift.Int?, nbHillStarts: Swift.Int?, nbRoundAbouts: Swift.Int?, nbEmergencyStops: Swift.Int?, nbAngledParkings: Swift.Int?, nbParallelParkings: Swift.Int?, nbBayParkings: Swift.Int?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension DriveKitDriverDataModule.SynthesisSyncStatus : Swift.Equatable {}
+extension DriveKitDriverDataModule.SynthesisSyncStatus : Swift.Hashable {}
+extension DriveKitDriverDataModule.CommunityStatisticsStatus : Swift.Equatable {}
+extension DriveKitDriverDataModule.CommunityStatisticsStatus : Swift.Hashable {}
+extension DriveKitDriverDataModule.DKManualTripsCreateStatus : Swift.Equatable {}
+extension DriveKitDriverDataModule.DKManualTripsCreateStatus : Swift.Hashable {}
+extension DriveKitDriverDataModule.DKManualTripsCreateStatus : Swift.RawRepresentable {}
+extension DriveKitDriverDataModule.DKManualTripEditStatus : Swift.Equatable {}
+extension DriveKitDriverDataModule.DKManualTripEditStatus : Swift.Hashable {}
+extension DriveKitDriverDataModule.DKManualTripEditStatus : Swift.RawRepresentable {}
+extension DriveKitDriverDataModule.DKManualTripDeleteStatus : Swift.Equatable {}
+extension DriveKitDriverDataModule.DKManualTripDeleteStatus : Swift.Hashable {}
+extension DriveKitDriverDataModule.DKManualTripDeleteStatus : Swift.RawRepresentable {}
+extension DriveKitDriverDataModule.DKManualTripSyncStatus : Swift.Equatable {}
+extension DriveKitDriverDataModule.DKManualTripSyncStatus : Swift.Hashable {}
+extension DriveKitDriverDataModule.DKAutoTripEditStatus : Swift.Equatable {}
+extension DriveKitDriverDataModule.DKAutoTripEditStatus : Swift.Hashable {}
+extension DriveKitDriverDataModule.DKAutoTripEditStatus : Swift.RawRepresentable {}
+extension DriveKitDriverDataModule.DKDeclaredTransportationModeStatus : Swift.Equatable {}
+extension DriveKitDriverDataModule.DKDeclaredTransportationModeStatus : Swift.Hashable {}
+extension DriveKitDriverDataModule.TimelineSyncStatus : Swift.Equatable {}
+extension DriveKitDriverDataModule.TimelineSyncStatus : Swift.Hashable {}
+extension DriveKitDriverDataModule.TripSyncStatus : Swift.Equatable {}
+extension DriveKitDriverDataModule.TripSyncStatus : Swift.Hashable {}

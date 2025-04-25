@@ -1,0 +1,4 @@
+framework module DriveKitDriverAchievementModule {
+  header "DriveKitDriverAchievementModule-Swift.h"
+  requires objc
+}

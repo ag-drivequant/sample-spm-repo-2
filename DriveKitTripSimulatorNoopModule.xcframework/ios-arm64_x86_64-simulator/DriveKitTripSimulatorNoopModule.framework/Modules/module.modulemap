@@ -1,0 +1,4 @@
+framework module DriveKitTripSimulatorNoopModule {
+  header "DriveKitTripSimulatorNoopModule-Swift.h"
+  requires objc
+}

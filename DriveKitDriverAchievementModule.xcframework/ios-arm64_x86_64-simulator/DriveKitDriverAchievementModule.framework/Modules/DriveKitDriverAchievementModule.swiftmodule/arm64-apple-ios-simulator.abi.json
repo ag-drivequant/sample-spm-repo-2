@@ -1,0 +1,2608 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DriveKitDriverAchievementModule",
+    "printedName": "DriveKitDriverAchievementModule",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitCoreModule",
+        "printedName": "DriveKitCoreModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule"
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitDBAchievementAccessModule",
+        "printedName": "DriveKitDBAchievementAccessModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RankingSyncStatus",
+        "printedName": "RankingSyncStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noError",
+            "printedName": "noError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDriverAchievementModule.RankingSyncStatus.Type) -> DriveKitDriverAchievementModule.RankingSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RankingSyncStatus",
+                    "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RankingSyncStatus",
+                        "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus",
+                        "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus@RankingSyncStatusNoError",
+            "mangledName": "$s31DriveKitDriverAchievementModule17RankingSyncStatusO7noErroryA2CmF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "cacheDataOnly",
+            "printedName": "cacheDataOnly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDriverAchievementModule.RankingSyncStatus.Type) -> DriveKitDriverAchievementModule.RankingSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RankingSyncStatus",
+                    "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RankingSyncStatus",
+                        "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus",
+                        "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus@RankingSyncStatusCacheDataOnly",
+            "mangledName": "$s31DriveKitDriverAchievementModule17RankingSyncStatusO13cacheDataOnlyyA2CmF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "failedToSyncRanking",
+            "printedName": "failedToSyncRanking",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDriverAchievementModule.RankingSyncStatus.Type) -> DriveKitDriverAchievementModule.RankingSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RankingSyncStatus",
+                    "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RankingSyncStatus",
+                        "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus",
+                        "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus@RankingSyncStatusFailedToSyncRanking",
+            "mangledName": "$s31DriveKitDriverAchievementModule17RankingSyncStatusO08failedTogF0yA2CmF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "syncAlreadyInProgress",
+            "printedName": "syncAlreadyInProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDriverAchievementModule.RankingSyncStatus.Type) -> DriveKitDriverAchievementModule.RankingSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RankingSyncStatus",
+                    "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RankingSyncStatus",
+                        "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus",
+                        "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus@RankingSyncStatusSyncAlreadyInProgress",
+            "mangledName": "$s31DriveKitDriverAchievementModule17RankingSyncStatusO21syncAlreadyInProgressyA2CmF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "userNotRanked",
+            "printedName": "userNotRanked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDriverAchievementModule.RankingSyncStatus.Type) -> DriveKitDriverAchievementModule.RankingSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RankingSyncStatus",
+                    "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RankingSyncStatus",
+                        "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus",
+                        "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus@RankingSyncStatusUserNotRanked",
+            "mangledName": "$s31DriveKitDriverAchievementModule17RankingSyncStatusO13userNotRankedyA2CmF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RankingSyncStatus",
+                    "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:31DriveKitDriverAchievementModule17RankingSyncStatusO8rawValueACSgSi_tcfc",
+            "mangledName": "$s31DriveKitDriverAchievementModule17RankingSyncStatusO8rawValueACSgSi_tcfc",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31DriveKitDriverAchievementModule17RankingSyncStatusO8rawValueSivp",
+            "mangledName": "$s31DriveKitDriverAchievementModule17RankingSyncStatusO8rawValueSivp",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31DriveKitDriverAchievementModule17RankingSyncStatusO8rawValueSivg",
+                "mangledName": "$s31DriveKitDriverAchievementModule17RankingSyncStatusO8rawValueSivg",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus",
+        "mangledName": "$s31DriveKitDriverAchievementModule17RankingSyncStatusO",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BadgeSyncStatus",
+        "printedName": "BadgeSyncStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noError",
+            "printedName": "noError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDriverAchievementModule.BadgeSyncStatus.Type) -> DriveKitDriverAchievementModule.BadgeSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BadgeSyncStatus",
+                    "printedName": "DriveKitDriverAchievementModule.BadgeSyncStatus",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@E@BadgeSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDriverAchievementModule.BadgeSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BadgeSyncStatus",
+                        "printedName": "DriveKitDriverAchievementModule.BadgeSyncStatus",
+                        "usr": "c:@M@DriveKitDriverAchievementModule@E@BadgeSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDriverAchievementModule@E@BadgeSyncStatus@BadgeSyncStatusNoError",
+            "mangledName": "$s31DriveKitDriverAchievementModule15BadgeSyncStatusO7noErroryA2CmF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "cacheDataOnly",
+            "printedName": "cacheDataOnly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDriverAchievementModule.BadgeSyncStatus.Type) -> DriveKitDriverAchievementModule.BadgeSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BadgeSyncStatus",
+                    "printedName": "DriveKitDriverAchievementModule.BadgeSyncStatus",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@E@BadgeSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDriverAchievementModule.BadgeSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BadgeSyncStatus",
+                        "printedName": "DriveKitDriverAchievementModule.BadgeSyncStatus",
+                        "usr": "c:@M@DriveKitDriverAchievementModule@E@BadgeSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDriverAchievementModule@E@BadgeSyncStatus@BadgeSyncStatusCacheDataOnly",
+            "mangledName": "$s31DriveKitDriverAchievementModule15BadgeSyncStatusO13cacheDataOnlyyA2CmF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "failedToSyncBadgeCacheOnly",
+            "printedName": "failedToSyncBadgeCacheOnly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDriverAchievementModule.BadgeSyncStatus.Type) -> DriveKitDriverAchievementModule.BadgeSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BadgeSyncStatus",
+                    "printedName": "DriveKitDriverAchievementModule.BadgeSyncStatus",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@E@BadgeSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDriverAchievementModule.BadgeSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BadgeSyncStatus",
+                        "printedName": "DriveKitDriverAchievementModule.BadgeSyncStatus",
+                        "usr": "c:@M@DriveKitDriverAchievementModule@E@BadgeSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDriverAchievementModule@E@BadgeSyncStatus@BadgeSyncStatusFailedToSyncBadgeCacheOnly",
+            "mangledName": "$s31DriveKitDriverAchievementModule15BadgeSyncStatusO08failedTogF9CacheOnlyyA2CmF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "syncAlreadyInProgress",
+            "printedName": "syncAlreadyInProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDriverAchievementModule.BadgeSyncStatus.Type) -> DriveKitDriverAchievementModule.BadgeSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BadgeSyncStatus",
+                    "printedName": "DriveKitDriverAchievementModule.BadgeSyncStatus",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@E@BadgeSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDriverAchievementModule.BadgeSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BadgeSyncStatus",
+                        "printedName": "DriveKitDriverAchievementModule.BadgeSyncStatus",
+                        "usr": "c:@M@DriveKitDriverAchievementModule@E@BadgeSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDriverAchievementModule@E@BadgeSyncStatus@BadgeSyncStatusSyncAlreadyInProgress",
+            "mangledName": "$s31DriveKitDriverAchievementModule15BadgeSyncStatusO21syncAlreadyInProgressyA2CmF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DriveKitDriverAchievementModule.BadgeSyncStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BadgeSyncStatus",
+                    "printedName": "DriveKitDriverAchievementModule.BadgeSyncStatus",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@E@BadgeSyncStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:31DriveKitDriverAchievementModule15BadgeSyncStatusO8rawValueACSgSi_tcfc",
+            "mangledName": "$s31DriveKitDriverAchievementModule15BadgeSyncStatusO8rawValueACSgSi_tcfc",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31DriveKitDriverAchievementModule15BadgeSyncStatusO8rawValueSivp",
+            "mangledName": "$s31DriveKitDriverAchievementModule15BadgeSyncStatusO8rawValueSivp",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31DriveKitDriverAchievementModule15BadgeSyncStatusO8rawValueSivg",
+                "mangledName": "$s31DriveKitDriverAchievementModule15BadgeSyncStatusO8rawValueSivg",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DriveKitDriverAchievementModule@E@BadgeSyncStatus",
+        "mangledName": "$s31DriveKitDriverAchievementModule15BadgeSyncStatusO",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StreakSyncStatus",
+        "printedName": "StreakSyncStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noError",
+            "printedName": "noError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDriverAchievementModule.StreakSyncStatus.Type) -> DriveKitDriverAchievementModule.StreakSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreakSyncStatus",
+                    "printedName": "DriveKitDriverAchievementModule.StreakSyncStatus",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@E@StreakSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDriverAchievementModule.StreakSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreakSyncStatus",
+                        "printedName": "DriveKitDriverAchievementModule.StreakSyncStatus",
+                        "usr": "c:@M@DriveKitDriverAchievementModule@E@StreakSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDriverAchievementModule@E@StreakSyncStatus@StreakSyncStatusNoError",
+            "mangledName": "$s31DriveKitDriverAchievementModule16StreakSyncStatusO7noErroryA2CmF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "cacheDataOnly",
+            "printedName": "cacheDataOnly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDriverAchievementModule.StreakSyncStatus.Type) -> DriveKitDriverAchievementModule.StreakSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreakSyncStatus",
+                    "printedName": "DriveKitDriverAchievementModule.StreakSyncStatus",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@E@StreakSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDriverAchievementModule.StreakSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreakSyncStatus",
+                        "printedName": "DriveKitDriverAchievementModule.StreakSyncStatus",
+                        "usr": "c:@M@DriveKitDriverAchievementModule@E@StreakSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDriverAchievementModule@E@StreakSyncStatus@StreakSyncStatusCacheDataOnly",
+            "mangledName": "$s31DriveKitDriverAchievementModule16StreakSyncStatusO13cacheDataOnlyyA2CmF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "failedToSyncStreakCacheOnly",
+            "printedName": "failedToSyncStreakCacheOnly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDriverAchievementModule.StreakSyncStatus.Type) -> DriveKitDriverAchievementModule.StreakSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreakSyncStatus",
+                    "printedName": "DriveKitDriverAchievementModule.StreakSyncStatus",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@E@StreakSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDriverAchievementModule.StreakSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreakSyncStatus",
+                        "printedName": "DriveKitDriverAchievementModule.StreakSyncStatus",
+                        "usr": "c:@M@DriveKitDriverAchievementModule@E@StreakSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDriverAchievementModule@E@StreakSyncStatus@StreakSyncStatusFailedToSyncStreakCacheOnly",
+            "mangledName": "$s31DriveKitDriverAchievementModule16StreakSyncStatusO08failedTogF9CacheOnlyyA2CmF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "syncAlreadyInProgress",
+            "printedName": "syncAlreadyInProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDriverAchievementModule.StreakSyncStatus.Type) -> DriveKitDriverAchievementModule.StreakSyncStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreakSyncStatus",
+                    "printedName": "DriveKitDriverAchievementModule.StreakSyncStatus",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@E@StreakSyncStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DriveKitDriverAchievementModule.StreakSyncStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreakSyncStatus",
+                        "printedName": "DriveKitDriverAchievementModule.StreakSyncStatus",
+                        "usr": "c:@M@DriveKitDriverAchievementModule@E@StreakSyncStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DriveKitDriverAchievementModule@E@StreakSyncStatus@StreakSyncStatusSyncAlreadyInProgress",
+            "mangledName": "$s31DriveKitDriverAchievementModule16StreakSyncStatusO21syncAlreadyInProgressyA2CmF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DriveKitDriverAchievementModule.StreakSyncStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StreakSyncStatus",
+                    "printedName": "DriveKitDriverAchievementModule.StreakSyncStatus",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@E@StreakSyncStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:31DriveKitDriverAchievementModule16StreakSyncStatusO8rawValueACSgSi_tcfc",
+            "mangledName": "$s31DriveKitDriverAchievementModule16StreakSyncStatusO8rawValueACSgSi_tcfc",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31DriveKitDriverAchievementModule16StreakSyncStatusO8rawValueSivp",
+            "mangledName": "$s31DriveKitDriverAchievementModule16StreakSyncStatusO8rawValueSivp",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31DriveKitDriverAchievementModule16StreakSyncStatusO8rawValueSivg",
+                "mangledName": "$s31DriveKitDriverAchievementModule16StreakSyncStatusO8rawValueSivg",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DriveKitDriverAchievementModule@E@StreakSyncStatus",
+        "mangledName": "$s31DriveKitDriverAchievementModule16StreakSyncStatusO",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DKBadgeStatistics",
+        "printedName": "DKBadgeStatistics",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "acquired",
+            "printedName": "acquired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC8acquiredSivp",
+            "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC8acquiredSivp",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC8acquiredSivg",
+                "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC8acquiredSivg",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "acquiredBronze",
+            "printedName": "acquiredBronze",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC14acquiredBronzeSivp",
+            "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC14acquiredBronzeSivp",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC14acquiredBronzeSivg",
+                "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC14acquiredBronzeSivg",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "acquiredSilver",
+            "printedName": "acquiredSilver",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC14acquiredSilverSivp",
+            "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC14acquiredSilverSivp",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC14acquiredSilverSivg",
+                "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC14acquiredSilverSivg",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "acquiredGold",
+            "printedName": "acquiredGold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC12acquiredGoldSivp",
+            "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC12acquiredGoldSivp",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC12acquiredGoldSivg",
+                "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC12acquiredGoldSivg",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "remaining",
+            "printedName": "remaining",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC9remainingSivp",
+            "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC9remainingSivp",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC9remainingSivg",
+                "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC9remainingSivg",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "remainingBronze",
+            "printedName": "remainingBronze",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC15remainingBronzeSivp",
+            "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC15remainingBronzeSivp",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC15remainingBronzeSivg",
+                "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC15remainingBronzeSivg",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "remainingSilver",
+            "printedName": "remainingSilver",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC15remainingSilverSivp",
+            "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC15remainingSilverSivp",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC15remainingSilverSivg",
+                "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC15remainingSilverSivg",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "remainingGold",
+            "printedName": "remainingGold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC13remainingGoldSivp",
+            "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC13remainingGoldSivp",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC13remainingGoldSivg",
+                "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC13remainingGoldSivg",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "total",
+            "printedName": "total",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC5totalSivp",
+            "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC5totalSivp",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC5totalSivg",
+                "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC5totalSivg",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalBronze",
+            "printedName": "totalBronze",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC11totalBronzeSivp",
+            "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC11totalBronzeSivp",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC11totalBronzeSivg",
+                "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC11totalBronzeSivg",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalSilver",
+            "printedName": "totalSilver",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC11totalSilverSivp",
+            "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC11totalSilverSivp",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC11totalSilverSivg",
+                "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC11totalSilverSivg",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalGold",
+            "printedName": "totalGold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC9totalGoldSivp",
+            "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC9totalGoldSivp",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC9totalGoldSivg",
+                "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC9totalGoldSivg",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(acquired:acquiredBronze:acquiredSilver:acquiredGold:remaining:remainingBronze:remainingSilver:remainingGold:total:totalBronze:totalSilver:totalGold:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DKBadgeStatistics",
+                "printedName": "DriveKitDriverAchievementModule.DKBadgeStatistics",
+                "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DKBadgeStatistics"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:31DriveKitDriverAchievementModule17DKBadgeStatisticsC8acquired0H6Bronze0H6Silver0H4Gold9remaining0lI00lJ00lK05total0mI00mJ00mK0ACSi_S11itcfc",
+            "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC8acquired0H6Bronze0H6Silver0H4Gold9remaining0lI00lJ00lK05total0mI00mJ00mK0ACSi_S11itcfc",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DKBadgeStatistics",
+                "printedName": "DriveKitDriverAchievementModule.DKBadgeStatistics",
+                "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DKBadgeStatistics"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DKBadgeStatistics(im)init",
+            "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsCACycfc",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DKBadgeStatistics",
+        "mangledName": "$s31DriveKitDriverAchievementModule17DKBadgeStatisticsC",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitCoreModule",
+        "printedName": "DriveKitCoreModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule"
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitDBAchievementAccessModule",
+        "printedName": "DriveKitDBAchievementAccessModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DriveKitDriverAchievement",
+        "printedName": "DriveKitDriverAchievement",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DriveKitDriverAchievement(cpy)sdkVersion",
+            "mangledName": "$s31DriveKitDriverAchievementModule0abcD0C10sdkVersionSSvpZ",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DriveKitDriverAchievement(cm)sdkVersion",
+                "mangledName": "$s31DriveKitDriverAchievementModule0abcD0C10sdkVersionSSvgZ",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DriveKitDriverAchievement",
+                "printedName": "DriveKitDriverAchievementModule.DriveKitDriverAchievement",
+                "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DriveKitDriverAchievement"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DriveKitDriverAchievement(cpy)shared",
+            "mangledName": "$s31DriveKitDriverAchievementModule0abcD0C6sharedACvpZ",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DriveKitDriverAchievement",
+                    "printedName": "DriveKitDriverAchievementModule.DriveKitDriverAchievement",
+                    "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DriveKitDriverAchievement"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DriveKitDriverAchievement(cm)shared",
+                "mangledName": "$s31DriveKitDriverAchievementModule0abcD0C6sharedACvgZ",
+                "moduleName": "DriveKitDriverAchievementModule",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DriveKitDriverAchievement(im)initialize",
+            "mangledName": "$s31DriveKitDriverAchievementModule0abcD0C10initializeyyF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getStreaks",
+            "printedName": "getStreaks(type:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SynchronizationType",
+                "printedName": "DriveKitCoreModule.SynchronizationType",
+                "hasDefaultArg": true,
+                "usr": "c:@M@DriveKitCoreModule@E@SynchronizationType"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDriverAchievementModule.StreakSyncStatus, [DriveKitDBAchievementAccessModule.DKStreak]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(DriveKitDriverAchievementModule.StreakSyncStatus, [DriveKitDBAchievementAccessModule.DKStreak])",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StreakSyncStatus",
+                        "printedName": "DriveKitDriverAchievementModule.StreakSyncStatus",
+                        "usr": "c:@M@DriveKitDriverAchievementModule@E@StreakSyncStatus"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[DriveKitDBAchievementAccessModule.DKStreak]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DKStreak",
+                            "printedName": "DriveKitDBAchievementAccessModule.DKStreak",
+                            "usr": "c:@M@DriveKitDBAchievementAccessModule@objc(cs)DKStreak"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DriveKitDriverAchievement(im)getStreaksWithType:completionHandler:",
+            "mangledName": "$s31DriveKitDriverAchievementModule0abcD0C10getStreaks4type17completionHandlery0ab4CoreE019SynchronizationTypeO_yAA16StreakSyncStatusO_Say0ab19DBAchievementAccessE08DKStreakCGtctF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "objc_name": "getStreaksWithType:completionHandler:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBadges",
+            "printedName": "getBadges(type:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SynchronizationType",
+                "printedName": "DriveKitCoreModule.SynchronizationType",
+                "hasDefaultArg": true,
+                "usr": "c:@M@DriveKitCoreModule@E@SynchronizationType"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDriverAchievementModule.BadgeSyncStatus, [DriveKitDBAchievementAccessModule.DKBadge], Swift.Int) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(DriveKitDriverAchievementModule.BadgeSyncStatus, [DriveKitDBAchievementAccessModule.DKBadge], Swift.Int)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BadgeSyncStatus",
+                        "printedName": "DriveKitDriverAchievementModule.BadgeSyncStatus",
+                        "usr": "c:@M@DriveKitDriverAchievementModule@E@BadgeSyncStatus"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[DriveKitDBAchievementAccessModule.DKBadge]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DKBadge",
+                            "printedName": "DriveKitDBAchievementAccessModule.DKBadge",
+                            "usr": "c:@M@DriveKitDBAchievementAccessModule@objc(cs)DKBadge"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DriveKitDriverAchievement(im)getBadgesWithType:completionHandler:",
+            "mangledName": "$s31DriveKitDriverAchievementModule0abcD0C9getBadges4type17completionHandlery0ab4CoreE019SynchronizationTypeO_yAA15BadgeSyncStatusO_Say0ab19DBAchievementAccessE07DKBadgeCGSitctF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "objc_name": "getBadgesWithType:completionHandler:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBadgeStatistics",
+            "printedName": "getBadgeStatistics()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DKBadgeStatistics",
+                "printedName": "DriveKitDriverAchievementModule.DKBadgeStatistics",
+                "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DKBadgeStatistics"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DriveKitDriverAchievement(im)getBadgeStatistics",
+            "mangledName": "$s31DriveKitDriverAchievementModule0abcD0C18getBadgeStatisticsAA07DKBadgeH0CyF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRanking",
+            "printedName": "getRanking(rankingType:rankingPeriod:rankingDepth:groupName:type:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DKRankingType",
+                "printedName": "DriveKitDBAchievementAccessModule.DKRankingType",
+                "usr": "c:@M@DriveKitDBAchievementAccessModule@E@DKRankingType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DKRankingPeriod",
+                "printedName": "DriveKitDBAchievementAccessModule.DKRankingPeriod",
+                "hasDefaultArg": true,
+                "usr": "c:@M@DriveKitDBAchievementAccessModule@E@DKRankingPeriod"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SynchronizationType",
+                "printedName": "DriveKitCoreModule.SynchronizationType",
+                "hasDefaultArg": true,
+                "usr": "c:@M@DriveKitCoreModule@E@SynchronizationType"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DriveKitDriverAchievementModule.RankingSyncStatus, DriveKitDBAchievementAccessModule.DKRanking?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(DriveKitDriverAchievementModule.RankingSyncStatus, DriveKitDBAchievementAccessModule.DKRanking?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RankingSyncStatus",
+                        "printedName": "DriveKitDriverAchievementModule.RankingSyncStatus",
+                        "usr": "c:@M@DriveKitDriverAchievementModule@E@RankingSyncStatus"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "DriveKitDBAchievementAccessModule.DKRanking?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DKRanking",
+                            "printedName": "DriveKitDBAchievementAccessModule.DKRanking",
+                            "usr": "c:@M@DriveKitDBAchievementAccessModule@objc(cs)DKRanking"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DriveKitDriverAchievement(im)getRankingWithRankingType:rankingPeriod:rankingDepth:groupName:type:completionHandler:",
+            "mangledName": "$s31DriveKitDriverAchievementModule0abcD0C10getRanking11rankingType0H6Period0H5Depth9groupName4type17completionHandlery0ab19DBAchievementAccessE009DKRankingI0O_AK0sJ0OSiSSSg0ab4CoreE0015SynchronizationI0OyAA0G10SyncStatusO_AK0S0CSgtctF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "objc_name": "getRankingWithRankingType:rankingPeriod:rankingDepth:groupName:type:completionHandler:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DriveKitDriverAchievement(im)reset",
+            "mangledName": "$s31DriveKitDriverAchievementModule0abcD0C5resetyyF",
+            "moduleName": "DriveKitDriverAchievementModule",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DriveKitDriverAchievementModule@objc(cs)DriveKitDriverAchievement",
+        "mangledName": "$s31DriveKitDriverAchievementModule0abcD0C",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitCoreModule",
+        "printedName": "DriveKitCoreModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule"
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitDBAchievementAccessModule",
+        "printedName": "DriveKitDBAchievementAccessModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitCoreModule",
+        "printedName": "DriveKitCoreModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule"
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitDBAchievementAccessModule",
+        "printedName": "DriveKitDBAchievementAccessModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitDBAchievementAccessModule",
+        "printedName": "DriveKitDBAchievementAccessModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DriveKitCoreModule",
+        "printedName": "DriveKitCoreModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitDriverAchievementModule"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/ranking\/RankingSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 13,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/ranking\/RankingSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 288,
+      "length": 19,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/ranking\/RankingSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 309,
+      "length": 21,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/ranking\/RankingSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 332,
+      "length": 13,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/badge\/BadgeSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 13,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/badge\/BadgeSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 271,
+      "length": 26,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/badge\/BadgeSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 21,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/streak\/StreakSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 271,
+      "length": 13,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/streak\/StreakSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 27,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/streak\/StreakSyncStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 315,
+      "length": 21,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/DriveKitDriverAchievement.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4403,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/DriveKitDriverAchievementConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 318,
+      "length": 29,
+      "value": "\"DriveKit Driver Achievement\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/DriveKitDriverAchievementConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 385,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/DriveKitDriverAchievementConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 426,
+      "length": 44,
+      "value": "\"drivekit-driverachievement-internalVersion\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/DriveKitDriverAchievementConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 33,
+      "value": "\"drivekit-streak-sync-identifier\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/DriveKitDriverAchievementConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 581,
+      "length": 32,
+      "value": "\"drivekit-badge-sync-identifier\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/DriveKitDriverAchievementConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 893,
+      "length": 35,
+      "value": "\"\/v2\/drivekit\/driver\/games\/streaks\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/DriveKitDriverAchievementConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 992,
+      "length": 41,
+      "value": "\"\/v2\/drivekit\/driver\/achievements\/badges\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/DriveKitDriverAchievementConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1066,
+      "length": 62,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/DriveKitDriverAchievementConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1100,
+      "length": 1,
+      "value": "\"\/v2\/drivekit\/driver\/ranking\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/DriveKitDriverAchievementConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1166,
+      "length": 38,
+      "value": "\"drivekit-achievement-badgeStatistics\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/DriveKitDriverAchievementConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1237,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/drivekit-driver-achievement\/DriveKitDriverAchievementConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1269,
+      "length": 1,
+      "value": "2"
+    }
+  ]
+}
