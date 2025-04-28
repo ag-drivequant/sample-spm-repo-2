@@ -1,15 +1,15 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "DriveKitTripSimulatorNoopModule",
-    "printedName": "DriveKitTripSimulatorNoopModule",
+    "name": "DriveKitTripSimulatorModule",
+    "printedName": "DriveKitTripSimulatorModule",
     "children": [
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "DriveKitTripSimulatorNoopModule",
+        "moduleName": "DriveKitTripSimulatorModule",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -19,14 +19,14 @@
         "name": "DriveKitTripSimulatorApiModule",
         "printedName": "DriveKitTripSimulatorApiModule",
         "declKind": "Import",
-        "moduleName": "DriveKitTripSimulatorNoopModule"
+        "moduleName": "DriveKitTripSimulatorModule"
       },
       {
         "kind": "Import",
         "name": "DriveKitCoreModule",
         "printedName": "DriveKitCoreModule",
         "declKind": "Import",
-        "moduleName": "DriveKitTripSimulatorNoopModule"
+        "moduleName": "DriveKitTripSimulatorModule"
       },
       {
         "kind": "TypeDecl",
@@ -46,9 +46,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator(py)isNoop",
-            "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0C02isE0Sbvp",
-            "moduleName": "DriveKitTripSimulatorNoopModule",
+            "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator(py)isNoop",
+            "mangledName": "$s27DriveKitTripSimulatorModule0abcD0C6isNoopSbvp",
+            "moduleName": "DriveKitTripSimulatorModule",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -70,9 +70,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator(im)isNoop",
-                "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0C02isE0Sbvg",
-                "moduleName": "DriveKitTripSimulatorNoopModule",
+                "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator(im)isNoop",
+                "mangledName": "$s27DriveKitTripSimulatorModule0abcD0C6isNoopSbvg",
+                "moduleName": "DriveKitTripSimulatorModule",
                 "implicit": true,
                 "declAttributes": [
                   "ObjC"
@@ -97,9 +97,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator(im)setIsNoop:",
-                "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0C02isE0Sbvs",
-                "moduleName": "DriveKitTripSimulatorNoopModule",
+                "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator(im)setIsNoop:",
+                "mangledName": "$s27DriveKitTripSimulatorModule0abcD0C6isNoopSbvs",
+                "moduleName": "DriveKitTripSimulatorModule",
                 "implicit": true,
                 "declAttributes": [
                   "ObjC"
@@ -118,9 +118,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:31DriveKitTripSimulatorNoopModule0abcD0C02isE0SbvM",
-                "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0C02isE0SbvM",
-                "moduleName": "DriveKitTripSimulatorNoopModule",
+                "usr": "s:27DriveKitTripSimulatorModule0abcD0C6isNoopSbvM",
+                "mangledName": "$s27DriveKitTripSimulatorModule0abcD0C6isNoopSbvM",
+                "moduleName": "DriveKitTripSimulatorModule",
                 "implicit": true,
                 "accessorKind": "_modify"
               }
@@ -139,9 +139,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator(cpy)sdkVersion",
-            "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0C10sdkVersionSSvpZ",
-            "moduleName": "DriveKitTripSimulatorNoopModule",
+            "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator(cpy)sdkVersion",
+            "mangledName": "$s27DriveKitTripSimulatorModule0abcD0C10sdkVersionSSvpZ",
+            "moduleName": "DriveKitTripSimulatorModule",
             "static": true,
             "declAttributes": [
               "HasInitialValue",
@@ -166,9 +166,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator(cm)sdkVersion",
-                "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0C10sdkVersionSSvgZ",
-                "moduleName": "DriveKitTripSimulatorNoopModule",
+                "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator(cm)sdkVersion",
+                "mangledName": "$s27DriveKitTripSimulatorModule0abcD0C10sdkVersionSSvgZ",
+                "moduleName": "DriveKitTripSimulatorModule",
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
@@ -187,14 +187,14 @@
               {
                 "kind": "TypeNominal",
                 "name": "DriveKitTripSimulator",
-                "printedName": "DriveKitTripSimulatorNoopModule.DriveKitTripSimulator",
-                "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator"
+                "printedName": "DriveKitTripSimulatorModule.DriveKitTripSimulator",
+                "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator(cpy)shared",
-            "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0C6sharedACvpZ",
-            "moduleName": "DriveKitTripSimulatorNoopModule",
+            "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator(cpy)shared",
+            "mangledName": "$s27DriveKitTripSimulatorModule0abcD0C6sharedACvpZ",
+            "moduleName": "DriveKitTripSimulatorModule",
             "static": true,
             "declAttributes": [
               "HasInitialValue",
@@ -214,14 +214,14 @@
                   {
                     "kind": "TypeNominal",
                     "name": "DriveKitTripSimulator",
-                    "printedName": "DriveKitTripSimulatorNoopModule.DriveKitTripSimulator",
-                    "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator"
+                    "printedName": "DriveKitTripSimulatorModule.DriveKitTripSimulator",
+                    "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator(cm)shared",
-                "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0C6sharedACvgZ",
-                "moduleName": "DriveKitTripSimulatorNoopModule",
+                "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator(cm)shared",
+                "mangledName": "$s27DriveKitTripSimulatorModule0abcD0C6sharedACvgZ",
+                "moduleName": "DriveKitTripSimulatorModule",
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
@@ -245,9 +245,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator(py)isSimulatingTrip",
-            "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0C012isSimulatingC0Sbvp",
-            "moduleName": "DriveKitTripSimulatorNoopModule",
+            "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator(py)isSimulatingTrip",
+            "mangledName": "$s27DriveKitTripSimulatorModule0abcD0C012isSimulatingC0Sbvp",
+            "moduleName": "DriveKitTripSimulatorModule",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -270,9 +270,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator(im)isSimulatingTrip",
-                "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0C012isSimulatingC0Sbvg",
-                "moduleName": "DriveKitTripSimulatorNoopModule",
+                "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator(im)isSimulatingTrip",
+                "mangledName": "$s27DriveKitTripSimulatorModule0abcD0C012isSimulatingC0Sbvg",
+                "moduleName": "DriveKitTripSimulatorModule",
                 "implicit": true,
                 "declAttributes": [
                   "ObjC"
@@ -293,9 +293,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator(im)initialize",
-            "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0C10initializeyyF",
-            "moduleName": "DriveKitTripSimulatorNoopModule",
+            "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator(im)initialize",
+            "mangledName": "$s27DriveKitTripSimulatorModule0abcD0C10initializeyyF",
+            "moduleName": "DriveKitTripSimulatorModule",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -320,9 +320,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator(im)startCrashTrip:",
-            "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0C010startCrashC0yy0abcd3ApiF006PresetH13ConfigurationOF",
-            "moduleName": "DriveKitTripSimulatorNoopModule",
+            "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator(im)startCrashTrip:",
+            "mangledName": "$s27DriveKitTripSimulatorModule0abcD0C010startCrashC0yy0abcd3ApiE006PresetG13ConfigurationOF",
+            "moduleName": "DriveKitTripSimulatorModule",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -362,9 +362,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:31DriveKitTripSimulatorNoopModule0abcD0C010startCrashC0_8delegatey0abcd3ApiF006PresetH13ConfigurationO_AF06DKTripD8Delegate_pSgtF",
-            "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0C010startCrashC0_8delegatey0abcd3ApiF006PresetH13ConfigurationO_AF06DKTripD8Delegate_pSgtF",
-            "moduleName": "DriveKitTripSimulatorNoopModule",
+            "usr": "s:27DriveKitTripSimulatorModule0abcD0C010startCrashC0_8delegatey0abcd3ApiE006PresetG13ConfigurationO_AF06DKTripD8Delegate_pSgtF",
+            "mangledName": "$s27DriveKitTripSimulatorModule0abcD0C010startCrashC0_8delegatey0abcd3ApiE006PresetG13ConfigurationO_AF06DKTripD8Delegate_pSgtF",
+            "moduleName": "DriveKitTripSimulatorModule",
             "declAttributes": [
               "AccessControl"
             ],
@@ -417,9 +417,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator(im)start:crash:crashTime:delegate:",
-            "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0C5start_5crash0H4Time8delegatey0abcd3ApiF006PresetC0O_AH0L5CrashOSiAH06DKTripD8Delegate_pSgtF",
-            "moduleName": "DriveKitTripSimulatorNoopModule",
+            "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator(im)start:crash:crashTime:delegate:",
+            "mangledName": "$s27DriveKitTripSimulatorModule0abcD0C5start_5crash0G4Time8delegatey0abcd3ApiE006PresetC0O_AH0K5CrashOSiAH06DKTripD8Delegate_pSgtF",
+            "moduleName": "DriveKitTripSimulatorModule",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -438,9 +438,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator(im)stop",
-            "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0C4stopyyF",
-            "moduleName": "DriveKitTripSimulatorNoopModule",
+            "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator(im)stop",
+            "mangledName": "$s27DriveKitTripSimulatorModule0abcD0C4stopyyF",
+            "moduleName": "DriveKitTripSimulatorModule",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -455,14 +455,14 @@
               {
                 "kind": "TypeNominal",
                 "name": "DriveKitTripSimulator",
-                "printedName": "DriveKitTripSimulatorNoopModule.DriveKitTripSimulator",
-                "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator"
+                "printedName": "DriveKitTripSimulatorModule.DriveKitTripSimulator",
+                "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator(im)init",
-            "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0CACycfc",
-            "moduleName": "DriveKitTripSimulatorNoopModule",
+            "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator(im)init",
+            "mangledName": "$s27DriveKitTripSimulatorModule0abcD0CACycfc",
+            "moduleName": "DriveKitTripSimulatorModule",
             "overriding": true,
             "implicit": true,
             "objc_name": "init",
@@ -475,9 +475,9 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@DriveKitTripSimulatorNoopModule@objc(cs)DriveKitTripSimulator",
-        "mangledName": "$s31DriveKitTripSimulatorNoopModule0abcD0C",
-        "moduleName": "DriveKitTripSimulatorNoopModule",
+        "usr": "c:@M@DriveKitTripSimulatorModule@objc(cs)DriveKitTripSimulator",
+        "mangledName": "$s27DriveKitTripSimulatorModule0abcD0C",
+        "moduleName": "DriveKitTripSimulatorModule",
         "declAttributes": [
           "AccessControl",
           "ObjC"
@@ -578,9 +578,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:30DriveKitTripSimulatorApiModule06PresetC0O0abcd4NoopF0E11getDistanceSdyF",
-            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O0abcd4NoopF0E11getDistanceSdyF",
-            "moduleName": "DriveKitTripSimulatorNoopModule",
+            "usr": "s:30DriveKitTripSimulatorApiModule06PresetC0O0abcdF0E11getDistanceSdyF",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O0abcdF0E11getDistanceSdyF",
+            "moduleName": "DriveKitTripSimulatorModule",
             "declAttributes": [
               "AccessControl"
             ],
@@ -600,9 +600,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:30DriveKitTripSimulatorApiModule06PresetC0O0abcd4NoopF0E21getSimulationDurationSdyF",
-            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O0abcd4NoopF0E21getSimulationDurationSdyF",
-            "moduleName": "DriveKitTripSimulatorNoopModule",
+            "usr": "s:30DriveKitTripSimulatorApiModule06PresetC0O0abcdF0E21getSimulationDurationSdyF",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule06PresetC0O0abcdF0E21getSimulationDurationSdyF",
+            "moduleName": "DriveKitTripSimulatorModule",
             "declAttributes": [
               "AccessControl"
             ],
@@ -697,9 +697,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:30DriveKitTripSimulatorApiModule24PresetCrashConfigurationO0abcd4NoopF0E03getgC0AA0gC0OyF",
-            "mangledName": "$s30DriveKitTripSimulatorApiModule24PresetCrashConfigurationO0abcd4NoopF0E03getgC0AA0gC0OyF",
-            "moduleName": "DriveKitTripSimulatorNoopModule",
+            "usr": "s:30DriveKitTripSimulatorApiModule24PresetCrashConfigurationO0abcdF0E03getgC0AA0gC0OyF",
+            "mangledName": "$s30DriveKitTripSimulatorApiModule24PresetCrashConfigurationO0abcdF0E03getgC0AA0gC0OyF",
+            "moduleName": "DriveKitTripSimulatorModule",
             "declAttributes": [
               "AccessControl"
             ],

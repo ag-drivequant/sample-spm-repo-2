@@ -4,190 +4,190 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/DriveKitTripSimulatorNoopModule</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/DriveKitTripSimulatorModule</key>
 		<data>
-		GJVSJpIM1tp/SE+L3eoUy/uc9nQ=
+		cBQnmhzDnUwzpkoLdnsRRR30A8c=
 		</data>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/Headers/DriveKitTripSimulatorNoopModule-Swift.h</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/Headers/DriveKitTripSimulatorModule-Swift.h</key>
 		<data>
-		V2SdoaQecjafbagsNzn1HpO7+/w=
+		E8gZjzbUf3zazoDhphVE0CUqUdc=
 		</data>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/Info.plist</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/Info.plist</key>
 		<data>
-		XvMgpvGF13z/jrIJWvGUjv599us=
+		HpKrzv/SAKISFwTKBV08VYHWqT4=
 		</data>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		csq5ZItzkfnjeebKv0JnKGVxBAE=
+		pZ517pSXR60scPyCgfB5zbBKoVQ=
 		</data>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Vbh7Vfx/GRey0GlJgoSXEoxJ7cs=
+		6d271OegvnbHNQG3aZp+jVoOvrM=
 		</data>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		dHG5grFQmtTDAubXl3ju7V44/HI=
+		mQZkQMg6RGv+8HXBHGdXNDEeNTs=
 		</data>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Vbh7Vfx/GRey0GlJgoSXEoxJ7cs=
+		6d271OegvnbHNQG3aZp+jVoOvrM=
 		</data>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/Modules/module.modulemap</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/Modules/module.modulemap</key>
 		<data>
-		52luv+vEcEk1h4SxelIltVavNcU=
+		c91Ji6YQN+QDQxsDp/0Z0GBPtXk=
 		</data>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		varhoID5mdbsk3Yw+md5eGuLaJs=
 		</data>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/DriveKitTripSimulatorNoopModule</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/DriveKitTripSimulatorModule</key>
 		<data>
-		85SvrY6+JA6PArtCSFp2D6UYUxw=
+		WD2r/sJylAML6vuIBkiM24R80mc=
 		</data>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Headers/DriveKitTripSimulatorNoopModule-Swift.h</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Headers/DriveKitTripSimulatorModule-Swift.h</key>
 		<data>
-		Zl3SttjoctDsbUNEkJydmmCYiBc=
+		yqHdaRqFJ4g9nnoWt6yjc2aAF6Y=
 		</data>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Info.plist</key>
 		<data>
-		lZZR0w8Rhsv0hlz92MSEfLx/KXU=
+		V4lqcbgulHSbl8m7SqbSUVrdC4o=
 		</data>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		csq5ZItzkfnjeebKv0JnKGVxBAE=
+		pZ517pSXR60scPyCgfB5zbBKoVQ=
 		</data>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pkZtInL00ydBq47Yc2avi5JSyPg=
+		99chN/Y8llFyPfpOF72nELeVhVo=
 		</data>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		kroOCvCbUuSubPR5CQHXAXy1u0U=
+		0umlcYrMVmuPKQQgTwVjynhRzH8=
 		</data>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pkZtInL00ydBq47Yc2avi5JSyPg=
+		99chN/Y8llFyPfpOF72nELeVhVo=
 		</data>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		csq5ZItzkfnjeebKv0JnKGVxBAE=
+		pZ517pSXR60scPyCgfB5zbBKoVQ=
 		</data>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6PJ3ke0r/CrzXToK3Fz6TV01MQE=
+		eMPYEzZtQjABMCXEPyC6YwQv9/s=
 		</data>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		8urCIlAd8l9gwS/h7GyZJhx9nvI=
+		Wx7k0JosBFEmhSLzRJS7QdNcTx8=
 		</data>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6PJ3ke0r/CrzXToK3Fz6TV01MQE=
+		eMPYEzZtQjABMCXEPyC6YwQv9/s=
 		</data>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/module.modulemap</key>
 		<data>
-		52luv+vEcEk1h4SxelIltVavNcU=
+		c91Ji6YQN+QDQxsDp/0Z0GBPtXk=
 		</data>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		varhoID5mdbsk3Yw+md5eGuLaJs=
 		</data>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/_CodeSignature/CodeResources</key>
 		<data>
-		q2sS6nIXqzWbEWwP9m1Cy1lwbBo=
+		zaCh3tIY0ro3S+wCmD0W9iyXjx4=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/DriveKitTripSimulatorNoopModule</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/DriveKitTripSimulatorModule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GJVSJpIM1tp/SE+L3eoUy/uc9nQ=
+			cBQnmhzDnUwzpkoLdnsRRR30A8c=
 			</data>
 			<key>hash2</key>
 			<data>
-			DroCQ9HmMVNu2wLjj7tHm0z1MfzIU5ZN7QDHPQFSDMA=
+			4sRklRgBqIPfw+FcGrbu6+kR+ac0m6qUUnOtRPjEMTs=
 			</data>
 		</dict>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/Headers/DriveKitTripSimulatorNoopModule-Swift.h</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/Headers/DriveKitTripSimulatorModule-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V2SdoaQecjafbagsNzn1HpO7+/w=
+			E8gZjzbUf3zazoDhphVE0CUqUdc=
 			</data>
 			<key>hash2</key>
 			<data>
-			WNq17yYgQIcu90BBQNMeU+iEDQGr/QwwgLU5PwZFExM=
+			jxNeZf7ljafGaC9ZKngiJQ3ed8YTFoDJQsJBZcU5VkM=
 			</data>
 		</dict>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/Info.plist</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XvMgpvGF13z/jrIJWvGUjv599us=
+			HpKrzv/SAKISFwTKBV08VYHWqT4=
 			</data>
 			<key>hash2</key>
 			<data>
-			0Ovu6FTdkiOAOGa/sHOsZeW70U8xSyACeEKQCD+sTQc=
+			SfICJGDqUg+ixgMuoaxzNxrngqjaKO1cPM9Kciue6b0=
 			</data>
 		</dict>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			csq5ZItzkfnjeebKv0JnKGVxBAE=
+			pZ517pSXR60scPyCgfB5zbBKoVQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			R1AQtm10JYo2RiGDU1sJ5v2SQ2mvkvQiZbCAq8jIp5Y=
+			o9FzDWMD2okDq/7mK/wQIv2e9NW23VKAnBYLmatIeZY=
 			</data>
 		</dict>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Vbh7Vfx/GRey0GlJgoSXEoxJ7cs=
+			6d271OegvnbHNQG3aZp+jVoOvrM=
 			</data>
 			<key>hash2</key>
 			<data>
-			v/etjr7J0WGYSyG0pxYeYnI7K2bkh7PAZhcB5D6e5yY=
+			PAA/OZSxP4UeFUfnk8U5xVG2JHUgzHsiqA+XyvVkElA=
 			</data>
 		</dict>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dHG5grFQmtTDAubXl3ju7V44/HI=
+			mQZkQMg6RGv+8HXBHGdXNDEeNTs=
 			</data>
 			<key>hash2</key>
 			<data>
-			BpidbS2n7hX/Gn29wWLMsNEalmkNwucAjHP91MzAAuw=
+			v5Ch4qZjEDYwZmwAOR4cUYc0I3EW1yPN4l1RotRc2KM=
 			</data>
 		</dict>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Vbh7Vfx/GRey0GlJgoSXEoxJ7cs=
+			6d271OegvnbHNQG3aZp+jVoOvrM=
 			</data>
 			<key>hash2</key>
 			<data>
-			v/etjr7J0WGYSyG0pxYeYnI7K2bkh7PAZhcB5D6e5yY=
+			PAA/OZSxP4UeFUfnk8U5xVG2JHUgzHsiqA+XyvVkElA=
 			</data>
 		</dict>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/Modules/module.modulemap</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			52luv+vEcEk1h4SxelIltVavNcU=
+			c91Ji6YQN+QDQxsDp/0Z0GBPtXk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ru9vAM67kd8zDvd2IXzHzZQV89NTb+5OOslPlkxgRLc=
+			48U6DgcTmyVsWkH+e6lM1j1xbVCdtx28xhf8BHGMgJI=
 			</data>
 		</dict>
-		<key>ios-arm64/DriveKitTripSimulatorNoopModule.framework/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64/DriveKitTripSimulatorModule.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -198,139 +198,139 @@
 			6nM3zb1vtfzxy5TuFmsrjPyp9cb2mRr6TCtBL7Qu5mQ=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/DriveKitTripSimulatorNoopModule</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/DriveKitTripSimulatorModule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			85SvrY6+JA6PArtCSFp2D6UYUxw=
+			WD2r/sJylAML6vuIBkiM24R80mc=
 			</data>
 			<key>hash2</key>
 			<data>
-			9kGm+Sb8Wv91DET2LUEbUw/QeUnT9469oPprEww3kqs=
+			PyGKBpcDPTte/vFXNm5Igjz76J2l+kFcfv8L3PeIxzo=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Headers/DriveKitTripSimulatorNoopModule-Swift.h</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Headers/DriveKitTripSimulatorModule-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Zl3SttjoctDsbUNEkJydmmCYiBc=
+			yqHdaRqFJ4g9nnoWt6yjc2aAF6Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			y1kA9J6Qb//ePlPmtw3OOeQPEYacecmyHoeqAl0vpQc=
+			ZzAlutPMt963zkcxm7EGwPI0w849dMDJsMzicq3lcU8=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lZZR0w8Rhsv0hlz92MSEfLx/KXU=
+			V4lqcbgulHSbl8m7SqbSUVrdC4o=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xt715oe2eghrae+riLlPN47eyOSvgWaD2KeX02zg+8g=
+			47C7cZoogyxghkWd16T09NI6G163QXYXuxFSpj56+QY=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			csq5ZItzkfnjeebKv0JnKGVxBAE=
+			pZ517pSXR60scPyCgfB5zbBKoVQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			R1AQtm10JYo2RiGDU1sJ5v2SQ2mvkvQiZbCAq8jIp5Y=
+			o9FzDWMD2okDq/7mK/wQIv2e9NW23VKAnBYLmatIeZY=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pkZtInL00ydBq47Yc2avi5JSyPg=
+			99chN/Y8llFyPfpOF72nELeVhVo=
 			</data>
 			<key>hash2</key>
 			<data>
-			GiWMJ5vt6k9EHrZ7eNgdMmFMhIrrOjf/NN5TEF3ZzVI=
+			bTyl/TP6PoYluXSMDYbNstuMI635PAsEoKUB+/cKyGw=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kroOCvCbUuSubPR5CQHXAXy1u0U=
+			0umlcYrMVmuPKQQgTwVjynhRzH8=
 			</data>
 			<key>hash2</key>
 			<data>
-			GcwOEFU18uCuf6iIiA8K6n5W3oJw0cNWTSNxAPDL8k0=
+			TtyOzj5wxM6upz0ASxozqIGIUcdpuYNbKXpbw7aX2To=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pkZtInL00ydBq47Yc2avi5JSyPg=
+			99chN/Y8llFyPfpOF72nELeVhVo=
 			</data>
 			<key>hash2</key>
 			<data>
-			GiWMJ5vt6k9EHrZ7eNgdMmFMhIrrOjf/NN5TEF3ZzVI=
+			bTyl/TP6PoYluXSMDYbNstuMI635PAsEoKUB+/cKyGw=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			csq5ZItzkfnjeebKv0JnKGVxBAE=
+			pZ517pSXR60scPyCgfB5zbBKoVQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			R1AQtm10JYo2RiGDU1sJ5v2SQ2mvkvQiZbCAq8jIp5Y=
+			o9FzDWMD2okDq/7mK/wQIv2e9NW23VKAnBYLmatIeZY=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6PJ3ke0r/CrzXToK3Fz6TV01MQE=
+			eMPYEzZtQjABMCXEPyC6YwQv9/s=
 			</data>
 			<key>hash2</key>
 			<data>
-			YQWwMKOnPDIf79nEYezvTsZOHWu64EfWVHIDBXV/J6c=
+			rqsJUUUSO3pSyN2OEZTNpXZTN8VvlalLxUH4g9CrQk0=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8urCIlAd8l9gwS/h7GyZJhx9nvI=
+			Wx7k0JosBFEmhSLzRJS7QdNcTx8=
 			</data>
 			<key>hash2</key>
 			<data>
-			RsL3Z8eroUCB4asnDZ/BwJkyyglqFSQTX0lfifwYprI=
+			mYRdfdRwmtMsIzbS1KyVeN5hq99EBzzeznlAqsBWvmY=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/DriveKitTripSimulatorNoopModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/DriveKitTripSimulatorModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6PJ3ke0r/CrzXToK3Fz6TV01MQE=
+			eMPYEzZtQjABMCXEPyC6YwQv9/s=
 			</data>
 			<key>hash2</key>
 			<data>
-			YQWwMKOnPDIf79nEYezvTsZOHWu64EfWVHIDBXV/J6c=
+			rqsJUUUSO3pSyN2OEZTNpXZTN8VvlalLxUH4g9CrQk0=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			52luv+vEcEk1h4SxelIltVavNcU=
+			c91Ji6YQN+QDQxsDp/0Z0GBPtXk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ru9vAM67kd8zDvd2IXzHzZQV89NTb+5OOslPlkxgRLc=
+			48U6DgcTmyVsWkH+e6lM1j1xbVCdtx28xhf8BHGMgJI=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -341,15 +341,15 @@
 			6nM3zb1vtfzxy5TuFmsrjPyp9cb2mRr6TCtBL7Qu5mQ=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorNoopModule.framework/_CodeSignature/CodeResources</key>
+		<key>ios-arm64_x86_64-simulator/DriveKitTripSimulatorModule.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			q2sS6nIXqzWbEWwP9m1Cy1lwbBo=
+			zaCh3tIY0ro3S+wCmD0W9iyXjx4=
 			</data>
 			<key>hash2</key>
 			<data>
-			wNix8BPh+SVn0DUmDD+g3xV8h2IgzLITsuFYHoOpYsE=
+			U75lLcXF0r4TZZhnJZVxdSKU4DHQV3JYJuQOIksgmLk=
 			</data>
 		</dict>
 	</dict>

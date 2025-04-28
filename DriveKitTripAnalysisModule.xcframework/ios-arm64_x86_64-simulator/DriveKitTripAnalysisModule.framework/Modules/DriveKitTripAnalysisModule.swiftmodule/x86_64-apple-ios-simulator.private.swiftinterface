@@ -407,6 +407,9 @@ public class FuelEstimationContext : DriveKitNetworkingModule.DriveKitModel {
   public var advancedEnergyEstimation: [DriveKitTripAnalysisModule.DKAdvancedEnergyEstimation]? {
     get
   }
+  public var specificData: [Swift.String : Any]? {
+    get
+  }
   public func toJSON() -> [Swift.String : Any]
   required public init(json: DriveKitNetworkingModule.SwiftyJSON)
   @objc deinit

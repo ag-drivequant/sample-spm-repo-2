@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DriveKitTripSimulatorNoopModule
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DriveKitTripSimulatorModule
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import DriveKitCoreModule
 import DriveKitTripSimulatorApiModule
@@ -16,14 +16,14 @@ public typealias DKTripSimulatorDelegate = DriveKitTripSimulatorApiModule.DKTrip
 @_inheritsConvenienceInitializers @objc public class DriveKitTripSimulator : ObjectiveC.NSObject, DriveKitTripSimulatorApiModule.DriveKitTripSimulatorApi {
   @objc public var isNoop: Swift.Bool
   @objc public static let sdkVersion: Swift.String
-  @objc public static let shared: DriveKitTripSimulatorNoopModule.DriveKitTripSimulator
+  @objc public static let shared: DriveKitTripSimulatorModule.DriveKitTripSimulator
   @objc public var isSimulatingTrip: Swift.Bool {
     get
   }
   @objc public func initialize()
-  @objc public func startCrashTrip(_ config: DriveKitTripSimulatorNoopModule.PresetCrashConfiguration)
+  @objc public func startCrashTrip(_ config: DriveKitTripSimulatorModule.PresetCrashConfiguration)
   public func startCrashTrip(_ config: DriveKitTripSimulatorApiModule.PresetCrashConfiguration, delegate: (any DriveKitTripSimulatorApiModule.DKTripSimulatorDelegate)? = nil)
-  @objc public func start(_ trip: DriveKitTripSimulatorNoopModule.PresetTrip, crash: DriveKitTripSimulatorNoopModule.PresetCrash = .none, crashTime: Swift.Int = -1, delegate: (any DriveKitTripSimulatorApiModule.DKTripSimulatorDelegate)? = nil)
+  @objc public func start(_ trip: DriveKitTripSimulatorModule.PresetTrip, crash: DriveKitTripSimulatorModule.PresetCrash = .none, crashTime: Swift.Int = -1, delegate: (any DriveKitTripSimulatorApiModule.DKTripSimulatorDelegate)? = nil)
   @objc public func stop()
   @objc override dynamic public init()
   @objc deinit
@@ -41,10 +41,10 @@ extension DriveKitTripSimulatorApiModule.PresetTrip : DriveKitTripSimulatorApiMo
 #endif
 #if compiler(>=5.3) && $RetroactiveAttribute
 extension DriveKitTripSimulatorApiModule.PresetCrashConfiguration : @retroactive DriveKitTripSimulatorApiModule.PresetCrashConfigurationApi {
-  public func getPresetTrip() -> DriveKitTripSimulatorNoopModule.PresetTrip
+  public func getPresetTrip() -> DriveKitTripSimulatorModule.PresetTrip
 }
 #else
 extension DriveKitTripSimulatorApiModule.PresetCrashConfiguration : DriveKitTripSimulatorApiModule.PresetCrashConfigurationApi {
-  public func getPresetTrip() -> DriveKitTripSimulatorNoopModule.PresetTrip
+  public func getPresetTrip() -> DriveKitTripSimulatorModule.PresetTrip
 }
 #endif

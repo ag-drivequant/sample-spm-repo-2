@@ -13883,6 +13883,13 @@
       },
       {
         "kind": "Import",
+        "name": "DriveKitNetworkingModule",
+        "printedName": "DriveKitNetworkingModule",
+        "declKind": "Import",
+        "moduleName": "DriveKitTripAnalysisModule"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -19391,6 +19398,93 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "specificData",
+            "printedName": "specificData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26DriveKitTripAnalysisModule19PostGenericResponseC12specificDataSDySSypGSgvp",
+            "mangledName": "$s26DriveKitTripAnalysisModule19PostGenericResponseC12specificDataSDySSypGSgvp",
+            "moduleName": "DriveKitTripAnalysisModule",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26DriveKitTripAnalysisModule19PostGenericResponseC12specificDataSDySSypGSgvg",
+                "mangledName": "$s26DriveKitTripAnalysisModule19PostGenericResponseC12specificDataSDySSypGSgvg",
+                "moduleName": "DriveKitTripAnalysisModule",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "toJSON",
             "printedName": "toJSON()",
@@ -19420,7 +19514,8 @@
             "mangledName": "$s26DriveKitTripAnalysisModule19PostGenericResponseC6toJSONSDySSypGyF",
             "moduleName": "DriveKitTripAnalysisModule",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
