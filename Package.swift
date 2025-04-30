@@ -49,107 +49,145 @@ let package = Package(
         ),
     ],
     targets: [
-        .target(name: "DriveKitBeaconUtilsWrapper",
-                dependencies: [
-                    .target(name: "DriveKitBeaconUtils"),
-                    .target(name: "DriveKitCoreWrapper"),
-                ]),
-        .target(name: "DriveKitChallengeWrapper",
-                dependencies: [
-                    .target(name: "DriveKitChallenge"),
-                    .target(name: "DriveKitDBChallengeAccessWrapper"),
-                    .target(name: "DriveKitDBTripAccessWrapper"),
-                ]),
-        .target(name: "DriveKitCoachingWrapper",
-                dependencies: [
-                    .target(name: "DriveKitCoaching"),
-                    .target(name: "DriveKitDBCoachingAccessWrapper"),
-                ]),
-        .target(name: "DriveKitCoreWrapper",
-                dependencies: [
-                    .target(name: "DriveKitCore"),
-                    .target(name: "DriveKitNetworkingWrapper"),
-                ]),
-        .target(name: "DriveKitDBAchievementAccessWrapper",
-                dependencies: [
-                    .target(name: "DriveKitDBAchievementAccess"),
-                    .target(name: "DriveKitCoreWrapper"),
-                ]),
-        .target(name: "DriveKitDBChallengeAccessWrapper",
-                dependencies: [
-                    .target(name: "DriveKitDBChallengeAccess"),
-                    .target(name: "DriveKitCoreWrapper"),
-                ]),
-        .target(name: "DriveKitDBCoachingAccessWrapper",
-                dependencies: [
-                    .target(name: "DriveKitDBCoachingAccess"),
-                    .target(name: "DriveKitCoreWrapper"),
-                ]),
-        .target(name: "DriveKitDBGroupAccessWrapper",
-                dependencies: [
-                    .target(name: "DriveKitDBGroupAccess"),
-                    .target(name: "DriveKitCoreWrapper"),
-                ]),
-        .target(name: "DriveKitDBTripAccessWrapper",
-                dependencies: [
-                    .target(name: "DriveKitDBTripAccess"),
-                    .target(name: "DriveKitCoreWrapper"),
-                ]),
-        .target(name: "DriveKitDBVehicleAccessWrapper",
-                dependencies: [
-                    .target(name: "DriveKitBeaconUtilsWrapper"),
-                    .target(name: "DriveKitDBVehicleAccess"),
-                    .target(name: "DriveKitCoreWrapper"),
-                ]),
-        .target(name: "DriveKitDriverAchievementWrapper",
-                dependencies: [
-                    .target(name: "DriveKitDriverAchievement"),
-                    .target(name: "DriveKitDBAchievementAccessWrapper"),
-                ]),
-        .target(name: "DriveKitDriverDataWrapper",
-                dependencies: [
-                    .target(name: "DriveKitDriverData"),
-                    .target(name: "DriveKitDBTripAccessWrapper"),
-                ]),
-        .target(name: "DriveKitGroupWrapper",
-                dependencies: [
-                    .target(name: "DriveKitGroup"),
-                    .target(name: "DriveKitDBGroupAccessWrapper"),
-                ]),
-        .target(name: "DriveKitNetworkingWrapper",
-                dependencies: [
-                    .target(name: "DriveKitNetworking"),
-                ]),
-        .target(name: "DriveKitTripAnalysisWrapper",
-                dependencies: [
-                    .target(name: "DriveKitTripAnalysis"),
-                    .target(name: "DriveKitCoreWrapper"),
-                    .target(name: "DriveKitDBTripAccessWrapper"),
-                    .target(name: "DriveKitDBVehicleAccessWrapper"),
-                    .target(name: "DriveKitBeaconUtilsWrapper"),
-                ]),
-        .target(name: "DriveKitTripSimulatorApiWrapper",
-                dependencies: [
-                    .target(name: "DriveKitTripSimulatorApi"),
-                ]),
-        .target(name: "DriveKitTripSimulatorNoopWrapper",
-                dependencies: [
-                    .target(name: "DriveKitTripSimulatorNoop"),
-                    .target(name: "DriveKitTripSimulatorApiWrapper"),
-                    .target(name: "DriveKitCoreWrapper"),
-                ]),
-        .target(name: "DriveKitTripSimulatorWrapper",
-                dependencies: [
-                    .target(name: "DriveKitTripSimulator"),
-                    .target(name: "DriveKitTripSimulatorApiWrapper"),
-                    .target(name: "DriveKitTripAnalysisWrapper"),
-                ]),
-        .target(name: "DriveKitVehicleWrapper",
-                dependencies: [
-                    .target(name: "DriveKitVehicle"),
-                    .target(name: "DriveKitDBVehicleAccessWrapper"),
-                    .target(name: "DriveKitBeaconUtilsWrapper"),
-                ]),
+        .target(
+            name: "DriveKitBeaconUtilsWrapper",
+            dependencies: [
+                .target(name: "DriveKitBeaconUtils"),
+                .target(name: "DriveKitCoreWrapper"),
+            ]
+        ),
+        .target(
+            name: "DriveKitChallengeWrapper",
+            dependencies: [
+                .target(name: "DriveKitChallenge"),
+                .target(name: "DriveKitDBChallengeAccessWrapper"),
+                .target(name: "DriveKitDBTripAccessWrapper"),
+            ]
+        ),
+        .target(
+            name: "DriveKitCoachingWrapper",
+            dependencies: [
+                .target(name: "DriveKitCoaching"),
+                .target(name: "DriveKitDBCoachingAccessWrapper"),
+            ]
+        ),
+        .target(
+            name: "DriveKitCoreWrapper",
+            dependencies: [
+                .target(name: "DriveKitCore"),
+                .target(name: "DriveKitNetworkingWrapper"),
+            ]
+        ),
+        .target(
+            name: "DriveKitDBAchievementAccessWrapper",
+            dependencies: [
+                .target(name: "DriveKitDBAchievementAccess"),
+                .target(name: "DriveKitCoreWrapper"),
+            ]
+        ),
+        .target(
+            name: "DriveKitDBChallengeAccessWrapper",
+            dependencies: [
+                .target(name: "DriveKitDBChallengeAccess"),
+                .target(name: "DriveKitCoreWrapper"),
+            ]
+        ),
+        .target(
+            name: "DriveKitDBCoachingAccessWrapper",
+            dependencies: [
+                .target(name: "DriveKitDBCoachingAccess"),
+                .target(name: "DriveKitCoreWrapper"),
+            ]
+        ),
+        .target(
+            name: "DriveKitDBGroupAccessWrapper",
+            dependencies: [
+                .target(name: "DriveKitDBGroupAccess"),
+                .target(name: "DriveKitCoreWrapper"),
+            ]
+        ),
+        .target(
+            name: "DriveKitDBTripAccessWrapper",
+            dependencies: [
+                .target(name: "DriveKitDBTripAccess"),
+                .target(name: "DriveKitCoreWrapper"),
+            ]
+        ),
+        .target(
+            name: "DriveKitDBVehicleAccessWrapper",
+            dependencies: [
+                .target(name: "DriveKitBeaconUtilsWrapper"),
+                .target(name: "DriveKitDBVehicleAccess"),
+                .target(name: "DriveKitCoreWrapper"),
+            ]
+        ),
+        .target(
+            name: "DriveKitDriverAchievementWrapper",
+            dependencies: [
+                .target(name: "DriveKitDriverAchievement"),
+                .target(name: "DriveKitDBAchievementAccessWrapper"),
+            ]
+        ),
+        .target(
+            name: "DriveKitDriverDataWrapper",
+            dependencies: [
+                .target(name: "DriveKitDriverData"),
+                .target(name: "DriveKitDBTripAccessWrapper"),
+            ]
+        ),
+        .target(
+            name: "DriveKitGroupWrapper",
+            dependencies: [
+                .target(name: "DriveKitGroup"),
+                .target(name: "DriveKitDBGroupAccessWrapper"),
+            ]
+        ),
+        .target(
+            name: "DriveKitNetworkingWrapper",
+            dependencies: [
+                .target(name: "DriveKitNetworking"),
+            ]
+        ),
+        .target(
+            name: "DriveKitTripAnalysisWrapper",
+            dependencies: [
+                .target(name: "DriveKitTripAnalysis"),
+                .target(name: "DriveKitCoreWrapper"),
+                .target(name: "DriveKitDBTripAccessWrapper"),
+                .target(name: "DriveKitDBVehicleAccessWrapper"),
+                .target(name: "DriveKitBeaconUtilsWrapper"),
+            ]
+        ),
+        .target(
+            name: "DriveKitTripSimulatorApiWrapper",
+            dependencies: [
+                .target(name: "DriveKitTripSimulatorApi"),
+            ]
+        ),
+        .target(
+            name: "DriveKitTripSimulatorNoopWrapper",
+            dependencies: [
+                .target(name: "DriveKitTripSimulatorNoop"),
+                .target(name: "DriveKitTripSimulatorApiWrapper"),
+                .target(name: "DriveKitCoreWrapper"),
+            ]
+        ),
+        .target(
+            name: "DriveKitTripSimulatorWrapper",
+            dependencies: [
+                .target(name: "DriveKitTripSimulator"),
+                .target(name: "DriveKitTripSimulatorApiWrapper"),
+                .target(name: "DriveKitTripAnalysisWrapper"),
+            ]
+        ),
+        .target(
+            name: "DriveKitVehicleWrapper",
+            dependencies: [
+                .target(name: "DriveKitVehicle"),
+                .target(name: "DriveKitDBVehicleAccessWrapper"),
+                .target(name: "DriveKitBeaconUtilsWrapper"),
+            ]
+        ),
         .binaryTarget(
             name: "DriveKitBeaconUtils",
             path: "DriveKitBeaconUtilsModule.xcframework"
