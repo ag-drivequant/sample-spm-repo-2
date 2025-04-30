@@ -20,16 +20,20 @@ let package = Package(
             targets: ["DriveKitCoreWrapper"]
         ),
         .library(
-            name: "DriveKitTripSimulatorNoop",
-            targets: ["DriveKitTripSimulatorNoopWrapper"]
-        ),
-        .library(
             name: "DriveKitTripSimulator",
             targets: ["DriveKitTripSimulatorWrapper"]
         ),
         .library(
+            name: "DriveKitTripSimulatorNoop",
+            targets: ["DriveKitTripSimulatorNoopWrapper"]
+        ),
+        .library(
             name: "DriveKitVehicle",
             targets: ["DriveKitVehicleWrapper"]
+        ),
+        .library(
+            name: "DriveKitDriverAchievement",
+            targets: ["DriveKitDriverAchievementWrapper"]
         ),
         .library(
             name: "DriveKitCoaching",
@@ -38,6 +42,10 @@ let package = Package(
         .library(
             name: "DriveKitChallenge",
             targets: ["DriveKitChallengeWrapper"]
+        ),
+        .library(
+            name: "DriveKitGroup",
+            targets: ["DriveKitGroupWrapper"]
         ),
     ],
     targets: [
